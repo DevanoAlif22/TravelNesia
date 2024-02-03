@@ -1,0 +1,33 @@
+Aceh DONE 20
+Sumatera Utara DONE 20
+Sumatera Barat DONE 20
+Riau dan kepulauan DONE 30
+Jambi DONE 20
+Sumatera Selatan DONE 20
+Bangka Belitung DONE 20
+Bengkulu DONE 20
+Lampung DONE 20
+DKI Jakarta DONE 20
+Jawa Barat DONE 30
+Banten DONE 20
+Jawa Tengah DONE 30
+DI Yogyakarta DONE 30
+Jawa Timur DONE 30
+Bali DONE 30
+Nusa Tenggara Barat (NTB) DONE 20
+Nusa Tenggara Timur (NTT) DONE 20
+Kalimantan Barat DONE 20
+Kalimantan Tengah DONE 20
+Kalimantan Selatan DONE 20
+Kalimantan Timur DONE 20
+Kalimantan Utara DONE 20
+Sulawesi Utara DONE 20
+Sulawesi Barat DONE 20
+Sulawesi Tengah DONE 20
+Sulawesi Selatan DONE 20
+Sulawesi Tenggara DONE 20
+Gorontalo DONE 20
+Maluku
+Maluku Utara
+Papua Barat
+Papua
