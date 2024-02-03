@@ -1,251 +1,247 @@
 [
-    {
-        "place_id": "ChIJjeMAfCwThzIRp7ygIFauE4o",
-        "name": "Tuur Ma'asering Kumelembuai Tomohon",
-        "link": "https://www.google.com/maps/place/Tuur+Ma%27asering+Kumelembuai+Tomohon/data=!4m7!3m6!1s0x3287132c7c00e38d:0x8a13ae5620a0bca7!8m2!3d1.3534683!4d124.8800933!16s%2Fg%2F11jdx0rnrh!19sChIJjeMAfCwThzIRp7ygIFauE4o?authuser=0&hl=id&rclk=1",
-        "main_category": "Tujuan Wisata",
-        "categories": [
-            "Tujuan Wisata"
-        ],
-        "rating": 4.7,
-        "reviews": 933,
-        "address": "Tuur Ma'asering Kumelembuai Tomohon, Kumelembuay, Kec. Tomohon Tim., Kota Tomohon, Sulawesi Utara 95449"
-    },
-    {
-        "place_id": "ChIJK-0ljzqDgDIR0EoFbEQ-PYA",
-        "name": "Pantai Abadi",
-        "link": "https://www.google.com/maps/place/Pantai+Abadi/data=!4m7!3m6!1s0x3280833a8f25ed2b:0x803d3e446c054ad0!8m2!3d0.6119628!4d124.5662934!16s%2Fg%2F11f316wk17!19sChIJK-0ljzqDgDIR0EoFbEQ-PYA?authuser=0&hl=id&rclk=1",
-        "main_category": "Tujuan Wisata",
-        "categories": [
-            "Tujuan Wisata"
-        ],
-        "rating": 4.6,
-        "reviews": 166,
-        "address": "JH68+QGM Pantai Abadi, Nuangan, Kec. Nuangan, Kabupaten Bolaang Mongondow Timur, Sulawesi Utara"
-    },
-    {
-        "place_id": "ChIJP4SACNtzeC0R9-9j9p70bWA",
-        "name": "Jasa transportasi pulau bunaken",
-        "link": "https://www.google.com/maps/place/Jasa+transportasi+pulau+bunaken/data=!4m7!3m6!1s0x2d7873db0880843f:0x606df49ef663eff7!8m2!3d1.675843!4d124.7556417!16s%2Fm%2F09k6gb3!19sChIJP4SACNtzeC0R9-9j9p70bWA?authuser=0&hl=id&rclk=1",
-        "main_category": "Taman Nasional",
-        "categories": [
-            "Taman Nasional",
-            "Taman",
-            "Tujuan Wisata"
-        ],
-        "rating": 4.6,
-        "reviews": 2883,
-        "address": "Jasa transportasi pulau bunaken, Liang Beach, Bunaken, Wori, Sulawesi Utara"
-    },
-    {
-        "place_id": "ChIJ8_GGyE8ThzIRMROC9z5idx0",
-        "name": "Tetetana Kumelembuai",
-        "link": "https://www.google.com/maps/place/Tetetana+Kumelembuai/data=!4m7!3m6!1s0x3287134fc886f1f3:0x1d77623ef7821331!8m2!3d1.3661625!4d124.8895469!16s%2Fg%2F11gybrt67w!19sChIJ8_GGyE8ThzIRMROC9z5idx0?authuser=0&hl=id&rclk=1",
-        "main_category": "Tujuan Wisata",
-        "categories": [
-            "Tujuan Wisata"
-        ],
-        "rating": 4.7,
-        "reviews": 1531,
-        "address": "9V8Q+FR7 Tetetana Kumelembuai, Kumelembuay, Kec. Tomohon Tim., Kabupaten Minahasa, Sulawesi Utara"
-    },
-    {
-        "place_id": "ChIJkbIoicxzhzIRMT6mU2dIxSo",
-        "name": "Makatete Hills",
-        "link": "https://www.google.com/maps/place/Makatete+Hills/data=!4m7!3m6!1s0x328773cc8928b291:0x2ac5486753a63e31!8m2!3d1.4291212!4d124.8252614!16s%2Fg%2F11fj5s4vqk!19sChIJkbIoicxzhzIRMT6mU2dIxSo?authuser=0&hl=id&rclk=1",
-        "main_category": "Tujuan Wisata",
-        "categories": [
-            "Tujuan Wisata",
-            "Titik Pemandangan"
-        ],
-        "rating": 4.6,
-        "reviews": 1137,
-        "address": "Makatete Hills, Warembungan, Kec. Pineleng, Kabupaten Minahasa, Sulawesi Utara"
-    },
-    {
-        "place_id": "ChIJqT4eSZcShzIRzLAguxvcXb0",
-        "name": "Puncak Tetetana Suluan",
-        "link": "https://www.google.com/maps/place/Puncak+Tetetana+Suluan/data=!4m7!3m6!1s0x32871297491e3ea9:0xbd5ddc1bbb20b0cc!8m2!3d1.3708998!4d124.8894221!16s%2Fg%2F11g9vthhxb!19sChIJqT4eSZcShzIRzLAguxvcXb0?authuser=0&hl=id&rclk=1",
-        "main_category": "Tujuan Wisata",
-        "categories": [
-            "Tujuan Wisata"
-        ],
-        "rating": 4.6,
-        "reviews": 772,
-        "address": "9VCQ+9Q3 Puncak Tetetana Suluan, Suluan, Kec. Tombulu, Kabupaten Minahasa, Sulawesi Utara"
-    },
-    {
-        "place_id": "ChIJO5T96iAThzIRmynZFuGsfgY",
-        "name": "Taman Wisata Puncak Rurukan Tomohon",
-        "link": "https://www.google.com/maps/place/Taman+Wisata+Puncak+Rurukan+Tomohon/data=!4m7!3m6!1s0x32871320eafd943b:0x67eace116d9299b!8m2!3d1.3423731!4d124.8799707!16s%2Fg%2F11cnnvz092!19sChIJO5T96iAThzIRmynZFuGsfgY?authuser=0&hl=id&rclk=1",
-        "main_category": "Tujuan Wisata",
-        "categories": [
-            "Tujuan Wisata"
-        ],
-        "rating": 4.3,
-        "reviews": 749,
-        "address": "8VRH+WXX Taman Wisata Puncak Rurukan Tomohon, Rurukan Satu, Kec. Tomohon Tim., Kota Tomohon, Sulawesi Utara"
-    },
-    {
-        "place_id": "ChIJl82S9TKDgDIRILgGDTa_scE",
-        "name": "Pantai Jiko / Patokan",
-        "link": "https://www.google.com/maps/place/Pantai+Jiko+%2F+Patokan/data=!4m7!3m6!1s0x32808332f592cd97:0xc1b1bf360d06b820!8m2!3d0.6184005!4d124.5655572!16s%2Fg%2F11f2rqmmbw!19sChIJl82S9TKDgDIRILgGDTa_scE?authuser=0&hl=id&rclk=1",
-        "main_category": "Tujuan Wisata",
-        "categories": [
-            "Tujuan Wisata"
-        ],
-        "rating": 4.6,
-        "reviews": 594,
-        "address": "JH98+967 Pantai Jiko / Patokan, Nuangan, Kec. Nuangan, Kabupaten Bolaang Mongondow Timur, Sulawesi Utara"
-    },
-    {
-        "place_id": "ChIJoahah8FyhzIRmi_Q_ZKlRl8",
-        "name": "Air Terjun Kali",
-        "link": "https://www.google.com/maps/place/Air+Terjun+Kali/data=!4m7!3m6!1s0x328772c1875aa8a1:0x5f46a592fdd02f9a!8m2!3d1.380209!4d124.8360365!16s%2Fg%2F11hd7bvrsz!19sChIJoahah8FyhzIRmi_Q_ZKlRl8?authuser=0&hl=id&rclk=1",
-        "main_category": "Tujuan Wisata",
-        "categories": [
-            "Tujuan Wisata"
-        ],
-        "rating": 4.5,
-        "reviews": 366,
-        "address": "9RJP+3CM Air Terjun Kali, Unnamed Road, Tinoor Satu, Kec. Tomohon Utara, Kota Tomohon, Sulawesi Utara"
-    },
-    {
-        "place_id": "ChIJh9FeRXOxhzIRIMTcai0iFCo",
-        "name": "Kawasan Wisata Pantai Surabaya",
-        "link": "https://www.google.com/maps/place/Kawasan+Wisata+Pantai+Surabaya/data=!4m7!3m6!1s0x3287b173455ed187:0x2a14222d6adcc420!8m2!3d1.6644095!4d125.1065074!16s%2Fg%2F1hm34wlg6!19sChIJh9FeRXOxhzIRIMTcai0iFCo?authuser=0&hl=id&rclk=1",
-        "main_category": "Tujuan Wisata",
-        "categories": [
-            "Tujuan Wisata"
-        ],
-        "rating": 4.1,
-        "reviews": 285,
-        "address": "M474+QJ6 Kawasan Wisata Pantai Surabaya, Jl. Likupang-Girian, Wineru, Kec. Likupang Tim., Kabupaten Minahasa Utara, Sulawesi Utara"
-    },
-    {
-        "place_id": "ChIJL66Tyd1rhzIR_8VjJy_egK0",
-        "name": "Air Terjun Tumimperas",
-        "link": "https://www.google.com/maps/place/Air+Terjun+Tumimperas/data=!4m7!3m6!1s0x32876bddc993ae2f:0xad80de2f2763c5ff!8m2!3d1.2952994!4d124.7808842!16s%2Fg%2F11bz_yl_ym!19sChIJL66Tyd1rhzIR_8VjJy_egK0?authuser=0&hl=id&rclk=1",
-        "main_category": "Tujuan Wisata",
-        "categories": [
-            "Tujuan Wisata"
-        ],
-        "rating": 4.6,
-        "reviews": 247,
-        "address": "7QWJ+496 Air Terjun Tumimperas, Pinaras, Kec. Tomohon Sel., Kota Tomohon, Sulawesi Utara"
-    },
-    {
-        "place_id": "ChIJIZxcSIOlfjIRTDC3ipWm01Q",
-        "name": "Pantai Batu Pinagut",
-        "link": "https://www.google.com/maps/place/Pantai+Batu+Pinagut/data=!4m7!3m6!1s0x327ea583485c9c21:0x54d3a6958ab7304c!8m2!3d0.9202904!4d123.269432!16s%2Fg%2F11bzt6zspd!19sChIJIZxcSIOlfjIRTDC3ipWm01Q?authuser=0&hl=id&rclk=1",
-        "main_category": "Tujuan Wisata",
-        "categories": [
-            "Tujuan Wisata"
-        ],
-        "rating": 4.5,
-        "reviews": 163,
-        "address": "W7C9+4Q7 Pantai Batu Pinagut, Kuala, Kec. Kaidipang, Kabupaten Bolaang Mongondow Utara, Sulawesi Utara"
-    },
-    {
-        "place_id": "ChIJmW3sDKWzhzIRcdVPyUasfio",
-        "name": "Bukit Larata, Desa Kinunang",
-        "link": "https://www.google.com/maps/place/Bukit+Larata,+Desa+Kinunang/data=!4m7!3m6!1s0x3287b3a50cec6d99:0x2a7eac46c94fd571!8m2!3d1.6663828!4d125.1621136!16s%2Fg%2F11dx99dch7!19sChIJmW3sDKWzhzIRcdVPyUasfio?authuser=0&hl=id&rclk=1",
-        "main_category": "Area Rekreasi Alam",
-        "categories": [
-            "Area Rekreasi Alam",
-            "Tujuan Wisata"
-        ],
-        "rating": 4.7,
-        "reviews": 126,
-        "address": "Bukit Larata, Desa Kinunang, Pulisan, Kec. Likupang Tim., Kabupaten Minahasa Utara, Sulawesi Utara"
-    },
-    {
-        "place_id": "ChIJ-SuG4CGkhzIRG6HKO-X_TFE",
-        "name": "Air Terjun Tunan Talawaan",
-        "link": "https://www.google.com/maps/place/Air+Terjun+Tunan+Talawaan/data=!4m7!3m6!1s0x3287a421e0862bf9:0x514cffe53bcaa11b!8m2!3d1.5682603!4d124.9728938!16s%2Fg%2F11dyp5l9tf!19sChIJ-SuG4CGkhzIRG6HKO-X_TFE?authuser=0&hl=id&rclk=1",
-        "main_category": "Tujuan Wisata",
-        "categories": [
-            "Tujuan Wisata"
-        ],
-        "rating": 4.5,
-        "reviews": 98,
-        "address": "HX9F+852 Air Terjun Tunan Talawaan, Wasian, Kec. Dimembe, Kabupaten Minahasa Utara, Sulawesi Utara"
-    },
-    {
-        "place_id": "ChIJ8bH84aUPhzIRQBkxtxjRPy0",
-        "name": "Objek Wisata Danau Seper",
-        "link": "https://www.google.com/maps/place/Objek+Wisata+Danau+Seper/data=!4m7!3m6!1s0x32870fa5e1fcb1f1:0x2d3fd118b7311940!8m2!3d1.3732876!4d124.9952658!16s%2Fg%2F1hm6dmxc8!19sChIJ8bH84aUPhzIRQBkxtxjRPy0?authuser=0&hl=id&rclk=1",
-        "main_category": "Taman Hiburan",
-        "categories": [
-            "Taman Hiburan",
-            "Tujuan Wisata"
-        ],
-        "rating": 3.9,
-        "reviews": 59,
-        "address": "9XFW+846 Objek Wisata Danau Seper, Jl. A. Manowutu, Lembean, Kec. Kauditan, Kabupaten Minahasa Utara, Sulawesi Utara"
-    },
-    {
-        "place_id": "ChIJU7p7ZCuahzIRlSSiRLQamgA",
-        "name": "Taman Laut Bunaken",
-        "link": "https://www.google.com/maps/place/Taman+Laut+Bunaken/data=!4m7!3m6!1s0x32879a2b647bba53:0x9a1ab444a22495!8m2!3d1.6026875!4d124.7688906!16s%2Fg%2F11dxlgdnbh!19sChIJU7p7ZCuahzIRlSSiRLQamgA?authuser=0&hl=id&rclk=1",
-        "main_category": "Tujuan Wisata",
-        "categories": [
-            "Tujuan Wisata",
-            "Area Rekreasi Alam"
-        ],
-        "rating": 4.7,
-        "reviews": 48,
-        "address": "JQ39+3HC Taman Laut Bunaken, Kota Manado, Sulawesi Utara"
-    },
-    {
-        "place_id": "ChIJ278FOWFifjIRraAWj_hx7Pw",
-        "name": "Wisata Pantai Desa Pasir Putih",
-        "link": "https://www.google.com/maps/place/Wisata+Pantai+Desa+Pasir+Putih/data=!4m7!3m6!1s0x327e62613905bfdb:0xfcec71f88f16a0ad!8m2!3d0.8444187!4d123.8148226!16s%2Fg%2F11gfltkmf6!19sChIJ278FOWFifjIRraAWj_hx7Pw?authuser=0&hl=id&rclk=1",
-        "main_category": "Tujuan Wisata",
-        "categories": [
-            "Tujuan Wisata"
-        ],
-        "rating": 4.6,
-        "reviews": 47,
-        "address": "RRV7+QW8 Wisata Pantai Desa Pasir Putih, Desa, Pasir Putih, Kec. Sangtombolang, Kabupaten Bolaang Mongondow, Sulawesi Utara"
-    },
-    {
-        "place_id": "ChIJTfCV-2CvfjIRxyKZyzPewUU",
-        "name": "Objek Wisata Air Belanda",
-        "link": "https://www.google.com/maps/place/Objek+Wisata+Air+Belanda/data=!4m7!3m6!1s0x327eaf60fb95f04d:0x45c1de33cb9922c7!8m2!3d0.9316759!4d123.2555274!16s%2Fg%2F11bzthz82h!19sChIJTfCV-2CvfjIRxyKZyzPewUU?authuser=0&hl=id&rclk=1",
-        "main_category": "Tujuan Wisata",
-        "categories": [
-            "Tujuan Wisata"
-        ],
-        "rating": 5,
-        "reviews": 5,
-        "address": "W7J4+M6C Objek Wisata Air Belanda, Boroko, Kuala, Kaidipang, Boroko, Bolaang Mongondow Utara, Kabupaten Bolaang Mongondow Utara, Sulawesi Utara"
-    },
-    {
-        "place_id": "ChIJ_yfHVgC7hzIRwCmJeshkYQ8",
-        "name": "Wisata Mangrove Desa Palaes",
-        "link": "https://www.google.com/maps/place/Wisata+Mangrove+Desa+Palaes/data=!4m7!3m6!1s0x3287bb0056c727ff:0xf6164c87a8929c0!8m2!3d1.6713483!4d124.9640252!16s%2Fg%2F11trgt_789!19sChIJ_yfHVgC7hzIRwCmJeshkYQ8?authuser=0&hl=id&rclk=1",
-        "main_category": "Tujuan Wisata",
-        "categories": [
-            "Tujuan Wisata",
-            "Area Rekreasi Alam",
-            "Pusat Rekreasi",
-            "Taman Rekreasi Air"
-        ],
-        "rating": 4.6,
-        "reviews": 5,
-        "address": "Wisata Mangrove Desa Palaes, Palaes, Kec. Likupang Bar., Kabupaten Minahasa Utara, Sulawesi Utara"
-    },
-    {
-        "place_id": "ChIJSwRPmom5hzIREt9FP4SoqTM",
-        "name": "Northernmost poin Celebes Island",
-        "link": "https://www.google.com/maps/place/Northernmost+poin+Celebes+Island/data=!4m7!3m6!1s0x3287b9899a4f044b:0x33a9a8843f45df12!8m2!3d1.7517332!4d124.992994!16s%2Fg%2F11s8tbp0qg!19sChIJSwRPmom5hzIREt9FP4SoqTM?authuser=0&hl=id&rclk=1",
-        "main_category": "Tujuan Wisata",
-        "categories": [
-            "Tujuan Wisata"
-        ],
-        "rating": 5,
-        "reviews": 2,
-        "address": "QX2R+QQH Northernmost poin Celebes Island, Tarabitan, Kec. Likupang Bar., Kabupaten Minahasa Utara, Sulawesi Utara"
-    }
+  {
+    "place_id": "ChIJjeMAfCwThzIRp7ygIFauE4o",
+    "name": "Tuur Ma'asering Kumelembuai Tomohon",
+    "link": "https://www.google.com/maps/place/Tuur+Ma%27asering+Kumelembuai+Tomohon/data=!4m7!3m6!1s0x3287132c7c00e38d:0x8a13ae5620a0bca7!8m2!3d1.3534683!4d124.8800933!16s%2Fg%2F11jdx0rnrh!19sChIJjeMAfCwThzIRp7ygIFauE4o?authuser=0&hl=id&rclk=1",
+    "main_category": "Tujuan Wisata",
+    "categories": ["Tujuan Wisata"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipOShBompqDPcnvMmFS3MvRUrQxev749indGDgN3=w408-h386-k-no",
+    "rating": 4.7,
+    "about": "Membahas spot wisata di Sulawesi Utara seolah tidak akan ada habisnya. Ada wisata hutan aren dengan spot instagramable di Tuur Ma'asering. Berlokasi di Kumelembuai, Kota Tomohon. Dari Kota Manado ke lokasi berjarak sekitar 50 KM dan dapat ditempuh dengan berkendara sekitar 1 jam. Sesampainya di Kota Tomohon menuju Kumelembuai, mata kita akan dimanjakan dengan pemandangan hijau di sepanjang perjalan. Tak ketinggalan view Gunung Lokon yang indah dari kejauhan. Setiba di Tuur Ma'asering kita akan melewati pos penjagaan di gerbang utama untuk membayar tiket masuk sebesar Rp. 15.000 per wisatawan. Tiket masuk ini nantinya dapat ditukar dengan minuman khas kearifan lokal Minahasa yaitu Saguer dan minuman keras Cap Tikus yang terkenal. Selanjutnya kami jalan menyusuri jalan setapak dan agak menanjak, pohon aren yang berukuran besar seperti tertata rapi di kiri dan kanan jalan. Tiba di halaman utama terlihat banyak pondokan dan kursi dari kayu tempat beristirahat melepas lelah para wisatawan. Pondokan dan semua fasilitas dibuat dari kayu dan bambu dengan bermacam bentuk. Betul-betul sangat menarik dan instagramable. Kami juga dapat menyaksikan proses membuat minuman keras cap tikus yang merupakan hasil fermentasi dan distilasi air nira yang berasal dari pohon aren.",
+    "reviews": 933,
+    "address": "Tuur Ma'asering Kumelembuai Tomohon, Kumelembuay, Kec. Tomohon Tim., Kota Tomohon, Sulawesi Utara 95449"
+  },
+  {
+    "place_id": "ChIJK-0ljzqDgDIR0EoFbEQ-PYA",
+    "name": "Pantai Abadi",
+    "link": "https://www.google.com/maps/place/Pantai+Abadi/data=!4m7!3m6!1s0x3280833a8f25ed2b:0x803d3e446c054ad0!8m2!3d0.6119628!4d124.5662934!16s%2Fg%2F11f316wk17!19sChIJK-0ljzqDgDIR0EoFbEQ-PYA?authuser=0&hl=id&rclk=1",
+    "main_category": "Tujuan Wisata",
+    "categories": ["Tujuan Wisata"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipMtKvyTgmFWFyaA7jdtHHPeQp_XSRI4wasu8ymJ=w408-h272-k-no",
+    "rating": 4.6,
+    "about": "ari pusat kota Manado, membutuhkan perjalanan selama kurang lebih 3 jam. Apabila Anda datang bersama keluarga, dianjurkan supaya berangkat lebih pagi. Yaitu sekitar pukul 06.00 WITA.  Setelah tiba di lokasi Pantai Abadi, Anda bisa menyaksikan keindahan luar biasa sejauh mata memandang. Yaitu hamparan pasir putih lembut yang berpadu dengan air laut biru sangat jernih. Kejernihan air lautnya ini memantulkan warna biru langit sehingga terlihat begitu menggoda. Jika di pantai-pantai populer sering ditemukan sampah berserakan, maka Pantai Abadi sama sekali tidak menampilkannya. Kebersihan pantai selalu dijaga dengan baik oleh pihak pengelola, supaya pesona hamparan pasir putihnya tidak terganggu.  Meskipun Pantai Abadi belum sepopuler gili-gili di Lombok dan pantai di Balai, namun untuk warga Kabupaten Bolaang Mongondow Timur dan sekitarnya sudah sangat familiar. Destinasi wisata ini selalu ramai dikunjungi oleh warga lokal, khususnya ketika hari libur. Hamparan pasir putih di Pantai Abadi terbentang luas dan bisa dipakai bermain sepuasnya. Teksturnya sangatlah lembut, mirip seperti bedak bayi. Menjadikan pinggiran pantai sebagai tempat yang nyaman untuk duduk santai, jalan-jalan, bermain pasir dan bahkan tiduran. Di sekeliling Pantai Abadi Bolaang Mongondow Timur, ada bebatuan tebing menjulang tinggi yang cocok dijadikan background untuk berfoto. Silahkan berpose sebanyak mungkin di pantai menawan satu ini.  Pantai Abadi sering dimanfaatkan sebagai lokasi foto pre-wed oleh warga sekitar. Yaitu memanfaatkan keindahan pantai dan backrgound tebing disekelilingnya. Oleh karena itu, rugi rasanya apabila sudah datang dan tidak mengabadikan momen. Beralih ke bagian perairannya, Pantai Abadi memiliki air laut jernih kebiruan. Air tersebut sangatlah indah dan menyempurnakan pesona Pantai Abadi sehingga semakin menawan. Pengunjung bisa bermain air dan berenenang dengan nyaman karena ombaknya relatif tenang.",
+    "reviews": 166,
+    "address": "JH68+QGM Pantai Abadi, Nuangan, Kec. Nuangan, Kabupaten Bolaang Mongondow Timur, Sulawesi Utara"
+  },
+  {
+    "place_id": "ChIJP4SACNtzeC0R9-9j9p70bWA",
+    "name": "Jasa transportasi pulau bunaken",
+    "link": "https://www.google.com/maps/place/Jasa+transportasi+pulau+bunaken/data=!4m7!3m6!1s0x2d7873db0880843f:0x606df49ef663eff7!8m2!3d1.675843!4d124.7556417!16s%2Fm%2F09k6gb3!19sChIJP4SACNtzeC0R9-9j9p70bWA?authuser=0&hl=id&rclk=1",
+    "main_category": "Taman Nasional",
+    "categories": ["Taman Nasional", "Taman", "Tujuan Wisata"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipOMRg8nBB6y4ZsTstZKU-5UYHvHpT00WU5Onh08=w426-h240-k-no",
+    "rating": 4.6,
+    "about": "Taman laut Bunaken jadi destinasi paling populer di Manado. Berada di seberang Manado, biaya perjalanan ke Bunaken tidaklah sedikit. Umumnya perjalanan ke Bunaken menggunakan sewa kapal. Harga yang ditaksir Rp 1,5 juta untuk 10 orang selama sehari. Tapi ternyata ada cara lain agar liburanmu ke Bunaken lebih murah. Bunaken punya taksi laut. Taksi laut hanya beroperasi pada hari Senin, Kamis dan Sabtu. Dari Bunaken taksi laut akan berangkat pagi sekitar pukul 09.00 WITa. Taksi akan kembali pada sore hari, pukul 18.00 WITa dari Manado. Transprortasi ini hanya bisa diakses lewat Pantai Liang di Tanjung Perigi. Di sana ada sebuah dermaga yang memang dibuat untuk akses taksi laut. Pengalaman naik taksi laut ke Bunaken bisa jadi hal yang tak terlupakan. Karena kamu akan bertemu langsung dengan warga Bunaken yang pulang belanja dari Manado.",
+    "reviews": 2883,
+    "address": "Jasa transportasi pulau bunaken, Liang Beach, Bunaken, Wori, Sulawesi Utara"
+  },
+  {
+    "place_id": "ChIJ8_GGyE8ThzIRMROC9z5idx0",
+    "name": "Tetetana Kumelembuai",
+    "link": "https://www.google.com/maps/place/Tetetana+Kumelembuai/data=!4m7!3m6!1s0x3287134fc886f1f3:0x1d77623ef7821331!8m2!3d1.3661625!4d124.8895469!16s%2Fg%2F11gybrt67w!19sChIJ8_GGyE8ThzIRMROC9z5idx0?authuser=0&hl=id&rclk=1",
+    "main_category": "Tujuan Wisata",
+    "categories": ["Tujuan Wisata"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipMfShTkI6hZ3bHcSBCbqm15fM_U5GDPvlM44NV7=w408-h306-k-no",
+    "rating": 4.7,
+    "about": "Puncak Tetetana Kumelembuai Tomohon: Pesona Keindahan Alam yang Menakjubkan di Sulawesi Utara Tomohon, kota yang terletak di Sulawesi Utara, Indonesia, memiliki sebuah destinasi wisata alam yang memukau yang dikenal sebagai Puncak Tetetana Kumelembuai. Terletak di ketinggian yang mencapai ribuan meter di atas permukaan laut, puncak ini menawarkan panorama alam yang luar biasa dan menjadi daya tarik bagi para wisatawan yang mencintai keindahan alam. Puncak Tetetana Kumelembuai Tomohon menyuguhkan pemandangan spektakuler yang memukau mata dan memanjakan jiwa. Dari puncak, pengunjung dapat menyaksikan pesona alam yang menakjubkan, termasuk lembah hijau dan jug ataman bunga yang sangat indah, pegunungan yang menjulang tinggi salah satunya Gunung Klabat, danau-danau kecil yang indah, serta desa-desa yang tersebar di sekitar dan juga keindahan Kota Manado. Keindahan pemandangan semakin memukau saat matahari terbit atau terbenam, ketika sinar matahari memancarkan cahaya yang memperindah lanskap alam yang menakjubkan ini. Perjalanan menuju puncak Puncak Tetetana Kumelembuai dari Kota Manado kira-kira memerlukan 1 jam perjalanan dengan menggunakan kendaraan. Puncak Tetetana Kumelembuai Tomohon juga menjadi tempat yang sempurna untuk bersantai dan menikmati ketenangan alam. Anda dapat duduk bersantai di atas rerumputan, merasakan kesejukan angin pegunungan, atau menikmati piknik di bawah naungan pohon-pohon yang rindang. Keindahan dan ketenangan alam akan membawa Anda jauh dari hiruk-pikuk kehidupan sehari-hari dan memberikan momen kedamaian yang tak terlupakan.",
+    "reviews": 1531,
+    "address": "9V8Q+FR7 Tetetana Kumelembuai, Kumelembuay, Kec. Tomohon Tim., Kabupaten Minahasa, Sulawesi Utara"
+  },
+  {
+    "place_id": "ChIJkbIoicxzhzIRMT6mU2dIxSo",
+    "name": "Makatete Hills",
+    "link": "https://www.google.com/maps/place/Makatete+Hills/data=!4m7!3m6!1s0x328773cc8928b291:0x2ac5486753a63e31!8m2!3d1.4291212!4d124.8252614!16s%2Fg%2F11fj5s4vqk!19sChIJkbIoicxzhzIRMT6mU2dIxSo?authuser=0&hl=id&rclk=1",
+    "main_category": "Tujuan Wisata",
+    "categories": ["Tujuan Wisata", "Titik Pemandangan"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipM_JE1x5N0I8vJnFqnRvAwvN5vDxaale0yGK0hn=w408-h306-k-no",
+    "rating": 4.6,
+    "about": "Sulawesi Utara punya objek wisata yang sedang hits saat ini. Makatete Hills namanya. Kawasan wisata puncak bukit yang berada di Desa Warembungan, Kecamatan Pineleng, Kabupaten Minahasa, ini punya sejarah tersendiri. Tempat itu awalnya adalah kebun cengkih dan kelapa. Sayangnya pada 2014, perkebunan milik keluarga Fandi Pelealu ini musnah akibat musim kemarau yang berkepanjangan sehingga terjadi kebakaran hebat yang menghanguskan segalanya. Sekian lama terbengkalai, pada 2018, Fandi bersama keluarganya jalan-jalan ke Bandung melihat-lihat objek wisata yang ada di sana. Dari situlah Fandi mendapat inspirasi untuk menjadikan bekas lahan perkebunannya menjadi tempat wisata. 'Dari situ timbul motivasi untuk membuat tempat wisata yang ada di Makatete Hills ini,' ujar Fandi. Perlahan-lahan Fandi mulai mengembangkan Makatete Hills. Meski belum banyak wahana yang dibangun, tapi tempat ini sudah sangat dikenal, bahkan rata-rata setiap harinya pengunjung yang datang mencapai ratusan orang. Selain pengunjung lokal, ada yang datang dari luar daerah, bahkan dari Eropa, Swiss dan China, sudah pernah menyaksikan keindahan objek wisata puncak ini. 'Pada libur Idul Fitri hari kedua lalu, pengunjung yang datang sekitar 3.500 orang,' kata Fandi. Nama Makatete bisa diartikan sebagai jembatan, karena zaman dahulu kalau mau datang ke tempat tersebut harus melewati jembatan yang dibuat sendiri. Di atas puncak ini juga terdapat monumen salib besar yang kelihatan jelas dari Kota Manado. Panorama alam di atas puncak ini juga sangat indah. Kita bisa menyaksikan pemandangan kota Manado, hamparan lautan luas, Pulau Manado Tua, Pulau Bunaken, Pulau Siladen serta pemandangan gunung Klabat, gunung tertinggi di Sulawesi Utara ",
+    "reviews": 1137,
+    "address": "Makatete Hills, Warembungan, Kec. Pineleng, Kabupaten Minahasa, Sulawesi Utara"
+  },
+  {
+    "place_id": "ChIJqT4eSZcShzIRzLAguxvcXb0",
+    "name": "Puncak Tetetana Suluan",
+    "link": "https://www.google.com/maps/place/Puncak+Tetetana+Suluan/data=!4m7!3m6!1s0x32871297491e3ea9:0xbd5ddc1bbb20b0cc!8m2!3d1.3708998!4d124.8894221!16s%2Fg%2F11g9vthhxb!19sChIJqT4eSZcShzIRzLAguxvcXb0?authuser=0&hl=id&rclk=1",
+    "main_category": "Tujuan Wisata",
+    "categories": ["Tujuan Wisata"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipPbeTSMoqZimrOXEVQrf8wlSHLsBzVxALBm32Ll=w408-h306-k-no",
+    "rating": 4.6,
+    "about": "Puncak Tetetana Suluan adalah destinasi wisata menakjubkan di Sulawesi Utara, Indonesia. Terletak di Kabupaten Minahasa, Sulawesi Utara, Puncak Tetetana Suluan menawarkan pemandangan alam yang indah dan menakjubkan. Kata 'Tetetana' berasal dari bahasa Tombulu yang terdiri dari dua kata 'Tete' yaitu jembatan dan 'Tana' yaitu tanah, sehingga secara keseluruhan 'Tetetana' adalah Jembatan Tanah. Akses menuju ke Puncak Tetetana Suluan cukup menantang karena jalannya berkelok, agak sempit, dan curam. Namun, di sepanjang jalan, pengunjung akan dimanjakan dengan panorama sawah berbentuk terasering, perkebunan kol, dan rumah penduduk suku Minahasa. Objek wisata Puncak Tetetana Suluan terdiri dari hamparan padang rumput, kebun bunga, dan pemandangan alam yang menakjubkan. Di samping itu, pengunjung juga dapat menikmati keindahan bunga-bunga yang tumbuh di sekitar puncak. Ada bunga pukul sembilan, bunga hortensia, bunga sepatu, bunga celosia dan lain semacamnya. ",
+    "reviews": 772,
+    "address": "9VCQ+9Q3 Puncak Tetetana Suluan, Suluan, Kec. Tombulu, Kabupaten Minahasa, Sulawesi Utara"
+  },
+  {
+    "place_id": "ChIJO5T96iAThzIRmynZFuGsfgY",
+    "name": "Taman Wisata Puncak Rurukan Tomohon",
+    "link": "https://www.google.com/maps/place/Taman+Wisata+Puncak+Rurukan+Tomohon/data=!4m7!3m6!1s0x32871320eafd943b:0x67eace116d9299b!8m2!3d1.3423731!4d124.8799707!16s%2Fg%2F11cnnvz092!19sChIJO5T96iAThzIRmynZFuGsfgY?authuser=0&hl=id&rclk=1",
+    "main_category": "Tujuan Wisata",
+    "categories": ["Tujuan Wisata"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipNEA1UQMgFzaYbxkN3t1uIrayNxBe-HiU0LDk_f=w408-h306-k-no",
+    "rating": 4.3,
+    "about": "Bagi anda yang menyukai wisata alam, tempat wisata Rurukan menjadi tujuan yang paling tepat. Di sini para pengunjung akan disuguhkan dengan berbagai keindahan pemandangan alam yang memanjakan mata. Mulai dari hamparan hijau, pemandangan bukit hingga kebun bunga yang berwarna-warni. Tidak hanya menyenangkan saat dipandang, tempat ini juga bisa digunakan untuk menghilangkan penat dari berbagai rutinitas pekerjaan yang membosankan. Daerah Rurukan terkenal dengan perkebunan sayur yang subur, karena letaknya yang berada di daerah pegunungan, tepatnya berada di kaki gunung Mahawu. Tak heran jika udara di kawasan puncak sangat sejuk. Bagi anda yang sudah jenuh dengan kebisingan dan hirup pikuk kota, pergi ke Puncak Rurukan akan membuat pikiran terasa lebih tenang. Suasana alam yang masih asri bisa anda rasakan ketika mengunjungi tempat ini. Tinggal di tempat ini pastinya betah bukan? Beberapa spot menarik diantaranya ada pohon natal raksasa yang sering dijadikan latar untuk selfi. Apalagi pada saat malam hari, terlihat lampu berwarna biru yang menghias pohon tersebut sehingga terlihat makin cantik.",
+    "reviews": 749,
+    "address": "8VRH+WXX Taman Wisata Puncak Rurukan Tomohon, Rurukan Satu, Kec. Tomohon Tim., Kota Tomohon, Sulawesi Utara"
+  },
+  {
+    "place_id": "ChIJl82S9TKDgDIRILgGDTa_scE",
+    "name": "Pantai Jiko / Patokan",
+    "link": "https://www.google.com/maps/place/Pantai+Jiko+%2F+Patokan/data=!4m7!3m6!1s0x32808332f592cd97:0xc1b1bf360d06b820!8m2!3d0.6184005!4d124.5655572!16s%2Fg%2F11f2rqmmbw!19sChIJl82S9TKDgDIRILgGDTa_scE?authuser=0&hl=id&rclk=1",
+    "main_category": "Tujuan Wisata",
+    "categories": ["Tujuan Wisata"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipO9KxWONTfzGvfQd5sw-QTYzf6J9tgHyD4Bvnsa=w408-h272-k-no",
+    "rating": 4.6,
+    "about": "Pantai Tanjung Silar atau yang lebih di ketahui dengan sebutan Pantai Patokan Jiko adalah salah satu pantai terpopuler yang berada di Desa Jiko, Kecamatan Nuangan, Kabupaten Bolaang Mongondow Timur (Boltim) yang tepatnya berada di Provinsi Sulawesi Utara. Kalian pasti akan di wujudkan takjub dengan keindahan pantai ini di kala sobat datang ke tempat tujuan dengan wisata Pantai Patokan Jiko ini. Objek wisata Pantai Patokan Jiko ini sungguh-sungguh familiar dengan pasir putihnya yang kelihatan lebih bersih dari pantai-pantai lain yang ada di Boltim. Pantai Patokan Jiko ini juga terkenal sebab mempunyai terumbu karang yang eksotis dan cantik sehingga menciptakan panorama alam yang indah dan akan membekas di ingatan para pengunjungnya. Pantai ini di apit oleh dua tebing tinggi yang besar yang menambah kesan unik daripada keadaan pantai pada umumnya. Bagi yang mau berkunjung atau berlibur ke Pantai Patokan Jiko ini, dapat memilih berjenis-jenis jenis kegiatan seru di pantai yang sangat menyenangkan seperti berenang, snorkeling, browsing, atau dapat juga bagi yang cuma d mau duduk dan merasakan estetika alam di pantai ini dengan berjemur sambil menyaksikan indahnya suasana sang surya terbenam di petang hari.",
+    "reviews": 594,
+    "address": "JH98+967 Pantai Jiko / Patokan, Nuangan, Kec. Nuangan, Kabupaten Bolaang Mongondow Timur, Sulawesi Utara"
+  },
+  {
+    "place_id": "ChIJoahah8FyhzIRmi_Q_ZKlRl8",
+    "name": "Air Terjun Kali",
+    "link": "https://www.google.com/maps/place/Air+Terjun+Kali/data=!4m7!3m6!1s0x328772c1875aa8a1:0x5f46a592fdd02f9a!8m2!3d1.380209!4d124.8360365!16s%2Fg%2F11hd7bvrsz!19sChIJoahah8FyhzIRmi_Q_ZKlRl8?authuser=0&hl=id&rclk=1",
+    "main_category": "Tujuan Wisata",
+    "categories": ["Tujuan Wisata"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipMMuTNLKhhnGYJ5klMkTPRxUUY7fUbqytOBvJa6=w408-h510-k-no",
+    "rating": 4.5,
+    "about": "Kamu pecinta trekking di tengah hutan yang asri sambil menikmati sejuknya wisata air terjun? Ada satu objek wisata di daerah Manado yang cocok untuk dua hobi tersebut, yaitu air terjun Kali. Mengapa saya katakan begitu? Karena untuk menuju lokasi air terjun ini kamu harus berjalan kaki cukup jauh, bagi yang tak kuat berjalan jauh siap-siap untuk bawa rekan yang mampu menggendong kamu hehe. Air terjun Kali terletak di Desa Kali, salah satu desa di kecamatan Pineleng kabupaten Minahasa Sulawesi Utara, lokasinya sendiri cukup jauh dari jalan raya. Meski begitu akses menuju tempat ini cukup nyaman dan aman, jalan aspal sudah tersedia menuju ke desanya dari tepi jalan raya Manado-Tomohon. Desa Kali terletak tepat sesudah Desa Lota, sebuah desa yang terkenal karena terdapat makam pahlawan nasional Indonesia, Tuanku Imam Bondjol. Jadi kamu yang mencari arah desa Kali, tips mudahnya lihat saja arah papan nama tempat wisata Makam Imam Bondjol, dari arah kota Manado tempat itu terletak di sebelah kiri jalan utama. Dari gerbang utama tepi jalan raya, silakan telusuri jalan tersebut terus menuju Desa Kali, jarak yang akan ditempuh sekitar 10-15 menit dari jalan raya menggunakan mobil atau motor.",
+    "reviews": 366,
+    "address": "9RJP+3CM Air Terjun Kali, Unnamed Road, Tinoor Satu, Kec. Tomohon Utara, Kota Tomohon, Sulawesi Utara"
+  },
+  {
+    "place_id": "ChIJh9FeRXOxhzIRIMTcai0iFCo",
+    "name": "Kawasan Wisata Pantai Surabaya",
+    "link": "https://www.google.com/maps/place/Kawasan+Wisata+Pantai+Surabaya/data=!4m7!3m6!1s0x3287b173455ed187:0x2a14222d6adcc420!8m2!3d1.6644095!4d125.1065074!16s%2Fg%2F1hm34wlg6!19sChIJh9FeRXOxhzIRIMTcai0iFCo?authuser=0&hl=id&rclk=1",
+    "main_category": "Tujuan Wisata",
+    "categories": ["Tujuan Wisata"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipNd6o27JOaarsGEJznA-qhBl8ShrfBxJyhfAVvP=w408-h306-k-no",
+    "rating": 4.1,
+    "about": "Objek wisata Pantai Surabaya yang terletak di Desa Wineru, Kecamatan Likupang Timur, Minahasa Utara (Minut), Sulawesi Utara, masih ramai pengunjung. Berdasarkan pemantauan Minggu (18/9), pengunjung yang datang pada objek wisata pantai Surabaya, selain warga setempat ada juga dari luar Kabupaten Minut, diantaranya berasal dari Minahasa, Minahasa Selatan dan Kota Bitung. Pengunjung yang datang mengakui bila pesona pantai Surabaya di Desa Wineru terdapat pada pemandangannya indah, serta keadaan pantainya dipenuhi pasir yang hampir tidak terdapat bebatuan sedikitpun. Selain itu suasana pantai Surabaya dilengkapi oleh berbagai macam kios jualan, mulai dari jualan pisang goreng, tahu, umbi-umbian, jagung dan aneka makanan lainnya. Pantai Surabaya ini, pemandangan depannya terlihat sejumlah pulau yang masuk Kecamatan Likupang Barat, Minut, diantaranya pulau Talise, Gangga dan Bangka. Bahkan disebelah kanannya terlihat pemandangan hotel Paradise yang sekitarnya terdapat pasir putih. 'Pokoknya kalau datang di pantai Surabaya, tidak dapat diungkapkan keindahannya, bahkan pantai ini paling asik untuk bermandian, karena sekitarnya dipenuhi pasir sehingga tidak akan melukai anggota tubuh seperti kaki ketika berjalan, berenang maupun bermain-main,' ujar salah satu pengunjung asal Amurang, Rill. 'Pantai Surabaya ini setiap datangnya hari libur kalender atau liburan sekolah, ramai pengunjung,' ujar salah satu warga Desa Wineru, Win, yang kesehariannya bekerja sebagai nelayan. Win mengakui, ketika hari biasa atau hari kerja pegawai negeri sipil maupun karyawan kantoran, lokasi pantai Surabaya tersebut, digunakan sebagai tambatan perahu nelayan. Karcis masuknya pun tidak membebankan para pengunjung, karena hanya dikenai Rp5000 per kendaraan roda empat, sedangkan roda dua hanya Rp3000. Sementara Kepala Dinas Pariwisata Pemerintah Kabupaten Minahasa Utara, Rita Rumokoy, mengakui bila di daerah ini banyak tujuan wisatawan baik lokal maupun mancanegara.",
+    "reviews": 285,
+    "address": "M474+QJ6 Kawasan Wisata Pantai Surabaya, Jl. Likupang-Girian, Wineru, Kec. Likupang Tim., Kabupaten Minahasa Utara, Sulawesi Utara"
+  },
+  {
+    "place_id": "ChIJL66Tyd1rhzIR_8VjJy_egK0",
+    "name": "Air Terjun Tumimperas",
+    "link": "https://www.google.com/maps/place/Air+Terjun+Tumimperas/data=!4m7!3m6!1s0x32876bddc993ae2f:0xad80de2f2763c5ff!8m2!3d1.2952994!4d124.7808842!16s%2Fg%2F11bz_yl_ym!19sChIJL66Tyd1rhzIR_8VjJy_egK0?authuser=0&hl=id&rclk=1",
+    "main_category": "Tujuan Wisata",
+    "categories": ["Tujuan Wisata"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipNjnNfeo9YqyHkH1DgIMkgF1CwLkmgDkYJzeJgO=w408-h306-k-no",
+    "rating": 4.6,
+    "about": "Menjelajah kekayaan alam Indonesia memang tidak akan pernah ada habisnya, termasuk di Provinsi Sulawesi Utara tepatnya di Kota Tomohon Selatan yang menyimpan kekayaan alam berupa air terjun indah, salah satunya Tumimperas. Air terjun cantik ini telah dikenal sejak zaman penjajahan Belanda di Indonesia sekitar tahun 1880-an. Nama Tumimperas dalam bahasa daerah Tombulu memiliki arti merdunya suara. Jadi awal mula orang mengenal air terjun eksotis ini lantaran mendengar gemericik merdunya suara air yang jatuh di bebatuan. Air Terjun Tumimperas menjadi tempat berlibur wajib bagi wisatawan yang berada di Sulawesi Utara. Kondisi sekitar air terjun masih sangat terjaga keasriannya, hal ini bisa dilihat dari jernihnya air yang mengalir, bersihnya udara di sekitar air terjun dan lingkungan yang bersih tentunya. Air Terjun ini memiliki ketinggian sekitar 52 meter dengan kedalaman kolamnya mencapai 2 meter. Tingginya air terjun ini disinyalir sebagai sumber dari merdunya suara air yang turun. Debit airnya cukup deras, wisatawan bisa menutup mata sejenak untuk merasakan merdunya suara air yang jatuh. Tidak seperti air terjun lain yang membutuhkan usaha extra untuk sampai ke lokasinya di Air Terjun Tumimperas ini wisatawan hanya perlu melalui kurang lebih 800 anak tangga, tidak perlu khawatir dengan banyaknya anak tangga yang harus dilalui karena kondisi jalurnya sudah dibuat senyaman mungkin untuk dilalui.",
+    "reviews": 247,
+    "address": "7QWJ+496 Air Terjun Tumimperas, Pinaras, Kec. Tomohon Sel., Kota Tomohon, Sulawesi Utara"
+  },
+  {
+    "place_id": "ChIJIZxcSIOlfjIRTDC3ipWm01Q",
+    "name": "Pantai Batu Pinagut",
+    "link": "https://www.google.com/maps/place/Pantai+Batu+Pinagut/data=!4m7!3m6!1s0x327ea583485c9c21:0x54d3a6958ab7304c!8m2!3d0.9202904!4d123.269432!16s%2Fg%2F11bzt6zspd!19sChIJIZxcSIOlfjIRTDC3ipWm01Q?authuser=0&hl=id&rclk=1",
+    "main_category": "Tujuan Wisata",
+    "categories": ["Tujuan Wisata"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipNyYV-YGrWdM1CPmiemw2JKVRigSVJzeRWcGf18=w408-h306-k-no",
+    "rating": 4.5,
+    "about": "Ada satu destinasi wisata menarik yang bisa anda kunjungi. Ada Pantai Batu Pinagut. Pesona Pantai Batu Pinagut memang sudah populer di kalangan wisatawan. Bahkan, tempat ini kerap disebut-sebut sebagai surganya objek wisata di Bolmut. Namun, selain keindahannya, sejarah Pantai Batu Pinagut juga menjadi daya tarik tersendiri. Penamaan Pantai Batu Pinagut pun tidak terlepas dari sejarah Kerajaan Kaidipang yang memiliki arti Batu Yang Dicabut. Pasalnya, di atas bukit Pantai Batu Pinagut ini ada salah satu tempat mayat keramat yang dimakamkan. Dikabarkan pula makam tersebut hanya memiliki jarak puluhan meter saja dari pantai. ",
+    "reviews": 163,
+    "address": "W7C9+4Q7 Pantai Batu Pinagut, Kuala, Kec. Kaidipang, Kabupaten Bolaang Mongondow Utara, Sulawesi Utara"
+  },
+  {
+    "place_id": "ChIJmW3sDKWzhzIRcdVPyUasfio",
+    "name": "Bukit Larata, Desa Kinunang",
+    "link": "https://www.google.com/maps/place/Bukit+Larata,+Desa+Kinunang/data=!4m7!3m6!1s0x3287b3a50cec6d99:0x2a7eac46c94fd571!8m2!3d1.6663828!4d125.1621136!16s%2Fg%2F11dx99dch7!19sChIJmW3sDKWzhzIRcdVPyUasfio?authuser=0&hl=id&rclk=1",
+    "main_category": "Area Rekreasi Alam",
+    "categories": ["Area Rekreasi Alam", "Tujuan Wisata"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipNyBSKPC2j0bIATqNnII8wOTynsiQM6UWbLiJz3=w408-h306-k-no",
+    "rating": 4.7,
+    "about": "Beberapa wisatawan mengunjungi obyek wisata alam Bukit Larata di Desa Kinunang, Likupang Timur, Minahasa Utara, Sulawesi Utara, Jumat (15/9/2023). Obyek wisata yang dikelola oleh masyarakat melalui Badan Usaha milik Desa (BUMDES) itu diharapkan dapat membawa pemasukan bagi desa seiring dengan adanya Kawasan Ekonomi Khusus (KEK) Pariwisata Likupang seluas 197,4 hektare yang mencakup tiga desa.",
+    "reviews": 126,
+    "address": "Bukit Larata, Desa Kinunang, Pulisan, Kec. Likupang Tim., Kabupaten Minahasa Utara, Sulawesi Utara"
+  },
+  {
+    "place_id": "ChIJ-SuG4CGkhzIRG6HKO-X_TFE",
+    "name": "Air Terjun Tunan Talawaan",
+    "link": "https://www.google.com/maps/place/Air+Terjun+Tunan+Talawaan/data=!4m7!3m6!1s0x3287a421e0862bf9:0x514cffe53bcaa11b!8m2!3d1.5682603!4d124.9728938!16s%2Fg%2F11dyp5l9tf!19sChIJ-SuG4CGkhzIRG6HKO-X_TFE?authuser=0&hl=id&rclk=1",
+    "main_category": "Tujuan Wisata",
+    "categories": ["Tujuan Wisata"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipMNNIdYPlhmtPfi72mmIGU5eME-m_A2vxCawfHw=w408-h544-k-no",
+    "rating": 4.5,
+    "about": "Sulawesi Utara tempatnya Manado memang kaya akan tempat wisata yang patut untuk di kunjungi, selain Bunaken yang sudah terkenal baik wisatawan lokal maupun wisatawan asing, ada lagi tempat wisata lain yang juga tidak kalah menariknya. Salah satunya adalah Air Terjun Tunan, air terjun ini terletak di Desa Talawan, Kecamatan Dimembe, Kabupaten Minahasa Utara, Provinsi Sulawesi Utara. Sumber Air Terjun Tunan berasal dari sungai diatas gunung yang mengalir cukup deras melewati tebing terjal dengan ketinggian tebing kurang lebih 86 Meter. Suasana hutan alam yang masih asli dan alami menambah keindahan sekitar objek Wisata Alam Air Terjun Tunan. Walaupun masih belum terlalu terkenal, namun jika musim libur tiba Air Terjun Tunan tetap dipenuhi oleh wisatawan. Suasana di sekitar air terjun ini masih sangat asri, sepanjang mata memandang yang terlihat pepohonan hijau yang begitu sejuk di mata. Pemandangan itu semakin serasi dengan suara gemericik air terjun yang menyejukan hati. Membuat tempat wisata ini sangat cocok untuk kembali menyegarkan pikirin setelah berkutat dengan rutinitas sehari-hari. Di air terjun ini Anda pun bisa berenang di air kolam yang ada di bawah air terjun sambil menikmati segarnya percikan air terjun. Kedalaman kolam sekitar 1,5 meter dan di sekitar kolam terdapat banyak bebatuan yang licin. Jadi, Anda harus tetap waspada saat bermain air apalagi jika Anda membawa anak kecil.",
+    "reviews": 98,
+    "address": "HX9F+852 Air Terjun Tunan Talawaan, Wasian, Kec. Dimembe, Kabupaten Minahasa Utara, Sulawesi Utara"
+  },
+  {
+    "place_id": "ChIJ8bH84aUPhzIRQBkxtxjRPy0",
+    "name": "Objek Wisata Danau Seper",
+    "link": "https://www.google.com/maps/place/Objek+Wisata+Danau+Seper/data=!4m7!3m6!1s0x32870fa5e1fcb1f1:0x2d3fd118b7311940!8m2!3d1.3732876!4d124.9952658!16s%2Fg%2F1hm6dmxc8!19sChIJ8bH84aUPhzIRQBkxtxjRPy0?authuser=0&hl=id&rclk=1",
+    "main_category": "Taman Hiburan",
+    "categories": ["Taman Hiburan", "Tujuan Wisata"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipMeiyyCgJO_iQhczZb0lgpHTMZAtA5suTG4W856=w426-h240-k-no",
+    "rating": 3.9,
+    "about": "Danau Seper? Sebagian orang pasti belum mengenalnya. Danau Seper berada di Desa Lembean, Kecamatan Kauditan, Kabupaten Minahasa Utara (Minut), Sulawesi Utara. Danau ini unik karena berada di tengah hutan rimba. Dengan latar belakang gunung Klabat menambah keindahan danau tersebut dan sangat alami. Uniknya, tak pernah ada yang tahu darimana mata air danau tersebut berasal. Keunikan lainnya, air danau itu tak pernah mengalir ke luar sebagaimana lazimnya danau. Dan danau tersebut tidak pernah kehabisan air. “Seperti artinya telaga besar. Wisata danau Seper mempunyai keunikan sendiri karena berada di tengah hutan rimba,” ujar Hukum Tua Lembean Ventje Pangkerego, dihubungi via WhatsApp, Selasa (02/06/2020). Adapun sesepuh Desa Lembean Alexander Katuuk yang dihubungi terpisah mengatakan kalau danau ini sangat Cocok untuk traveller yang mempuyai jiwa petualang.",
+    "reviews": 59,
+    "address": "9XFW+846 Objek Wisata Danau Seper, Jl. A. Manowutu, Lembean, Kec. Kauditan, Kabupaten Minahasa Utara, Sulawesi Utara"
+  },
+  {
+    "place_id": "ChIJU7p7ZCuahzIRlSSiRLQamgA",
+    "name": "Taman Laut Bunaken",
+    "link": "https://www.google.com/maps/place/Taman+Laut+Bunaken/data=!4m7!3m6!1s0x32879a2b647bba53:0x9a1ab444a22495!8m2!3d1.6026875!4d124.7688906!16s%2Fg%2F11dxlgdnbh!19sChIJU7p7ZCuahzIRlSSiRLQamgA?authuser=0&hl=id&rclk=1",
+    "main_category": "Tujuan Wisata",
+    "categories": ["Tujuan Wisata", "Area Rekreasi Alam"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipN1Mgyvf2nbPwIgJAoKc4dltEQqXpbRJ9GsSaVk=w408-h272-k-no",
+    "rating": 4.7,
+    "about": "Berbicara tentang objek wisata di Sulawesi Utara seolah tidak akan ada habisnya. Jika berkunjung ke utara pulau Sulawesi ini, rasanya akan kurang apabila tidak menjejakkan kaki di pulau Bunaken, yang menjadi bagian dari Taman Nasional Bunaken, sebuah kawasan konservasi yang ditetapkan oleh Menteri Kehutanan pada tahun 1991. Tempat ini menjadi surga bagi para penyelam karena alam bawah lautnya yang mempesona. Taman Nasional Bunaken dengan wilayahnya yang terdiri dari perairan, pesisir daratan dan pulau-pulau, memiliki iklim basah tropis katulistiwa (BMKG 2010). Pada bulan – bulan Nopember sampaidengan April bertiup angin barat yang membawa hujan di pantai utara. Sedangkan pada bulan Mei sampai Oktober terjadi perubahan angin selatan yang kering. Namun, kondisi ini tidak berpengaruh signifikan terhadap keindahan salah satu Kawasan konservasi di utara pulau Sulawesi ini. Keindahan kawasan ini, didukung pula oleh keberagaman ekosistem pulau yang menyusunnya. Pada ujung barat kawasan terdapat pulau Bunaken, pulau Siladen, pulau Nain dan pulau Mantehage serta sebelah utara Tanjung Pisok terbentuk dari batu gamping asal terumbu karang. Selain itu, di sebelah kiri kawasan terdapat Pulau Manado Tua.",
+    "reviews": 48,
+    "address": "JQ39+3HC Taman Laut Bunaken, Kota Manado, Sulawesi Utara"
+  },
+  {
+    "place_id": "ChIJ278FOWFifjIRraAWj_hx7Pw",
+    "name": "Wisata Pantai Desa Pasir Putih",
+    "link": "https://www.google.com/maps/place/Wisata+Pantai+Desa+Pasir+Putih/data=!4m7!3m6!1s0x327e62613905bfdb:0xfcec71f88f16a0ad!8m2!3d0.8444187!4d123.8148226!16s%2Fg%2F11gfltkmf6!19sChIJ278FOWFifjIRraAWj_hx7Pw?authuser=0&hl=id&rclk=1",
+    "main_category": "Tujuan Wisata",
+    "categories": ["Tujuan Wisata"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipNORWg9CPL-c5xHXh7OqXPlfnzOo2JFYbNiyWJl=w408-h408-k-no",
+    "rating": 4.6,
+    "about": "Pesona wisata Indonesia terus melejit di mata dunia. Keindahan alam dan budaya yang dimiliki membuat negeri ini disebut surganya wisatawan.",
+    "reviews": 47,
+    "address": "RRV7+QW8 Wisata Pantai Desa Pasir Putih, Desa, Pasir Putih, Kec. Sangtombolang, Kabupaten Bolaang Mongondow, Sulawesi Utara"
+  },
+  {
+    "place_id": "ChIJTfCV-2CvfjIRxyKZyzPewUU",
+    "name": "Objek Wisata Air Belanda",
+    "link": "https://www.google.com/maps/place/Objek+Wisata+Air+Belanda/data=!4m7!3m6!1s0x327eaf60fb95f04d:0x45c1de33cb9922c7!8m2!3d0.9316759!4d123.2555274!16s%2Fg%2F11bzthz82h!19sChIJTfCV-2CvfjIRxyKZyzPewUU?authuser=0&hl=id&rclk=1",
+    "main_category": "Tujuan Wisata",
+    "categories": ["Tujuan Wisata"],
+    "image": "d",
+    "rating": 5,
+    "about": "d",
+    "reviews": 5,
+    "address": "W7J4+M6C Objek Wisata Air Belanda, Boroko, Kuala, Kaidipang, Boroko, Bolaang Mongondow Utara, Kabupaten Bolaang Mongondow Utara, Sulawesi Utara"
+  },
+  {
+    "place_id": "ChIJ_yfHVgC7hzIRwCmJeshkYQ8",
+    "name": "Wisata Mangrove Desa Palaes",
+    "link": "https://www.google.com/maps/place/Wisata+Mangrove+Desa+Palaes/data=!4m7!3m6!1s0x3287bb0056c727ff:0xf6164c87a8929c0!8m2!3d1.6713483!4d124.9640252!16s%2Fg%2F11trgt_789!19sChIJ_yfHVgC7hzIRwCmJeshkYQ8?authuser=0&hl=id&rclk=1",
+    "main_category": "Tujuan Wisata",
+    "categories": [
+      "Tujuan Wisata",
+      "Area Rekreasi Alam",
+      "Pusat Rekreasi",
+      "Taman Rekreasi Air"
+    ],
+    "image": "d",
+    "rating": 4.6,
+    "about": "d",
+    "reviews": 5,
+    "address": "Wisata Mangrove Desa Palaes, Palaes, Kec. Likupang Bar., Kabupaten Minahasa Utara, Sulawesi Utara"
+  },
+  {
+    "place_id": "ChIJSwRPmom5hzIREt9FP4SoqTM",
+    "name": "Northernmost poin Celebes Island",
+    "link": "https://www.google.com/maps/place/Northernmost+poin+Celebes+Island/data=!4m7!3m6!1s0x3287b9899a4f044b:0x33a9a8843f45df12!8m2!3d1.7517332!4d124.992994!16s%2Fg%2F11s8tbp0qg!19sChIJSwRPmom5hzIREt9FP4SoqTM?authuser=0&hl=id&rclk=1",
+    "main_category": "Tujuan Wisata",
+    "categories": ["Tujuan Wisata"],
+    "image": "d",
+    "rating": 5,
+    "about": "d",
+    "reviews": 2,
+    "address": "QX2R+QQH Northernmost poin Celebes Island, Tarabitan, Kec. Likupang Bar., Kabupaten Minahasa Utara, Sulawesi Utara"
+  }
 ]
