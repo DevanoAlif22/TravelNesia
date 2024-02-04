@@ -31,7 +31,5 @@ Sulawesi Tengah DONE 20
 Sulawesi Selatan DONE 20
 Sulawesi Tenggara DONE 20
 Gorontalo DONE 20
-Maluku
-Maluku Utara
-Papua Barat
-Papua
+Maluku DONE 20
+Papua DONE 20
