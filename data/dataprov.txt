@@ -3,16 +3,16 @@ DAVANO : Banten - Kalimantan Timur
 FERY : Kalimantan Utara - Papua
 
 Aceh DONE 20 - DONE ✅
-Sumatera Utara DONE 20
-Sumatera Barat DONE 20
-Riau dan kepulauan DONE 30
-Jambi DONE 20
-Sumatera Selatan DONE 20
-Bangka Belitung DONE 20
-Bengkulu DONE 20
-Lampung DONE 20
-DKI Jakarta DONE 20
-Jawa Barat DONE 30
+Sulawesi Utara DONE 20 - DONE ✅
+Sumatera Barat DONE 20 - DONE ✅
+Riau dan kepulauan DONE 20 - DONE ✅
+Jambi DONE 20 - DONE ✅
+Sumatera Selatan DONE 20 - DONE ✅ 
+Bangka Belitung DONE 20 - DONE ✅ 
+Bengkulu DONE 20 - DONE ✅ 
+Lampung DONE 20  - DONE ✅ 
+DKI Jakarta DONE 20 - DONE ✅ 
+Jawa Barat DONE 30 - DONE ✅
 Banten DONE 20
 Jawa Tengah DONE 30
 DI Yogyakarta DONE 30
@@ -25,7 +25,7 @@ Kalimantan Tengah DONE 20
 Kalimantan Selatan DONE 20
 Kalimantan Timur DONE 20
 Kalimantan Utara DONE 20
-Sulawesi Utara DONE 20
+Sumatera Utara DONE 20 
 Sulawesi Barat DONE 20
 Sulawesi Tengah DONE 20
 Sulawesi Selatan DONE 20

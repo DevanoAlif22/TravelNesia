@@ -1,385 +1,374 @@
 [
-    {
-        "place_id": "ChIJ2VHL24vhaC4RnrFGI1jv3YY",
-        "name": "Dusun Bambu",
-        "link": "https://www.google.com/maps/place/Dusun+Bambu/data=!4m10!3m9!1s0x2e68e18bdbcb51d9:0x86ddef582346b19e!5m2!4m1!1i2!8m2!3d-6.7905049!4d107.5778343!16s%2Fg%2F12hssxwmh!19sChIJ2VHL24vhaC4RnrFGI1jv3YY?authuser=0&hl=id&rclk=1",
-        "main_category": "Tujuan Wisata",
-        "categories": [
-            "Tujuan Wisata",
-            "Wahana Taman Hiburan",
-            "Park and ride",
-            "Hotel Resor",
-            "Restoran"
-        ],
-        "rating": 4.5,
-        "reviews": 28918,
-        "address": "Dusun Bambu, Jl. Kolonel Masturi No.KM. 11, Kertawangi, Kec. Cisarua, Kabupaten Bandung Barat, Jawa Barat 40551"
-    },
-    {
-        "place_id": "ChIJeUGDdCvnaC4RX24Dt0esfD4",
-        "name": "Dago Dreampark",
-        "link": "https://www.google.com/maps/place/Dago+Dreampark/data=!4m7!3m6!1s0x2e68e72b74834179:0x3e7cac47b7036e5f!8m2!3d-6.8486423!4d107.625939!16s%2Fg%2F11b_23qvxh!19sChIJeUGDdCvnaC4RX24Dt0esfD4?authuser=0&hl=id&rclk=1",
-        "main_category": "Tujuan Wisata",
-        "categories": [
-            "Tujuan Wisata",
-            "Pusat Rekreasi",
-            "Taman Hiburan"
-        ],
-        "rating": 4.2,
-        "reviews": 18457,
-        "address": "Dago Dreampark, Mekarwangi, Jl. Dago Giri No.Km. 2.2, Pagerwangi, Kec. Lembang, Kabupaten Bandung Barat, Jawa Barat 40135"
-    },
-    {
-        "place_id": "ChIJAbspL_PjaC4RGwfytELeq50",
-        "name": "Alam Wisata Cimahi",
-        "link": "https://www.google.com/maps/place/Alam+Wisata+Cimahi/data=!4m7!3m6!1s0x2e68e3f32f29bb01:0x9dabde42b4f2071b!8m2!3d-6.840959!4d107.5512281!16s%2Fg%2F11gzx4h5q!19sChIJAbspL_PjaC4RGwfytELeq50?authuser=0&hl=id&rclk=1",
-        "main_category": "Hotel Resor",
-        "categories": [
-            "Hotel Resor",
-            "Tempat Bermain Paintball",
-            "Taman bermain",
-            "Restoran",
-            "Restoran Sunda",
-            "Kolam Renang",
-            "Tujuan Wisata",
-            "Gedung Pernikahan"
-        ],
-        "rating": 4.2,
-        "reviews": 4868,
-        "address": "Alam Wisata Cimahi, Jalan Kolonel Masturi KM.4 No.157, Cipageran, Kec. Cimahi Utara, Kota Cimahi, Jawa Barat 40511"
-    },
-    {
-        "place_id": "ChIJQbOiLW6RaC4RiksSLDjy9eg",
-        "name": "Situ Cileunca Pangalengan Bandung",
-        "link": "https://www.google.com/maps/place/Situ+Cileunca+Pangalengan+Bandung/data=!4m7!3m6!1s0x2e68916e2da2b341:0xe8f5f2382c124b8a!8m2!3d-7.1896766!4d107.5531164!16s%2Fg%2F11g18vx44q!19sChIJQbOiLW6RaC4RiksSLDjy9eg?authuser=0&hl=id&rclk=1",
-        "main_category": "Tujuan Wisata",
-        "categories": [
-            "Tujuan Wisata",
-            "Pusat Informasi Pariwisata"
-        ],
-        "rating": 4.6,
-        "reviews": 2588,
-        "address": "Situ Cileunca Pangalengan Bandung, Jl. Situ Cileunca, Pulosari, Kec. Pangalengan, Kabupaten Bandung, Jawa Barat 40378"
-    },
-    {
-        "place_id": "ChIJHd5-ovUlZi4RfJCX7LqJdQQ",
-        "name": "PUNCAK GUHA",
-        "link": "https://www.google.com/maps/place/PUNCAK+GUHA/data=!4m7!3m6!1s0x2e6625f5a27ede1d:0x47589baec97907c!8m2!3d-7.5362574!4d107.4971417!16s%2Fg%2F11btt9dlpz!19sChIJHd5-ovUlZi4RfJCX7LqJdQQ?authuser=0&hl=id&rclk=1",
-        "main_category": "Tujuan Wisata",
-        "categories": [
-            "Tujuan Wisata"
-        ],
-        "rating": 4.5,
-        "reviews": 2511,
-        "address": "PUNCAK GUHA, Sinarjaya, Kec. Bungbulang, Kabupaten Garut, Jawa Barat 44165"
-    },
-    {
-        "place_id": "ChIJ5Qwef2qvaS4R1jJTqZ-1Rmo",
-        "name": "Wana Wisata Rusa Tanjungsari",
-        "link": "https://www.google.com/maps/place/Wana+Wisata+Rusa+Tanjungsari/data=!4m7!3m6!1s0x2e69af6a7f1e0ce5:0x6a46b59fa95332d6!8m2!3d-6.6366142!4d107.1722679!16s%2Fg%2F11b7q2pgzv!19sChIJ5Qwef2qvaS4R1jJTqZ-1Rmo?authuser=0&hl=id&rclk=1",
-        "main_category": "Perlindungan Margasatwa",
-        "categories": [
-            "Perlindungan Margasatwa",
-            "Tujuan Wisata"
-        ],
-        "rating": 4.1,
-        "reviews": 1215,
-        "address": "Wana Wisata Rusa Tanjungsari, Buanajaya, Tanjungsari, Buanajaya, Kec. Tanjungsari, Kabupaten Bogor, Jawa Barat 16840"
-    },
-    {
-        "place_id": "ChIJA7kJYlS6aC4R-RIotxXBHKc",
-        "name": "Desa Wisata Saung Ciburial",
-        "link": "https://www.google.com/maps/place/Desa+Wisata+Saung+Ciburial/data=!4m7!3m6!1s0x2e68ba546209b903:0xa71cc115b72812f9!8m2!3d-7.2051038!4d107.8133775!16s%2Fg%2F11c0vyr089!19sChIJA7kJYlS6aC4R-RIotxXBHKc?authuser=0&hl=id&rclk=1",
-        "main_category": "Tujuan Wisata",
-        "categories": [
-            "Tujuan Wisata",
-            "Pusat kebudayaan"
-        ],
-        "rating": 4.5,
-        "reviews": 596,
-        "address": "Desa Wisata Saung Ciburial, Sukalaksana, Kec. Samarang, Kabupaten Garut, Jawa Barat 44161"
-    },
-    {
-        "place_id": "ChIJo82jZk-WaC4RA3QRvVJ0w-E",
-        "name": "Kawah Wayang",
-        "link": "https://www.google.com/maps/place/Kawah+Wayang/data=!4m7!3m6!1s0x2e68964f66a3cda3:0xe1c37452bd117403!8m2!3d-7.2069313!4d107.6373723!16s%2Fg%2F11c1tyvhh7!19sChIJo82jZk-WaC4RA3QRvVJ0w-E?authuser=0&hl=id&rclk=1",
-        "main_category": "Tujuan Wisata",
-        "categories": [
-            "Tujuan Wisata"
-        ],
-        "rating": 4.6,
-        "reviews": 560,
-        "address": "Kawah Wayang, Sukamanah, Kec. Pangalengan, Kabupaten Bandung, Jawa Barat 40378"
-    },
-    {
-        "place_id": "ChIJrZMq_VrhaC4RjvaH06iyNa0",
-        "name": "The Great Asia Africa",
-        "link": "https://www.google.com/maps/place/The+Great+Asia+Africa/data=!4m7!3m6!1s0x2e68e15afd2a93ad:0xad35b2a8d387f68e!8m2!3d-6.8329768!4d107.6044676!16s%2Fg%2F11j40w1gcp!19sChIJrZMq_VrhaC4RjvaH06iyNa0?authuser=0&hl=id&rclk=1",
-        "main_category": "Tujuan Wisata",
-        "categories": [
-            "Tujuan Wisata"
-        ],
-        "rating": 4.5,
-        "reviews": 19375,
-        "address": "The Great Asia Africa, Jl. Raya Lembang - Bandung No.71, Gudangkahuripan, Kec. Lembang, Kabupaten Bandung Barat, Jawa Barat 40391"
-    },
-    {
-        "place_id": "ChIJ3Xt4mJ-2aS4RBJVJ6fIjD3M",
-        "name": "Riung Gunung",
-        "link": "https://www.google.com/maps/place/Riung+Gunung/data=!4m7!3m6!1s0x2e69b69f98787bdd:0x730f23f2e9499504!8m2!3d-6.7022557!4d106.9807365!16s%2Fg%2F1hm1_nfh4!19sChIJ3Xt4mJ-2aS4RBJVJ6fIjD3M?authuser=0&hl=id&rclk=1",
-        "main_category": "Tujuan Wisata",
-        "categories": [
-            "Tujuan Wisata"
-        ],
-        "rating": 4.5,
-        "reviews": 13398,
-        "address": "7XXJ+37X Riung Gunung, Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat 16750"
-    },
-    {
-        "place_id": "ChIJ-9TUV_Idby4RPRDxH--iTo0",
-        "name": "Taman Wisata Goa Sunyaragi Cirebon",
-        "link": "https://www.google.com/maps/place/Taman+Wisata+Goa+Sunyaragi+Cirebon/data=!4m7!3m6!1s0x2e6f1df257d4d4fb:0x8d4ea2ef1ff1103d!8m2!3d-6.737365!4d108.542758!16s%2Fg%2F120s1tt4!19sChIJ-9TUV_Idby4RPRDxH--iTo0?authuser=0&hl=id&rclk=1",
-        "main_category": "Bangunan Bersejarah",
-        "categories": [
-            "Bangunan Bersejarah",
-            "Museum",
-            "Taman",
-            "Tujuan Wisata"
-        ],
-        "rating": 4.4,
-        "reviews": 12015,
-        "address": "Taman Wisata Goa Sunyaragi Cirebon, Sunyaragi, Kec. Kesambi, Kota Cirebon, Jawa Barat 45132"
-    },
-    {
-        "place_id": "ChIJOTnwNd3maC4Ru0Ut3IXNDDI",
-        "name": "Rabbit Town",
-        "link": "https://www.google.com/maps/place/Rabbit+Town/data=!4m7!3m6!1s0x2e68e6dd35f03939:0x320ccd85dc2d45bb!8m2!3d-6.867143!4d107.609963!16s%2Fg%2F11hbmtcdh9!19sChIJOTnwNd3maC4Ru0Ut3IXNDDI?authuser=0&hl=id&rclk=1",
-        "main_category": "Tujuan Wisata",
-        "categories": [
-            "Tujuan Wisata"
-        ],
-        "rating": 4,
-        "reviews": 6734,
-        "address": "Rabbit Town, Jl. Rancabentang No.30-32, Ciumbuleuit, Kec. Cidadap, Kota Bandung, Jawa Barat 40142"
-    },
-    {
-        "place_id": "ChIJSZh4eiXmaC4RAUPOmyG32uk",
-        "name": "Plaza Cikapundung River Spot",
-        "link": "https://www.google.com/maps/place/Plaza+Cikapundung+River+Spot/data=!4m7!3m6!1s0x2e68e6257a789849:0xe9dab7219bce4301!8m2!3d-6.9200921!4d107.6088457!16s%2Fg%2F11cjvj8t3s!19sChIJSZh4eiXmaC4RAUPOmyG32uk?authuser=0&hl=id&rclk=1",
-        "main_category": "Taman Kota",
-        "categories": [
-            "Taman Kota",
-            "Tujuan Wisata"
-        ],
-        "rating": 4.4,
-        "reviews": 5238,
-        "address": "3JH5+XG9 Plaza Cikapundung River Spot, Jl. Dr. Ir. Sukarno, Braga, Kec. Sumur Bandung, Kota Bandung, Jawa Barat 40111"
-    },
-    {
-        "place_id": "ChIJ7bjao1n8aC4Ro5xdaKfIDnI",
-        "name": "Stone Garden Citatah",
-        "link": "https://www.google.com/maps/place/Stone+Garden+Citatah/data=!4m7!3m6!1s0x2e68fc59a3dab8ed:0x720ec8a7685d9ca3!8m2!3d-6.8244669!4d107.438256!16s%2Fg%2F11cl_54f46!19sChIJ7bjao1n8aC4Ro5xdaKfIDnI?authuser=0&hl=id&rclk=1",
-        "main_category": "Tujuan Wisata",
-        "categories": [
-            "Tujuan Wisata",
-            "Taman"
-        ],
-        "rating": 4.4,
-        "reviews": 3753,
-        "address": "Stone Garden Citatah, Gunung Masigit, Citatah, Kec. Cipatat, Kabupaten Bandung Barat, Jawa Barat 40554"
-    },
-    {
-        "place_id": "ChIJU05Hjy_maC4R8t_TcAfptxI",
-        "name": "Taman Braga",
-        "link": "https://www.google.com/maps/place/Taman+Braga/data=!4m7!3m6!1s0x2e68e62f8f474e53:0x12b7e90770d3dff2!8m2!3d-6.9198719!4d107.6100633!16s%2Fg%2F11bw66sbny!19sChIJU05Hjy_maC4R8t_TcAfptxI?authuser=0&hl=id&rclk=1",
-        "main_category": "Tujuan Wisata",
-        "categories": [
-            "Tujuan Wisata"
-        ],
-        "rating": 4.6,
-        "reviews": 3696,
-        "address": "Taman Braga, Jl. Ustadz Abdul Somad LC. No.12, Braga, Kec. Sumur Bandung, Kota Bandung, Jawa Barat 40111"
-    },
-    {
-        "place_id": "ChIJ_Rd4PpLcaC4RhcOYyolmwK4",
-        "name": "Wisata Batu Kuda",
-        "link": "https://www.google.com/maps/place/Wisata+Batu+Kuda/data=!4m7!3m6!1s0x2e68dc923e7817fd:0xaec06689ca98c385!8m2!3d-6.8930812!4d107.7451856!16s%2Fg%2F11bxgbfpt3!19sChIJ_Rd4PpLcaC4RhcOYyolmwK4?authuser=0&hl=id&rclk=1",
-        "main_category": "Tujuan Wisata",
-        "categories": [
-            "Tujuan Wisata",
-            "Taman"
-        ],
-        "rating": 4.5,
-        "reviews": 3420,
-        "address": "Wisata Batu Kuda, Cibiru Wetan, Kec. Cileunyi, Kabupaten Bandung, Jawa Barat 40625"
-    },
-    {
-        "place_id": "ChIJbQVnEInhaC4RoiM0rVc9stg",
-        "name": "Kebun Teh Ciater - Subang",
-        "link": "https://www.google.com/maps/place/Kebun+Teh+Ciater+-+Subang/data=!4m7!3m6!1s0x2e68e1891067056d:0xd8b23d57ad3423a2!8m2!3d-6.7719217!4d107.6371437!16s%2Fg%2F11g0_89n04!19sChIJbQVnEInhaC4RoiM0rVc9stg?authuser=0&hl=id&rclk=1",
-        "main_category": "Tujuan Wisata",
-        "categories": [
-            "Tujuan Wisata"
-        ],
-        "rating": 4.6,
-        "reviews": 2733,
-        "address": "6JHP+6VJ Kebun Teh Ciater - Subang, Ciater, Kec. Ciater, Kabupaten Subang, Jawa Barat 41281"
-    },
-    {
-        "place_id": "ChIJ-VxvzIm0aS4RAsfvwBUEBf8",
-        "name": "Telaga Biru",
-        "link": "https://www.google.com/maps/place/Telaga+Biru/data=!4m7!3m6!1s0x2e69b489cc6f5cf9:0xff050415c0efc702!8m2!3d-6.7485153!4d106.9942597!16s%2Fg%2F11hbpkh0v0!19sChIJ-VxvzIm0aS4RAsfvwBUEBf8?authuser=0&hl=id&rclk=1",
-        "main_category": "Tujuan Wisata",
-        "categories": [
-            "Tujuan Wisata"
-        ],
-        "rating": 4.6,
-        "reviews": 989,
-        "address": "7X2V+HPR Telaga Biru, Sindangjaya, Kec. Cipanas, Kabupaten Cianjur, Jawa Barat 43253"
-    },
-    {
-        "place_id": "ChIJa9g-Z_ojby4RQ5c2SyTeqL4",
-        "name": "Obyek Wisata Alam Prabu Siliwangi (Situ Cipadung)",
-        "link": "https://www.google.com/maps/place/Obyek+Wisata+Alam+Prabu+Siliwangi+%28Situ+Cipadung%29/data=!4m7!3m6!1s0x2e6f23fa673ed86b:0xbea8de244b369743!8m2!3d-6.8268958!4d108.3402222!16s%2Fg%2F11bvt9rls1!19sChIJa9g-Z_ojby4RQ5c2SyTeqL4?authuser=0&hl=id&rclk=1",
-        "main_category": "Tujuan Wisata",
-        "categories": [
-            "Tujuan Wisata"
-        ],
-        "rating": 4.3,
-        "reviews": 932,
-        "address": "Obyek Wisata Alam Prabu Siliwangi (Situ Cipadung), Jl. Pajajar, Indrakila, Kec. Sindang, Kabupaten Majalengka, Jawa Barat 45471"
-    },
-    {
-        "place_id": "ChIJKwAvsrejaC4RX_94Sn8plgU",
-        "name": "Gunung Papandayan Garut",
-        "link": "https://www.google.com/maps/place/Gunung+Papandayan+Garut/data=!4m7!3m6!1s0x2e68a3b7b22f002b:0x596297f4a78ff5f!8m2!3d-7.3149002!4d107.7251744!16s%2Fg%2F11bwdgkp11!19sChIJKwAvsrejaC4RX_94Sn8plgU?authuser=0&hl=id&rclk=1",
-        "main_category": "Tujuan Wisata",
-        "categories": [
-            "Tujuan Wisata"
-        ],
-        "rating": 4.7,
-        "reviews": 912,
-        "address": "MPPG+23M Gunung Papandayan Garut, Karamat Wangi, Kec. Cisurupan, Kabupaten Garut, Jawa Barat 44163"
-    },
-    {
-        "place_id": "ChIJ7wx_iO0hby4RHplMdMqRphI",
-        "name": "Batu Luhur",
-        "link": "https://www.google.com/maps/place/Batu+Luhur/data=!4m7!3m6!1s0x2e6f21ed887f0cef:0x12a691ca744c991e!8m2!3d-6.8049286!4d108.4078989!16s%2Fg%2F11ckqrpcw9!19sChIJ7wx_iO0hby4RHplMdMqRphI?authuser=0&hl=id&rclk=1",
-        "main_category": "Tujuan Wisata",
-        "categories": [
-            "Tujuan Wisata"
-        ],
-        "rating": 4.3,
-        "reviews": 772,
-        "address": "5CW5+25C Batu Luhur, Padabeunghar, Kec. Pasawahan, Kabupaten Kuningan, Jawa Barat 45559"
-    },
-    {
-        "place_id": "ChIJO3vmDZFSby4Rs9Jy5G3UeJg",
-        "name": "Kawah Gunung Galunggung",
-        "link": "https://www.google.com/maps/place/Kawah+Gunung+Galunggung/data=!4m7!3m6!1s0x2e6f52910de67b3b:0x9878d46de472d2b3!8m2!3d-7.2569237!4d108.0782899!16s%2Fg%2F11bzyp7ky8!19sChIJO3vmDZFSby4Rs9Jy5G3UeJg?authuser=0&hl=id&rclk=1",
-        "main_category": "Tujuan Wisata",
-        "categories": [
-            "Tujuan Wisata"
-        ],
-        "rating": 4.6,
-        "reviews": 699,
-        "address": "Kawah Gunung Galunggung, Linggajati, Kec. Sukaratu, Kabupaten Tasikmalaya, Jawa Barat 46415"
-    },
-    {
-        "place_id": "ChIJYzSUd_4IaS4ROrS7xhhJC2o",
-        "name": "Wisata Alam Gunung Lembu Purwakarta",
-        "link": "https://www.google.com/maps/place/Wisata+Alam+Gunung+Lembu+Purwakarta/data=!4m7!3m6!1s0x2e6908fe77943463:0x6a0b4918c6bbb43a!8m2!3d-6.561579!4d107.3401785!16s%2Fg%2F11bc6z9j9p!19sChIJYzSUd_4IaS4ROrS7xhhJC2o?authuser=0&hl=id&rclk=1",
-        "main_category": "Tujuan Wisata",
-        "categories": [
-            "Tujuan Wisata",
-            "Area Mendaki"
-        ],
-        "rating": 4.5,
-        "reviews": 500,
-        "address": "C8QR+937 Wisata Alam Gunung Lembu Purwakarta, Panyindangan, Kec. Sukatani, Kabupaten Purwakarta, Jawa Barat 41167"
-    },
-    {
-        "place_id": "ChIJc9a6qQuWaC4RrqQXaaFG3rI",
-        "name": "Gunung Artapela",
-        "link": "https://www.google.com/maps/place/Gunung+Artapela/data=!4m7!3m6!1s0x2e68960ba9bad673:0xb2de46a16917a4ae!8m2!3d-7.1736744!4d107.6543213!16s%2Fg%2F11cn6bxbhf!19sChIJc9a6qQuWaC4RrqQXaaFG3rI?authuser=0&hl=id&rclk=1",
-        "main_category": "Tujuan Wisata",
-        "categories": [
-            "Tujuan Wisata"
-        ],
-        "rating": 4.5,
-        "reviews": 353,
-        "address": "RMG3+GPP Gunung Artapela, Sukapura, Kec. Kertasari, Kabupaten Bandung, Jawa Barat 40378"
-    },
-    {
-        "place_id": "ChIJ_____6weaS4RCTlN4bRN9wI",
-        "name": "Wisata Alam Pasir Langlang",
-        "link": "https://www.google.com/maps/place/Wisata+Alam+Pasir+Langlang/data=!4m7!3m6!1s0x2e691eacffffffff:0x2f74db4e14d3909!8m2!3d-6.6933022!4d107.5750773!16s%2Fg%2F11c6fbpq6l!19sChIJ_____6weaS4RCTlN4bRN9wI?authuser=0&hl=id&rclk=1",
-        "main_category": "Tujuan Wisata",
-        "categories": [
-            "Tujuan Wisata"
-        ],
-        "rating": 4.4,
-        "reviews": 187,
-        "address": "8H6G+34C Wisata Alam Pasir Langlang, Pusakamulya, Kec. Kiarapedes, Kabupaten Purwakarta, Jawa Barat 41175"
-    },
-    {
-        "place_id": "ChIJ3ZxG_285by4RD2Cd1xNhpL4",
-        "name": "Curug Cilutung",
-        "link": "https://www.google.com/maps/place/Curug+Cilutung/data=!4m7!3m6!1s0x2e6f396fff469cdd:0xbea46113d79d600f!8m2!3d-6.994111!4d108.297332!16s%2Fg%2F11c2nhc_g1!19sChIJ3ZxG_285by4RD2Cd1xNhpL4?authuser=0&hl=id&rclk=1",
-        "main_category": "Tujuan Wisata",
-        "categories": [
-            "Tujuan Wisata"
-        ],
-        "rating": 4.2,
-        "reviews": 167,
-        "address": "274W+9W4 Curug Cilutung, Talagakulon, Kec. Talaga, Kabupaten Majalengka, Jawa Barat 45463"
-    },
-    {
-        "place_id": "ChIJf1yq0iruaC4RiOdG1gntoOU",
-        "name": "Wisata Pinus Pananjung",
-        "link": "https://www.google.com/maps/place/Wisata+Pinus+Pananjung/data=!4m7!3m6!1s0x2e68ee2ad2aa5c7f:0xe5a0ed09d646e788!8m2!3d-6.9743149!4d107.4817428!16s%2Fg%2F11f0l4wsq4!19sChIJf1yq0iruaC4RiOdG1gntoOU?authuser=0&hl=id&rclk=1",
-        "main_category": "Tujuan Wisata",
-        "categories": [
-            "Tujuan Wisata"
-        ],
-        "rating": 4.4,
-        "reviews": 164,
-        "address": "2FGJ+7MH Wisata Pinus Pananjung, Dengkeng, Kidangpananjung, Kec. Cililin, Kabupaten Bandung Barat, Jawa Barat 40562"
-    },
-    {
-        "place_id": "ChIJQ_7Fk-6RaC4Rraf1BelGK0U",
-        "name": "Wisata CILEUNCA Pangalengan",
-        "link": "https://www.google.com/maps/place/Wisata+CILEUNCA+Pangalengan/data=!4m7!3m6!1s0x2e6891ee93c5fe43:0x452b46e905f5a7ad!8m2!3d-7.1933063!4d107.5500932!16s%2Fg%2F11h7ftp7z2!19sChIJQ_7Fk-6RaC4Rraf1BelGK0U?authuser=0&hl=id&rclk=1",
-        "main_category": "Tujuan Wisata",
-        "categories": [
-            "Tujuan Wisata"
-        ],
-        "rating": 4.4,
-        "reviews": 123,
-        "address": "Wisata CILEUNCA Pangalengan, Kp. Cibeunying, Ds, Warnasari, Kec. Pangalengan, Kabupaten Bandung, Jawa Barat 40378"
-    },
-    {
-        "place_id": "ChIJ2_AhTR8haS4RaaHP85jcSXc",
-        "name": "Desa Wisata Cibeusi",
-        "link": "https://www.google.com/maps/place/Desa+Wisata+Cibeusi/data=!4m7!3m6!1s0x2e69211f4d21f0db:0x7749dc98f3cfa169!8m2!3d-6.7411836!4d107.6726945!16s%2Fg%2F11h464xx0x!19sChIJ2_AhTR8haS4RaaHP85jcSXc?authuser=0&hl=id&rclk=1",
-        "main_category": "Tujuan Wisata",
-        "categories": [
-            "Tujuan Wisata"
-        ],
-        "rating": 4.6,
-        "reviews": 82,
-        "address": "7M5F+G3G Desa Wisata Cibeusi, Jl. Cibeusi, Nagrak, Kec. Ciater, Kabupaten Subang, Jawa Barat 41281"
-    },
-    {
-        "place_id": "ChIJi4eLD1ThaC4Rp3OVgp2_mBI",
-        "name": "Wisata Maribaya",
-        "link": "https://www.google.com/maps/place/Wisata+Maribaya/data=!4m7!3m6!1s0x2e68e1540f8b878b:0x1298bf9d829573a7!8m2!3d-6.8272929!4d107.6665759!16s%2Fg%2F11p01xypxd!19sChIJi4eLD1ThaC4Rp3OVgp2_mBI?authuser=0&hl=id&rclk=1",
-        "main_category": "Tujuan Wisata",
-        "categories": [
-            "Tujuan Wisata"
-        ],
-        "rating": 4.7,
-        "reviews": 56,
-        "address": "5MF8+3JP Wisata Maribaya, Jl. Maribaya, Cibodas, Kec. Lembang, Kabupaten Bandung Barat, Jawa Barat 40391"
-    }
+  {
+    "place_id": "ChIJ2VHL24vhaC4RnrFGI1jv3YY",
+    "name": "Dusun Bambu",
+    "link": "https://www.google.com/maps/place/Dusun+Bambu/data=!4m10!3m9!1s0x2e68e18bdbcb51d9:0x86ddef582346b19e!5m2!4m1!1i2!8m2!3d-6.7905049!4d107.5778343!16s%2Fg%2F12hssxwmh!19sChIJ2VHL24vhaC4RnrFGI1jv3YY?authuser=0&hl=id&rclk=1",
+    "main_category": "Tujuan Wisata",
+    "categories": [
+      "Tujuan Wisata",
+      "Wahana Taman Hiburan",
+      "Park and ride",
+      "Hotel Resor",
+      "Restoran"
+    ],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipN_oVWxcuFlh8KGka1gTninFynqJJ6YEMDGQ4-M=w426-h240-k-no",
+    "rating": 4.5,
+    "about": "Dusun Bambu menawarkan one stop Leisure di lahan seluas 15 hektar yang terletak di kaki Gunung Burangrang. Dari pengalaman kuliner di empat restoran tematik, atau pelarian yang tenang di resor kami (pondok tradisional dan glamping), hingga menjelajahi alam dengan aktivitas menarik seperti Sampan Sangkuring, We Family Playground, Water Coaster, Electric Scooter, Little Zoo, Shooting Target , dan Go Kart. Nikmati pemandangan hijau, alam, dan udara segar selama berkunjung. Di akhir pekan, saksikan pertunjukan musik tradisional Sunda – Kecapi Suling & Wayang Golek untuk melengkapi perjalanan akhir pekan Anda di Dusun Bambu.",
+    "reviews": 28918,
+    "address": "Dusun Bambu, Jl. Kolonel Masturi No.KM. 11, Kertawangi, Kec. Cisarua, Kabupaten Bandung Barat, Jawa Barat 40551"
+  },
+  {
+    "place_id": "ChIJeUGDdCvnaC4RX24Dt0esfD4",
+    "name": "Dago Dreampark",
+    "link": "https://www.google.com/maps/place/Dago+Dreampark/data=!4m7!3m6!1s0x2e68e72b74834179:0x3e7cac47b7036e5f!8m2!3d-6.8486423!4d107.625939!16s%2Fg%2F11b_23qvxh!19sChIJeUGDdCvnaC4RX24Dt0esfD4?authuser=0&hl=id&rclk=1",
+    "main_category": "Tujuan Wisata",
+    "categories": ["Tujuan Wisata", "Pusat Rekreasi", "Taman Hiburan"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipOSTQ0ir0E-rsVu9HU2metv0PooYkf0ssTsGb3q=w408-h272-k-no",
+    "rating": 4.2,
+    "about": "Dago Dreampark, yang terletak di Dago, Bandung, Indonesia, merupakan destinasi rekreasi yang menyajikan pengalaman seru bagi keluarga dan pengunjung dari berbagai usia. Dengan beragam wahana permainan yang dirancang untuk anak-anak, taman ini menciptakan atmosfer yang ramah keluarga. Selain wahana permainan, kebun binatang mini di dalamnya memberikan kesempatan bagi pengunjung untuk berinteraksi dengan binatang kecil, menambahkan unsur pendidikan dan hiburan.",
+    "reviews": 18457,
+    "address": "Dago Dreampark, Mekarwangi, Jl. Dago Giri No.Km. 2.2, Pagerwangi, Kec. Lembang, Kabupaten Bandung Barat, Jawa Barat 40135"
+  },
+  {
+    "place_id": "ChIJAbspL_PjaC4RGwfytELeq50",
+    "name": "Alam Wisata Cimahi",
+    "link": "https://www.google.com/maps/place/Alam+Wisata+Cimahi/data=!4m7!3m6!1s0x2e68e3f32f29bb01:0x9dabde42b4f2071b!8m2!3d-6.840959!4d107.5512281!16s%2Fg%2F11gzx4h5q!19sChIJAbspL_PjaC4RGwfytELeq50?authuser=0&hl=id&rclk=1",
+    "main_category": "Hotel Resor",
+    "categories": [
+      "Hotel",
+      "Taman bermain",
+      "Restoran",
+      "Kolam Renang",
+      "Tujuan Wisata"
+    ],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipM1UWwb7gTjZAuclvv9DF-MukmOSu8tBdh5z6Pk=w408-h273-k-no",
+    "rating": 4.2,
+    "about": "Alam Wisata Cimahi memiliki konsep wisata yang menggabungkan kuliner, peternakan dan edukasi pertanian. AWC didirikan oleh CV. Kebun Tani Anugrah pada tanggal 18 Oktober 2009 dan diresmikan langsung oleh bapak walikota Cimahi. Pada awal pembukaan, konsep wisata yang diusung adalah wisata kuliner seperti rumah makan dengan pilihan menu andalan seperti masana sunda, chinese dan modern, ditemani oleh suasana alam pegunungan.",
+    "reviews": 4868,
+    "address": "Alam Wisata Cimahi, Jalan Kolonel Masturi KM.4 No.157, Cipageran, Kec. Cimahi Utara, Kota Cimahi, Jawa Barat 40511"
+  },
+  {
+    "place_id": "ChIJQbOiLW6RaC4RiksSLDjy9eg",
+    "name": "Situ Cileunca Pangalengan Bandung",
+    "link": "https://www.google.com/maps/place/Situ+Cileunca+Pangalengan+Bandung/data=!4m7!3m6!1s0x2e68916e2da2b341:0xe8f5f2382c124b8a!8m2!3d-7.1896766!4d107.5531164!16s%2Fg%2F11g18vx44q!19sChIJQbOiLW6RaC4RiksSLDjy9eg?authuser=0&hl=id&rclk=1",
+    "main_category": "Tujuan Wisata",
+    "categories": ["Tujuan Wisata", "Pusat Informasi Pariwisata"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipMTyr_MFX0RsbEqxgTBr9cIOW25VSiq5hNTFXQZ=w427-h240-k-no",
+    "rating": 4.6,
+    "about": "Situ Cileunca merupakan sebuah danau yang terletak di Pangalengan, Bandung, Jawa Barat, Indonesia. Situ Cileunca menawarkan pesona alam yang menakjubkan dengan pemandangan danau yang indah dikelilingi oleh hutan hijau dan perbukitan. Daerah sekitar danau ini dikenal sebagai Pangalengan, yang terkenal dengan keindahan alamnya. Situ Cileunca sering dijadikan destinasi wisata alam bagi pengunjung yang ingin menikmati ketenangan dan keindahan alam. Aktivitas yang populer di sekitar danau melibatkan perahu dayung, sehingga pengunjung dapat menikmati suasana tenang danau sambil menikmati pemandangan sekitar.",
+    "reviews": 2588,
+    "address": "Situ Cileunca Pangalengan Bandung, Jl. Situ Cileunca, Pulosari, Kec. Pangalengan, Kabupaten Bandung, Jawa Barat 40378"
+  },
+  {
+    "place_id": "ChIJHd5-ovUlZi4RfJCX7LqJdQQ",
+    "name": "PUNCAK GUHA",
+    "link": "https://www.google.com/maps/place/PUNCAK+GUHA/data=!4m7!3m6!1s0x2e6625f5a27ede1d:0x47589baec97907c!8m2!3d-7.5362574!4d107.4971417!16s%2Fg%2F11btt9dlpz!19sChIJHd5-ovUlZi4RfJCX7LqJdQQ?authuser=0&hl=id&rclk=1",
+    "main_category": "Tujuan Wisata",
+    "categories": ["Tujuan Wisata"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipPl5VH99rb-VQpH6__5oKa6pWH0OC_CuzuW5bAM=w426-h240-k-no",
+    "rating": 4.5,
+    "about": "Puncak Guha Garut Bungbulang Jawa Barat memberikan pesona alam yang majestic untuk para wisatawan, khususnya pecinta alam. Destinasi wisata ini sangat cocok untuk menjadi tujuan wisata di akhir pekan bersama teman-teman. Bukit hijau yang berada di atas gua ini memang sangat mengesankan dengan banyak pepohonan dan hamparan rumput. Yang membuatnya unik adalah letaknya yang menjorok ke tepian laut lepas. Panorama alamnya memang tiada duanya. Bagi pecinta fotografi atau spot foto instagramable, tempat wisata di Jawa Barat ini adalah surga. Paduan ciamik antara bukit, laut, dan view langitnya sungguh sempurna.",
+    "reviews": 2511,
+    "address": "PUNCAK GUHA, Sinarjaya, Kec. Bungbulang, Kabupaten Garut, Jawa Barat 44165"
+  },
+  {
+    "place_id": "ChIJ5Qwef2qvaS4R1jJTqZ-1Rmo",
+    "name": "Wana Wisata Rusa Tanjungsari",
+    "link": "https://www.google.com/maps/place/Wana+Wisata+Rusa+Tanjungsari/data=!4m7!3m6!1s0x2e69af6a7f1e0ce5:0x6a46b59fa95332d6!8m2!3d-6.6366142!4d107.1722679!16s%2Fg%2F11b7q2pgzv!19sChIJ5Qwef2qvaS4R1jJTqZ-1Rmo?authuser=0&hl=id&rclk=1",
+    "main_category": "Perlindungan Margasatwa",
+    "categories": ["Perlindungan Margasatwa", "Tujuan Wisata"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipM1KJDAB2wIh1gKItGFbESnZ3iA53jOA0yM9QW1=w426-h240-k-nohttps://lh5.googleusercontent.com/p/AF1QipM1KJDAB2wIh1gKItGFbESnZ3iA53jOA0yM9QW1=w426-h240-k-no",
+    "rating": 4.1,
+    "about": "Wana Wisata Rusa Tanjungsari terletak di daerah Tanjungsari, Kabupaten Sumedang, Jawa Barat, Indonesia. Tempat ini dikenal karena memiliki hutan yang menjadi habitat bagi sejumlah rusa. Wana Wisata Rusa Tanjungsari menawarkan pengunjung kesempatan untuk menikmati alam dan melihat rusa di habitat asli mereka. Pengunjung mungkin dapat melakukan kegiatan seperti berjalan-jalan di sekitar area hutan, berfoto dengan rusa, atau hanya menikmati keindahan alam sekitar. Beberapa tempat wisata yang berfokus pada kelestarian alam juga sering kali menawarkan edukasi tentang konservasi dan perlindungan satwa liar.",
+    "reviews": 1215,
+    "address": "Wana Wisata Rusa Tanjungsari, Buanajaya, Tanjungsari, Buanajaya, Kec. Tanjungsari, Kabupaten Bogor, Jawa Barat 16840"
+  },
+  {
+    "place_id": "ChIJA7kJYlS6aC4R-RIotxXBHKc",
+    "name": "Desa Wisata Saung Ciburial",
+    "link": "https://www.google.com/maps/place/Desa+Wisata+Saung+Ciburial/data=!4m7!3m6!1s0x2e68ba546209b903:0xa71cc115b72812f9!8m2!3d-7.2051038!4d107.8133775!16s%2Fg%2F11c0vyr089!19sChIJA7kJYlS6aC4R-RIotxXBHKc?authuser=0&hl=id&rclk=1",
+    "main_category": "Tujuan Wisata",
+    "categories": ["Tujuan Wisata", "Pusat kebudayaan"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipPYCRj_bUl1cjyABPKRxRsoajY-hxz6-BIpXnmp=w434-h240-k-no",
+    "rating": 4.5,
+    "about": "Desa Wisata Saung Ciburial yang terletak di Desa Sukalaksana Kecamatan Samarang Kabupaten Garut Provinsi Jawa Barat, mengusung tema Wisata Edukasi dan Ecowisata berbasis kearifan lokal, dimana pengunjung bukan hanya menikmati berbagai sajian atraksi paket wisata yang ditawarkan, melainkan juga dapat belajar untuk mengenal lebih jauh mengenai segala potensi desa dalam berbagai aspek,  Paket wisata yang ditawarkan di Desa Wisata Saung Ciburial Sukalaksana murni menyajikan tentang desa dengan mengemas berbagai potensi alam, budaya, sosial, serta kegiatan keseharian warganya. Berkunjung ke Desa Wisata Saung Ciburial kita diajak untuk menikmati suasana pulang kampung dengan segala kebersahajaannya",
+    "reviews": 596,
+    "address": "Desa Wisata Saung Ciburial, Sukalaksana, Kec. Samarang, Kabupaten Garut, Jawa Barat 44161"
+  },
+  {
+    "place_id": "ChIJo82jZk-WaC4RA3QRvVJ0w-E",
+    "name": "Kawah Wayang",
+    "link": "https://www.google.com/maps/place/Kawah+Wayang/data=!4m7!3m6!1s0x2e68964f66a3cda3:0xe1c37452bd117403!8m2!3d-7.2069313!4d107.6373723!16s%2Fg%2F11c1tyvhh7!19sChIJo82jZk-WaC4RA3QRvVJ0w-E?authuser=0&hl=id&rclk=1",
+    "main_category": "Tujuan Wisata",
+    "categories": ["Tujuan Wisata"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipO623zqGt_HH-rkuaMXSf9WzqTtd5JON2RIBuEc=w426-h240-k-no",
+    "rating": 4.6,
+    "about": "Lokasi kawah wayang ini mudah di ketahui, ketika wisatawan melihat papan bertuliskan perkebunan teh kertamanah. Masuk ke area perkebunan tersebut, karena kalau wisatawan belok ke kanan maka akan mengarah ke kota pangalengan nya. Ikuti jalan sepanjang perkebunan hingga bertemu dengan papan tulisan bertulis kan geothermal wayang windu, bisa naik ke atas mengikuti jalan yang rata-rata bebatuan kecil. Terus naik kurang lebih 1 km, sebelah sisi kiri terlihat spanduk bertuliskan kawah wayang.",
+    "reviews": 560,
+    "address": "Kawah Wayang, Sukamanah, Kec. Pangalengan, Kabupaten Bandung, Jawa Barat 40378"
+  },
+  {
+    "place_id": "ChIJrZMq_VrhaC4RjvaH06iyNa0",
+    "name": "The Great Asia Africa",
+    "link": "https://www.google.com/maps/place/The+Great+Asia+Africa/data=!4m7!3m6!1s0x2e68e15afd2a93ad:0xad35b2a8d387f68e!8m2!3d-6.8329768!4d107.6044676!16s%2Fg%2F11j40w1gcp!19sChIJrZMq_VrhaC4RjvaH06iyNa0?authuser=0&hl=id&rclk=1",
+    "main_category": "Tujuan Wisata",
+    "categories": ["Tujuan Wisata"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipPmF7_J1GI3ObxmTxr-DajACQO_TlUSlM0sUPuR=w408-h544-k-no",
+    "rating": 4.5,
+    "about": "Tempat wisata Lembang ini menawarkan keindahan 7 negara dari 2 benua, yaitu Indonesia, Thailand, Korea, Jepang, India, Timur Tengah, dan Afrika. Bukan hanya monumen-monumen kebudayaan saja, Moms juga bisa menyewa pakaian tradisional dari negara-negara tersebut, lho! Dengan tarif sewa per jam yang terjangkau, coba rasakan sensasi menjadi orang Korea dengan baju Hanbok yang cantik, baju Saree khas India, atau Kimono khas Jepang.  Selain terkenal dengan bangunan-bangunan ikoniknya, The Great Asia Africa juga menjadi tempat yang cocok untuk mencoba hal-hal baru Mulai dari melukis wajah, cosplay, hingga mengikuti workshop yang sedang berlangsung",
+    "reviews": 19375,
+    "address": "The Great Asia Africa, Jl. Raya Lembang - Bandung No.71, Gudangkahuripan, Kec. Lembang, Kabupaten Bandung Barat, Jawa Barat 40391"
+  },
+  {
+    "place_id": "ChIJ3Xt4mJ-2aS4RBJVJ6fIjD3M",
+    "name": "Riung Gunung",
+    "link": "https://www.google.com/maps/place/Riung+Gunung/data=!4m7!3m6!1s0x2e69b69f98787bdd:0x730f23f2e9499504!8m2!3d-6.7022557!4d106.9807365!16s%2Fg%2F1hm1_nfh4!19sChIJ3Xt4mJ-2aS4RBJVJ6fIjD3M?authuser=0&hl=id&rclk=1",
+    "main_category": "Tujuan Wisata",
+    "categories": ["Tujuan Wisata"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipOy4yCSBfecO0nmhk26Ms4QI5cbv3x-fLgC0k0Y=w408-h306-k-no",
+    "rating": 4.5,
+    "about": "Riung Gunung Pengalengan adalah destinasi wisata alam di Bandung yang sedang hits. Di sini, kita dapat menjumpai hamparan kebun teh yang tertata indah, dengan pemandangan alam yang menyejukkan mata. Saking indahnya, Riung Gunung Pengalengan sering dijuluki Swiss-nya Bandung, lho! Kata “riung” dalam nama Riung Gunung diambil dari bahasa Sunda, yang artinya berkumpul saling berhadap-hadapan. Jadi, nama Riung Gunung berarti gunung-gunung yang berkumpul atau saling berhadapan. Area ini cukup luas hingga beberapa kilometer, dengan ketinggian sekitar 1500 mdpl. Hamparan kebun tehnya memiliki luas sekitar 30 hektar. Di destinasi wisata ini, pengunjung bisa merasakan udara sejuk pegunungan, dan hamparan kebun teh yang indah. Sangat cocok dikunjungi saat butuh suasana alam setelah lelah dengan berbagai pekerjaan. Tak heran jika Riung Gunung Pengalengan selalu ramai dikunjungi saat momen liburan.",
+    "reviews": 13398,
+    "address": "7XXJ+37X Riung Gunung, Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat 16750"
+  },
+  {
+    "place_id": "ChIJ-9TUV_Idby4RPRDxH--iTo0",
+    "name": "Taman Wisata Goa Sunyaragi Cirebon",
+    "link": "https://www.google.com/maps/place/Taman+Wisata+Goa+Sunyaragi+Cirebon/data=!4m7!3m6!1s0x2e6f1df257d4d4fb:0x8d4ea2ef1ff1103d!8m2!3d-6.737365!4d108.542758!16s%2Fg%2F120s1tt4!19sChIJ-9TUV_Idby4RPRDxH--iTo0?authuser=0&hl=id&rclk=1",
+    "main_category": "Bangunan Bersejarah",
+    "categories": ["Bangunan Bersejarah", "Museum", "Taman", "Tujuan Wisata"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipMdyeqekZcEjMA6DfZgutGX0Bpt5K3AKlKmNy0a=w426-h240-k-no",
+    "rating": 4.4,
+    "about": "Taman Wisata Goa Sunyaragi di Cirebon, Jawa Barat, menawarkan pengunjungnya sebuah perjalanan melintasi masa lalu yang kaya sejarah. Dengan kompleks goa buatan dan bangunan-bangunan bersejarah yang memukau, tempat ini tidak hanya menjadi destinasi rekreasi tetapi juga menjadi saksi bisu perpaduan seni arsitektur klasik Jawa dan ukiran-ukiran artistik. Dinding-dinding goa dipahat dengan cerita-cerita kehidupan sehari-hari, mitologi, dan seni tradisional, menciptakan suasana yang memesona dan memikat bagi para pengunjung yang tertarik dengan warisan budaya Indonesia.",
+    "reviews": 12015,
+    "address": "Taman Wisata Goa Sunyaragi Cirebon, Sunyaragi, Kec. Kesambi, Kota Cirebon, Jawa Barat 45132"
+  },
+  {
+    "place_id": "ChIJOTnwNd3maC4Ru0Ut3IXNDDI",
+    "name": "Rabbit Town",
+    "link": "https://www.google.com/maps/place/Rabbit+Town/data=!4m7!3m6!1s0x2e68e6dd35f03939:0x320ccd85dc2d45bb!8m2!3d-6.867143!4d107.609963!16s%2Fg%2F11hbmtcdh9!19sChIJOTnwNd3maC4Ru0Ut3IXNDDI?authuser=0&hl=id&rclk=1",
+    "main_category": "Tujuan Wisata",
+    "categories": ["Tujuan Wisata"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipPduoAq0vlGsvrQ-cSIScA6Rcyv56xMgBdrdBZM=w408-h306-k-no",
+    "rating": 4,
+    "about": " Tempat ini terkenal karena memiliki tema kelinci, dan pengunjung dapat menikmati berbagai wahana permainan serta berinteraksi dengan kelinci yang lucu dan ramah. Rabbit Town menawarkan berbagai kegiatan yang cocok untuk keluarga, termasuk bermain-main dengan kelinci, berfoto dengan hewan-hewan yang lucu, dan menikmati wahana permainan yang menarik. Wahana-wahana tersebut meliputi atraksi seperti rumah kelinci, luncur air, dan berbagai permainan lainnya yang dirancang untuk menghibur anak-anak dan keluarga.",
+    "reviews": 6734,
+    "address": "Rabbit Town, Jl. Rancabentang No.30-32, Ciumbuleuit, Kec. Cidadap, Kota Bandung, Jawa Barat 40142"
+  },
+  {
+    "place_id": "ChIJSZh4eiXmaC4RAUPOmyG32uk",
+    "name": "Plaza Cikapundung River Spot",
+    "link": "https://www.google.com/maps/place/Plaza+Cikapundung+River+Spot/data=!4m7!3m6!1s0x2e68e6257a789849:0xe9dab7219bce4301!8m2!3d-6.9200921!4d107.6088457!16s%2Fg%2F11cjvj8t3s!19sChIJSZh4eiXmaC4RAUPOmyG32uk?authuser=0&hl=id&rclk=1",
+    "main_category": "Taman Kota",
+    "categories": ["Taman Kota", "Tujuan Wisata"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipP8ZrDhgVE84ZVesUfY5W0vAnaxiDVATfnZFqT0=w423-h240-k-no",
+    "rating": 4.4,
+    "about": "Cikapundung River Spot, begitu Ridwan Kamil memberi nama tempat cantik ini. Dengan merujuk gaya penataan Eropa, Cikapundung River Spot jadi tempat selfie cantik apalagi di malam hari. Penataan trotoar yang dilengkapi dengan bangku cantik dan pot kembang besar terinspirasi gaya penataan ruang public di Cannes, Perancis. Tiang-tiang lampu yang dipasang di dekat Cikapundung River Spot samping Konferensi Asia Afrika terinspirasi gaya ala Venezia dan Italia. Tiang lampu berwarna hitam ini dihiasi besi berbentuk tanaman rambat dan puncak tiangnya terdapat patung macan ukuran kecil dengan warna yang sama. Penataan lampu di Cikapundung River Spot terinspirasi gaya lampu di Praha, Ceko.",
+    "reviews": 5238,
+    "address": "3JH5+XG9 Plaza Cikapundung River Spot, Jl. Dr. Ir. Sukarno, Braga, Kec. Sumur Bandung, Kota Bandung, Jawa Barat 40111"
+  },
+  {
+    "place_id": "ChIJ7bjao1n8aC4Ro5xdaKfIDnI",
+    "name": "Stone Garden Citatah",
+    "link": "https://www.google.com/maps/place/Stone+Garden+Citatah/data=!4m7!3m6!1s0x2e68fc59a3dab8ed:0x720ec8a7685d9ca3!8m2!3d-6.8244669!4d107.438256!16s%2Fg%2F11cl_54f46!19sChIJ7bjao1n8aC4Ro5xdaKfIDnI?authuser=0&hl=id&rclk=1",
+    "main_category": "Tujuan Wisata",
+    "categories": ["Tujuan Wisata", "Taman"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipOe8BXsENYiRQvzaR1BsWoRHdL-_fgSI69f6MBY=w426-h240-k-no",
+    "rating": 4.4,
+    "about": "Stone Garden Citatah yang punya taman bebatuan purba yang ciamik! Bebatuan raksasa ini ditemukan oleh anggota penelitian asal ITB pada 2000, kemudian diresmikan jadi tempat wisata oleh pemerintah setempat. Masyarakat percaya bebatuan karst ini dulunya adalah dasar laut yang mengalami kenaikan daratan, sehingga terbentuklah bukit dengan bebatuan karang seperti sekarang.",
+    "reviews": 3753,
+    "address": "Stone Garden Citatah, Gunung Masigit, Citatah, Kec. Cipatat, Kabupaten Bandung Barat, Jawa Barat 40554"
+  },
+  {
+    "place_id": "ChIJU05Hjy_maC4R8t_TcAfptxI",
+    "name": "Taman Braga",
+    "link": "https://www.google.com/maps/place/Taman+Braga/data=!4m7!3m6!1s0x2e68e62f8f474e53:0x12b7e90770d3dff2!8m2!3d-6.9198719!4d107.6100633!16s%2Fg%2F11bw66sbny!19sChIJU05Hjy_maC4R8t_TcAfptxI?authuser=0&hl=id&rclk=1",
+    "main_category": "Tujuan Wisata",
+    "categories": ["Tujuan Wisata"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipNu8U44L_z14qaypWmvzWifUJHEyIWv4aDm440t=w426-h240-k-no",
+    "rating": 4.6,
+    "about": " Braga adalah salah satu kawasan yang penuh sejarah dan keindahan di Kota Bandung Dikenal dengan suasana Belanda tempo dulu yang masih terasa kuat, menyajikan pesona khususnya di kawasan Jalan Braga, sebuah Jalan Bersejarah dan menawarkan beragam daya tarik wisata dan kuliner di sekitarnya yang tidak boleh dilewatkan.",
+    "reviews": 3696,
+    "address": "Taman Braga, Jl. Ustadz Abdul Somad LC. No.12, Braga, Kec. Sumur Bandung, Kota Bandung, Jawa Barat 40111"
+  },
+  {
+    "place_id": "ChIJ_Rd4PpLcaC4RhcOYyolmwK4",
+    "name": "Wisata Batu Kuda",
+    "link": "https://www.google.com/maps/place/Wisata+Batu+Kuda/data=!4m7!3m6!1s0x2e68dc923e7817fd:0xaec06689ca98c385!8m2!3d-6.8930812!4d107.7451856!16s%2Fg%2F11bxgbfpt3!19sChIJ_Rd4PpLcaC4RhcOYyolmwK4?authuser=0&hl=id&rclk=1",
+    "main_category": "Tujuan Wisata",
+    "categories": ["Tujuan Wisata", "Taman"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipMNIx613KzpxA18A2ExpmqJqU6uA0tjOgJZSfcf=w408-h408-k-no",
+    "rating": 4.5,
+    "about": "Wisata Batu Kuda merupakan destinasi wisata alam di Bandung Timur yang punya suasana teduh dan tenang Tempat ini hadir dengan hamparan pohon pinus dan sejumlah kegiatan menarik. Gak heran, jika Wisata Batu Kuda selalu ramai dikunjungi, khususnya pada akhir pekan dan waktu liburan. Kamu pun bisa mengunjungi tempat ini jika sedang butuh rekomendasi tempat refreshing atau sekadar pengin foto-foto. Apalagi di sini terdapat camping ground serta gardu pandang yang dapat digunakan untuk melihat alam Bandung.",
+    "reviews": 3420,
+    "address": "Wisata Batu Kuda, Cibiru Wetan, Kec. Cileunyi, Kabupaten Bandung, Jawa Barat 40625"
+  },
+  {
+    "place_id": "ChIJbQVnEInhaC4RoiM0rVc9stg",
+    "name": "Kebun Teh Ciater - Subang",
+    "link": "https://www.google.com/maps/place/Kebun+Teh+Ciater+-+Subang/data=!4m7!3m6!1s0x2e68e1891067056d:0xd8b23d57ad3423a2!8m2!3d-6.7719217!4d107.6371437!16s%2Fg%2F11g0_89n04!19sChIJbQVnEInhaC4RoiM0rVc9stg?authuser=0&hl=id&rclk=1",
+    "main_category": "Tujuan Wisata",
+    "categories": ["Tujuan Wisata"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipOa0i6-KHwp-VH-YAJwHTT6B0yiqtZ7vX4hNhQI=w426-h240-k-no",
+    "rating": 4.6,
+    "about": "Kebun Teh Ciater yang terletak di Subang, Jawa Barat, Indonesia, merupakan salah satu destinasi wisata yang menarik bagi pengunjung yang ingin menikmati pesona kebun teh dan udara segar pegunungan. Berlokasi di perbukitan Subang, kebun teh ini menawarkan pemandangan hijau yang memukau dengan kebun teh yang membentang luas. Pengunjung dapat menjelajahi kebun teh yang indah ini, berfoto di tengah-tengah ladang teh yang terhampar, dan menikmati suasana alam yang tenang. Di beberapa tempat, mungkin ada fasilitas untuk menyaksikan proses pengolahan daun teh menjadi produk teh yang siap konsumsi.",
+    "reviews": 2733,
+    "address": "6JHP+6VJ Kebun Teh Ciater - Subang, Ciater, Kec. Ciater, Kabupaten Subang, Jawa Barat 41281"
+  },
+  {
+    "place_id": "ChIJ-VxvzIm0aS4RAsfvwBUEBf8",
+    "name": "Telaga Biru",
+    "link": "https://www.google.com/maps/place/Telaga+Biru/data=!4m7!3m6!1s0x2e69b489cc6f5cf9:0xff050415c0efc702!8m2!3d-6.7485153!4d106.9942597!16s%2Fg%2F11hbpkh0v0!19sChIJ-VxvzIm0aS4RAsfvwBUEBf8?authuser=0&hl=id&rclk=1",
+    "main_category": "Tujuan Wisata",
+    "categories": ["Tujuan Wisata"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipMHh4K1hXuW6-6RVxCgr13vOR4oIkQAFgUDB7RE=w408-h316-k-no",
+    "rating": 4.6,
+    "about": "Telaga Biru Cicerem memikat hati banyak pengunjung, dan membuatnya menjadi destinasi viral di media sosial. Terletak di Kuningan, Jawa Barat, dan bertengger di kaki gunung Ceremai, telaga ini tidak hanya menawarkan keindahan alam yang menakjubkan dengan air berwarna biru cerah, tetapi juga menyimpan jejak sejarah yang menarik. Dengan keindahan alamnya yang menakjubkan dan jejak sejarah yang kaya, Telaga Biru Cicerem telah berkembang menjadi destinasi wisata populer di Jawa Barat. Pengunjung tidak hanya dapat menikmati pesona alam, tetapi juga merasakan nuansa mistis dan spiritual yang mengelilingi telaga ",
+    "reviews": 989,
+    "address": "7X2V+HPR Telaga Biru, Sindangjaya, Kec. Cipanas, Kabupaten Cianjur, Jawa Barat 43253"
+  },
+  {
+    "place_id": "ChIJa9g-Z_ojby4RQ5c2SyTeqL4",
+    "name": "Obyek Wisata Alam Prabu Siliwangi (Situ Cipadung)",
+    "link": "https://www.google.com/maps/place/Obyek+Wisata+Alam+Prabu+Siliwangi+%28Situ+Cipadung%29/data=!4m7!3m6!1s0x2e6f23fa673ed86b:0xbea8de244b369743!8m2!3d-6.8268958!4d108.3402222!16s%2Fg%2F11bvt9rls1!19sChIJa9g-Z_ojby4RQ5c2SyTeqL4?authuser=0&hl=id&rclk=1",
+    "main_category": "Tujuan Wisata",
+    "categories": ["Tujuan Wisata"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipONlcGDX40ubO73fVbiUfHFMo9JJbLQDlJ74pA2=w427-h240-k-no",
+    "rating": 4.3,
+    "about": "Destinasi wisata yang berada tepatnya di Desa Pajajar, Kecamatan Rajagaluh ini sajikan tempat rekreasi keluarga sekaligus wisata religi bagi para pengunjungnya. Untuk wisata rekreasinya, pengunjung akan disuguhkan kejernihan air yang membentang luas dengan kawanan ikan cantik menghiasi telaga itu. Di bagian tengahnya berdiri sebuah patung ikan yang mengeluarkan air mancur dari mulutnya. Ukurannya tak terlalu besar, namun mampu membuat wisatawan tertarik akan keberadaanya. Selain itu terdapat pemandangan hijaunya daun dari pepohonan yang tumbuh di sekitarnya menambah suasana alam yang tersaji begitu sejuk dan indah, sehingga pengunjung akan merasa nyaman dibuatnya.",
+    "reviews": 932,
+    "address": "Obyek Wisata Alam Prabu Siliwangi (Situ Cipadung), Jl. Pajajar, Indrakila, Kec. Sindang, Kabupaten Majalengka, Jawa Barat 45471"
+  },
+  {
+    "place_id": "ChIJKwAvsrejaC4RX_94Sn8plgU",
+    "name": "Gunung Papandayan Garut",
+    "link": "https://www.google.com/maps/place/Gunung+Papandayan+Garut/data=!4m7!3m6!1s0x2e68a3b7b22f002b:0x596297f4a78ff5f!8m2!3d-7.3149002!4d107.7251744!16s%2Fg%2F11bwdgkp11!19sChIJKwAvsrejaC4RX_94Sn8plgU?authuser=0&hl=id&rclk=1",
+    "main_category": "Tujuan Wisata",
+    "categories": ["Tujuan Wisata"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipN38gQeOSKxgWNCJ0eisKENuAicPD72p2Gt7DGc=w408-h306-k-no",
+    "rating": 4.7,
+    "about": "Gunung Papandayan Garut dibuka untuk kunjungan wisata di Bulan Desember tahun 2022 ini untuk Rekreasi Reguler, Camping, Penelitian, maupun Pendakian. Jam operasional buka mulai pk.07.00 dan tutup pk.18.00 WIB. Gunung Papandayan Garut, sebuah gunung strato volcano aktif yang berlokasi di Kecamatan Cisupan Kabupaten Garut Provinsi Jawa Barat Indonesia. Gunung Papandayan memiliki Ketinggian kurang lebih 2655 MDPL dan berada sekitar 70 km dari Kota Bandung sebagai Ibukota Provinsi Jawa Barat. Gunung Papandayan Garut dibuka sebagai kawasan wisata alam sejak zaman Penjajahan Belanda. ",
+    "reviews": 912,
+    "address": "MPPG+23M Gunung Papandayan Garut, Karamat Wangi, Kec. Cisurupan, Kabupaten Garut, Jawa Barat 44163"
+  },
+  {
+    "place_id": "ChIJ7wx_iO0hby4RHplMdMqRphI",
+    "name": "Batu Luhur",
+    "link": "https://www.google.com/maps/place/Batu+Luhur/data=!4m7!3m6!1s0x2e6f21ed887f0cef:0x12a691ca744c991e!8m2!3d-6.8049286!4d108.4078989!16s%2Fg%2F11ckqrpcw9!19sChIJ7wx_iO0hby4RHplMdMqRphI?authuser=0&hl=id&rclk=1",
+    "main_category": "Tujuan Wisata",
+    "categories": ["Tujuan Wisata"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipPRp60LhVDlpMBF-ArwuEfbXUXSpPOCUfybuwaW=w426-h240-k-no",
+    "rating": 4.3,
+    "about": "Terletak di daerah pegunungan yang mempesona, Batu Luhur menawarkan pesona alam yang luar biasa dengan pemandangan yang menakjubkan. Batu Luhur terletak di sebuah desa kecil di lereng Gunung Gede, Jawa Barat. Dengan ketinggian sekitar 1.200 meter di atas permukaan laut, tempat ini menawarkan udara segar dan suasana yang menenangkan. Saat Anda tiba di Batu Luhur, Anda akan langsung terpesona oleh keindahan alamnya. Pemandangan yang memukau meliputi lembah hijau yang luas, pepohonan yang rindang, serta suara gemericik air yang mengalir di sungai-sungai kecil. Salah satu atraksi utama di Batu Luhur adalah Batu Bantal.",
+    "reviews": 772,
+    "address": "5CW5+25C Batu Luhur, Padabeunghar, Kec. Pasawahan, Kabupaten Kuningan, Jawa Barat 45559"
+  },
+  {
+    "place_id": "ChIJO3vmDZFSby4Rs9Jy5G3UeJg",
+    "name": "Kawah Gunung Galunggung",
+    "link": "https://www.google.com/maps/place/Kawah+Gunung+Galunggung/data=!4m7!3m6!1s0x2e6f52910de67b3b:0x9878d46de472d2b3!8m2!3d-7.2569237!4d108.0782899!16s%2Fg%2F11bzyp7ky8!19sChIJO3vmDZFSby4Rs9Jy5G3UeJg?authuser=0&hl=id&rclk=1",
+    "main_category": "Tujuan Wisata",
+    "categories": ["Tujuan Wisata"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipNSBzyGPOMNTVIupqUoND404rYDVGBmVjNETTuR=w408-h306-k-no",
+    "rating": 4.6,
+    "about": "Pesona Hijau Kawah Gunung Galunggung. Mentari perlahan-lahan meninggi dari peraduannya setelah semalaman Cisayong diguyur hujan rerintik. Cisayong merupakan salah satu kawasan di Tasikmalaya yang menjadi lokasi favorit bagi para pendaki sebelum memulai aktivitas menjamahi Gunung Galunggung.",
+    "reviews": 699,
+    "address": "Kawah Gunung Galunggung, Linggajati, Kec. Sukaratu, Kabupaten Tasikmalaya, Jawa Barat 46415"
+  },
+  {
+    "place_id": "ChIJYzSUd_4IaS4ROrS7xhhJC2o",
+    "name": "Wisata Alam Gunung Lembu Purwakarta",
+    "link": "https://www.google.com/maps/place/Wisata+Alam+Gunung+Lembu+Purwakarta/data=!4m7!3m6!1s0x2e6908fe77943463:0x6a0b4918c6bbb43a!8m2!3d-6.561579!4d107.3401785!16s%2Fg%2F11bc6z9j9p!19sChIJYzSUd_4IaS4ROrS7xhhJC2o?authuser=0&hl=id&rclk=1",
+    "main_category": "Tujuan Wisata",
+    "categories": ["Tujuan Wisata", "Area Mendaki"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipMrKxK469UfXkX4NVwxNyLDgD6tDI9OTw695-bV=w408-h272-k-no",
+    "rating": 4.5,
+    "about": "Gunung Lembu seakan menegaskan bahwa wisata Purwakarta dipenuhi dengan ragam wisata alam yang sangat recommended untuk dikunjungi. Sebelum pesatnya perkembangan internet, khususnya media sosial, rata-rata masyarakat luar Purwakarta hanya mengenal objek wisata yang ada di Purwakarta hanya Waduk Jatiluhur saja. Namun, saat selfie menjadi budaya kekinian, ditopang dengan budaya media sosial yang menjadi keseharian, menjadi gerbang besar yang menegaskan bahwa Purwakarta layak menjadi kiblat wisata yang baru di Jawa Barat.",
+    "reviews": 500,
+    "address": "C8QR+937 Wisata Alam Gunung Lembu Purwakarta, Panyindangan, Kec. Sukatani, Kabupaten Purwakarta, Jawa Barat 41167"
+  },
+  {
+    "place_id": "ChIJc9a6qQuWaC4RrqQXaaFG3rI",
+    "name": "Gunung Artapela",
+    "link": "https://www.google.com/maps/place/Gunung+Artapela/data=!4m7!3m6!1s0x2e68960ba9bad673:0xb2de46a16917a4ae!8m2!3d-7.1736744!4d107.6543213!16s%2Fg%2F11cn6bxbhf!19sChIJc9a6qQuWaC4RrqQXaaFG3rI?authuser=0&hl=id&rclk=1",
+    "main_category": "Tujuan Wisata",
+    "categories": ["Tujuan Wisata"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipOVpH_5-ZzjJ3KemOxcsjyWAaZOUguP2-jBwAVJ=w408-h272-k-no",
+    "rating": 4.5,
+    "about": "Gunung ini lokasinya tak jauh dari Bandung loh, salah satu lokasi pendakian baru bagi para pecinta ketinggian ini mulai ngehits beberapa taun terakhir. Gunung ini menjadi alternatif baru bagi mereka yang sudah selesai mendaki gunung-gunung di Jawa Barat dan ingin mencoba pendakian ke gunung baru. Masih sedikit asing memang ditelinga para pendaki tentang keberadaan gunung yang satu ini Artapela sendiri adalah sebuah Gunung yang ada didaerah Kertasri, berbatasan dengan kecamatan Pangalengan Bandung Jawa Barat. Dengan ketinggian sekitar 2194 lebih mdpl, gunung Artapela kini menjadi salah satu gunung baru populer dan mulai banyak didaki oleh para pendaki Indonesia. Terutama bagi mereka yang ada di Bandung, Jakarta dan kota sekitaran Jawa Barat.",
+    "reviews": 353,
+    "address": "RMG3+GPP Gunung Artapela, Sukapura, Kec. Kertasari, Kabupaten Bandung, Jawa Barat 40378"
+  },
+  {
+    "place_id": "ChIJ_____6weaS4RCTlN4bRN9wI",
+    "name": "Wisata Alam Pasir Langlang",
+    "link": "https://www.google.com/maps/place/Wisata+Alam+Pasir+Langlang/data=!4m7!3m6!1s0x2e691eacffffffff:0x2f74db4e14d3909!8m2!3d-6.6933022!4d107.5750773!16s%2Fg%2F11c6fbpq6l!19sChIJ_____6weaS4RCTlN4bRN9wI?authuser=0&hl=id&rclk=1",
+    "main_category": "Tujuan Wisata",
+    "categories": ["Tujuan Wisata"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipNgjBn7lxkVEYXFgvN-pvg27vwBjw3NlRVFooeb=w426-h240-k-no",
+    "rating": 4.4,
+    "about": "Pasir Langlang Panyawangan terletak di Desa Pasir Muncang, Kecamatan Kiarapedes, Kabupaten Purwakarta. Pengunjung bisa menikmati keindahan pesona alam hutan pinus,  di area sekitar kawasan wisata alam pasir langlang panyawangan terdapat goa peninggalan tentara jepang yang dikenal dengan goa jepang. Selain itu dikawasan ini pengunjung juga bisa menikmati kesejukan air terjun atau curug yaitu curug pamoyanan Indah.",
+    "reviews": 187,
+    "address": "8H6G+34C Wisata Alam Pasir Langlang, Pusakamulya, Kec. Kiarapedes, Kabupaten Purwakarta, Jawa Barat 41175"
+  },
+  {
+    "place_id": "ChIJ3ZxG_285by4RD2Cd1xNhpL4",
+    "name": "Curug Cilutung",
+    "link": "https://www.google.com/maps/place/Curug+Cilutung/data=!4m7!3m6!1s0x2e6f396fff469cdd:0xbea46113d79d600f!8m2!3d-6.994111!4d108.297332!16s%2Fg%2F11c2nhc_g1!19sChIJ3ZxG_285by4RD2Cd1xNhpL4?authuser=0&hl=id&rclk=1",
+    "main_category": "Tujuan Wisata",
+    "categories": ["Tujuan Wisata"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipMH0MiHY3fPcqUfW_KIqWEhLnF_uH3eSTQoQaH6=w408-h272-k-no",
+    "rating": 4.2,
+    "about": "Curug Cilutung sebuah tempat wisata alam di Majalengka yang memberikan pesona air terjun dengan hiasan batuan cadas yang eksotik. Untuk kamu yang menyukai air terjun, harus banget datang dan menikmati keindahan serta deburan air yang turun secara alami. Sayang sekali Curug Cilutung Majalengka ini belum dikelola secara resmi, sehingga tampak kurang terawat. Padahal pesona keindahan alamnya layak untuk mendapat perhatian lebih.",
+    "reviews": 167,
+    "address": "274W+9W4 Curug Cilutung, Talagakulon, Kec. Talaga, Kabupaten Majalengka, Jawa Barat 45463"
+  },
+  {
+    "place_id": "ChIJf1yq0iruaC4RiOdG1gntoOU",
+    "name": "Wisata Pinus Pananjung",
+    "link": "https://www.google.com/maps/place/Wisata+Pinus+Pananjung/data=!4m7!3m6!1s0x2e68ee2ad2aa5c7f:0xe5a0ed09d646e788!8m2!3d-6.9743149!4d107.4817428!16s%2Fg%2F11f0l4wsq4!19sChIJf1yq0iruaC4RiOdG1gntoOU?authuser=0&hl=id&rclk=1",
+    "main_category": "Tujuan Wisata",
+    "categories": ["Tujuan Wisata"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipO3S0JQvBfU8SgIGrdGAuBVory_dIoeJeoA_LRA=w408-h306-k-no",
+    "rating": 4.4,
+    "about": "Salah satu lokasi tempat wisata baru yang sudah banyak digemari di Bandung Barat adalah Wisata Pinus Pananjung dan Puncak Gantole. Betapa tidak? Di kedua tempat yang masuk wilayah kecamatan Cihampelas, Kabupaten Bandung Barat itu kita bisa menikmati pemandangan yang indah menawan, yang tak ada di tempat lain. Selain itu kita juga bisa menaiki paralayang, jalan-jalan di Bukit Gantole, bercengkerama dengan keluarga di wisata hutan pinus dan bergabung bersama di venue Puncak Gantole.",
+    "reviews": 164,
+    "address": "2FGJ+7MH Wisata Pinus Pananjung, Dengkeng, Kidangpananjung, Kec. Cililin, Kabupaten Bandung Barat, Jawa Barat 40562"
+  },
+  {
+    "place_id": "ChIJQ_7Fk-6RaC4Rraf1BelGK0U",
+    "name": "Wisata CILEUNCA Pangalengan",
+    "link": "https://www.google.com/maps/place/Wisata+CILEUNCA+Pangalengan/data=!4m7!3m6!1s0x2e6891ee93c5fe43:0x452b46e905f5a7ad!8m2!3d-7.1933063!4d107.5500932!16s%2Fg%2F11h7ftp7z2!19sChIJQ_7Fk-6RaC4Rraf1BelGK0U?authuser=0&hl=id&rclk=1",
+    "main_category": "Tujuan Wisata",
+    "categories": ["Tujuan Wisata"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipOYH9BKRvOmznMIo5XiocIUuFPpCrpzgHdt5kIP=w426-h240-k-no",
+    "rating": 4.4,
+    "about": "Cileunca di Pangalengan, Jawa Barat, menawarkan pesona alam yang menakjubkan, menjadikannya destinasi wisata yang diminati di wilayah tersebut. Danau Cileunca memikat pengunjung dengan keindahan air tenangnya dan latar belakang pegunungan yang hijau. Pengunjung dapat menikmati perahu dayung di danau atau sekadar duduk bersantai sambil menikmati pemandangan alam yang menenangkan. Selain itu, perkebunan teh yang melimpah di sekitar Cileunca menawarkan pengalaman melihat proses pengolahan teh dan menikmati keindahan perkebunan hijau yang terbentang luas. Hutan pinus di Cikondang memberikan suasana yang sejuk dan menyejukkan, menciptakan tempat yang cocok untuk rekreasi dan relaksasi.",
+    "reviews": 123,
+    "address": "Wisata CILEUNCA Pangalengan, Kp. Cibeunying, Ds, Warnasari, Kec. Pangalengan, Kabupaten Bandung, Jawa Barat 40378"
+  },
+  {
+    "place_id": "ChIJ2_AhTR8haS4RaaHP85jcSXc",
+    "name": "Desa Wisata Cibeusi",
+    "link": "https://www.google.com/maps/place/Desa+Wisata+Cibeusi/data=!4m7!3m6!1s0x2e69211f4d21f0db:0x7749dc98f3cfa169!8m2!3d-6.7411836!4d107.6726945!16s%2Fg%2F11h464xx0x!19sChIJ2_AhTR8haS4RaaHP85jcSXc?authuser=0&hl=id&rclk=1",
+    "main_category": "Tujuan Wisata",
+    "categories": ["Tujuan Wisata"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipNUiVRHlmFVcTZ7RXSbPHawPEW_drG-edmEYwT5=w408-h550-k-no",
+    "rating": 4.6,
+    "about": "Desa wisata biasanya menawarkan pengunjung pengalaman yang mendalam dalam kehidupan masyarakat lokal, budaya, dan keindahan alam di sekitarnya. Pengunjung dapat terlibat dalam kegiatan sehari-hari seperti pertanian, kerajinan tangan tradisional, dan permainan atau tarian lokal. Selain itu, desa wisata sering kali memiliki fasilitas akomodasi dan tempat makan yang menawarkan hidangan khas setempat.",
+    "reviews": 82,
+    "address": "7M5F+G3G Desa Wisata Cibeusi, Jl. Cibeusi, Nagrak, Kec. Ciater, Kabupaten Subang, Jawa Barat 41281"
+  },
+  {
+    "place_id": "ChIJi4eLD1ThaC4Rp3OVgp2_mBI",
+    "name": "Wisata Maribaya",
+    "link": "https://www.google.com/maps/place/Wisata+Maribaya/data=!4m7!3m6!1s0x2e68e1540f8b878b:0x1298bf9d829573a7!8m2!3d-6.8272929!4d107.6665759!16s%2Fg%2F11p01xypxd!19sChIJi4eLD1ThaC4Rp3OVgp2_mBI?authuser=0&hl=id&rclk=1",
+    "main_category": "Tujuan Wisata",
+    "categories": ["Tujuan Wisata"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipOD2KZFcze5VQAw5KnNVY4VpLlpDyURpTLebTCA=w408-h272-k-no",
+    "rating": 4.7,
+    "about": "Taman wisata Maribaya Bandung menjadi salah satu destinasi alternatif liburan yang menyenangkan. Maribaya Bandung merupakan pilihan tepat bagi kamu yang ingin merasakan kesejukan pegunungan di wilayah Bandung Barat. Taman Wisata Maribaya Bandung ini berada di kawasan Taman Hutan Raya Juanda yang memberi kesan alam menyejukkan dengan pepohonan pinus dan udara khas pegunungannya. Selain itu Maribaya Bandung merupakan destinasi yang mudah dijangkau dari Kota Bandung. Kawasan ini bisa ditempuh menggunakan kendaraan pribadi atau kendaraan umum.Taman wisata Maribaya Bandung terdiri dari berbagai destinasi yang lengkap. Berada di sebelah timur Lembang, lokasinya yang berupa pegunungan membuat tempat ini memiliki potensi wisata alam yang asri dan menyejukkan. Ada beberapa tempat yang dapat dikunjungi di kawasan wisata Maribaya Bandung.",
+    "reviews": 56,
+    "address": "5MF8+3JP Wisata Maribaya, Jl. Maribaya, Cibodas, Kec. Lembang, Kabupaten Bandung Barat, Jawa Barat 40391"
+  }
 ]
