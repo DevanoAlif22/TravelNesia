@@ -185,6 +185,9 @@ body {
   .container-wisata {
     justify-content: center;
   }
+  .container-provinsi {
+    justify-content: center;
+  }
   .container-pemandu {
     justify-content: center;
     width: 100%;
