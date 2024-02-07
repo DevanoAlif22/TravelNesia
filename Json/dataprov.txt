@@ -1,0 +1,35 @@
+DEVANO : Aceh - Jawa Barat
+DAVANO : Banten - Kalimantan Timur
+FERY : Kalimantan Utara - Papua
+
+Aceh DONE 20 - DONE ✅
+Sulawesi Utara DONE 20 - DONE ✅
+Sumatera Barat DONE 20 - DONE ✅
+Riau dan kepulauan DONE 20 - DONE ✅
+Jambi DONE 20 - DONE ✅
+Sumatera Selatan DONE 20 - DONE ✅ 
+Bangka Belitung DONE 20 - DONE ✅ 
+Bengkulu DONE 20 - DONE ✅ 
+Lampung DONE 20  - DONE ✅ 
+DKI Jakarta DONE 20 - DONE ✅ 
+Jawa Barat DONE 30 - DONE ✅
+Banten DONE 20 - DONE ✅ del
+Jawa Tengah DONE 30 - DONE ✅ del
+DI Yogyakarta DONE 30 - DONE ✅ del
+Jawa Timur DONE 30 - DONE ✅ del
+Bali DONE 30 - DONE ✅
+Nusa Tenggara Barat (NTB) DONE 20 - DONE ✅ del
+Nusa Tenggara Timur (NTT) DONE 20 - DONE ✅
+Kalimantan Barat DONE 20 - DONE ✅
+Kalimantan Tengah DONE 20 - DONE ✅ del
+Kalimantan Selatan DONE 20  - DONE ✅
+Kalimantan Timur DONE 20 - DONE ✅ del
+Kalimantan Utara DONE 20 - DONE ✅
+Sumatera Utara DONE 20 - DONE ✅
+Sulawesi Barat DONE 20 - DONE ✅ del
+Sulawesi Tengah DONE 20 - DONE ✅
+Sulawesi Selatan DONE 20 - DONE ✅ del
+Sulawesi Tenggara DONE 20 - DONE ✅
+Gorontalo DONE 20 - DONE ✅
+Maluku DONE 20 - DONE ✅
+Papua DONE 20 - DONE ✅
