@@ -28,7 +28,7 @@
         <div class="row">
             <div class="col-lg-7"></div>
             <div class="col-lg-5">
-                <div class="judul mb-4">
+                <div class=" judul mb-4">
                     <h1 class="text-white">Masuk Sekarang</h1>
                 </div>
                 <div class="email mb-4">
@@ -39,15 +39,19 @@
                     <input type="password" id="password" placeholder="masukan password">
                     <span><img src="../../assets/login/pw.png" alt=""></span>
                 </div>
+                <div class="password">
+                    <input type="password" id="confirm_password" placeholder="konfirmasi password">
+                    <span><img src="../../assets/login/pw.png" alt=""></span>
+                </div>
                 <div class="lihat-pw mt-3 me-3" style="text-align: right;">
                     <label for="lihat" class="text-white me-2">Lihat password</label>
                     <input type="checkbox" id="lihat" onchange="togglePassword()">
                 </div>
                 <div class="buat-akun mt-3 me-3 mb-5" style="text-align:right;">
-                    <p class="text-white">Belum punya akun? <a href=""> Buat akun</a></p>
+                    <p class="text-white">Sudah punya akun? <a href="login.php"> Masuk sekarang</a></p>
                 </div>
                 <div class="masuk">
-                    <a href="daftar.php">Masuk Sekarang</a>
+                    <a href="">Daftar Sekarang</a>
                 </div>
             </div>
         </div>
@@ -55,12 +59,15 @@
     <script>
         function togglePassword() {
             var passwordField = document.getElementById("password");
+            var confirmPasswordField = document.getElementById("confirm_password");
             var checkbox = document.getElementById("lihat");
 
             if (checkbox.checked) {
                 passwordField.type = "text";
+                confirmPasswordField.type = "text";
             } else {
                 passwordField.type = "password";
+                confirmPasswordField.type = "password";
             }
         }
     </script>
