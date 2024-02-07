@@ -129,7 +129,6 @@ header {
 .header-wisata {
   width: 100%;
   height: 200px;
-  background-image: url("../assets/beranda/wisata-terbaik.png");
   background-position: center;
   background-size: cover;
   border-radius: 15px 15px 0px 0px;
@@ -181,8 +180,44 @@ header {
   background-size: cover;
 }
 
+/* pemandu */
+.card-pemandu {
+  width: 270px;
+  height: 350px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+}
+
+.isi-pemandu {
+  margin: auto;
+  align-items: center;
+  text-align: center;
+}
+
+.gambar-pemandu {
+  width: 90px;
+  height: 90px;
+  border-radius: 50px;
+  background-position: center;
+  background-size: cover;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.container-pemandu {
+  display: flex;
+  justify-content: space-between;
+}
+
 @media screen and (max-width: 500px) {
   .container-wisata {
     justify-content: center;
+  }
+  .container-pemandu {
+    justify-content: center;
+    width: 100%;
   }
 }
