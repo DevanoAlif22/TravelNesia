@@ -345,7 +345,7 @@
             <div class="d-flex justify-content-end mt-4">
                 <a href="" style="color:1B0698 !important; text-decoration:none; font-size: 1.1rem;" class="pb-4 text-end">Lihat selengkapnya...</a>
             </div>
-            <div class="row d-flex justify-content-between">
+            <div class="row p-4 d-flex justify-content-between">
                 <div class="col-lg-6 card-postingan d-flex">
                     <div class="postingan-kiri"></div>
                     <div class="postingan-kanan">
@@ -370,12 +370,122 @@
                                 <h6 class="mt-2 ms-3">200</h6>
                             </div>
                         </div>
-                        <div class="garis" style="width:60%; background-color:black; height:3px;"></div>
+                        <div class="garis" style="width:60%; background-color:black; height:3px; margin-bottom : 20px"></div>
+                        <a href="" style="margin-left:0px;" class="lihat-wisata">Lihat Postingan</a>
                     </div>
                 </div>
-                <div class="col-lg-6 card-postingan">
+                <div class="col-lg-6 card-postingan d-flex">
                     <div class="postingan-kiri"></div>
-                    <div class="postingan-kanan"></div>
+                    <div class="postingan-kanan">
+                        <div class="d-flex">
+                            <div class="profil" style="background-image: url('../../assets/beranda/profil.png')"></div>
+                            <div class="ms-3 mt-1">
+                                <h5 style="font-weight:bold;">Firashinta Yudi</h5>
+                                <p style="margin-top:-9px; font-size:0.8rem;">Wisatawan</p>
+                            </div>
+                        </div>
+                        <h6 class="mt-3" style="font-weight:bold;">Pantai Kuta Dengan Kehangatan Sunsetnya</h6>
+                        <p style="text-align:justify; font-size:0.8rem; font-weight:500;">Lorem Ipsum is simply dummy text of the printing and typesetting 
+                            ndustry. Lorem Ipsum has been the industry's standard dummy
+                            text ever since the 1500s....</p>
+                        <div class="d-flex">
+                            <div class="d-flex me-3">
+                                <img style="width:34px" src="../../assets/beranda/suka2.png" alt="">
+                                <h6 class="mt-2 ms-3">200</h6>
+                            </div>
+                            <div class="d-flex">
+                                <img style="width:34px" src="../../assets/beranda/melihat.png" alt="">
+                                <h6 class="mt-2 ms-3">200</h6>
+                            </div>
+                        </div>
+                        <div class="garis" style="width:60%; background-color:black; height:3px; margin-bottom : 20px"></div>
+                        <a href="" style="margin-left:0px;" class="lihat-wisata">Lihat Postingan</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row p-4 d-flex justify-content-between">
+                <div class="col-lg-6 card-postingan d-flex">
+                    <div class="postingan-kiri"></div>
+                    <div class="postingan-kanan">
+                        <div class="d-flex">
+                            <div class="profil" style="background-image: url('../../assets/beranda/profil.png')"></div>
+                            <div class="ms-3 mt-1">
+                                <h5 style="font-weight:bold;">Firashinta Yudi</h5>
+                                <p style="margin-top:-9px; font-size:0.8rem;">Wisatawan</p>
+                            </div>
+                        </div>
+                        <h6 class="mt-3" style="font-weight:bold;">Pantai Kuta Dengan Kehangatan Sunsetnya</h6>
+                        <p style="text-align:justify; font-size:0.8rem; font-weight:500;">Lorem Ipsum is simply dummy text of the printing and typesetting 
+                            ndustry. Lorem Ipsum has been the industry's standard dummy
+                            text ever since the 1500s....</p>
+                        <div class="d-flex">
+                            <div class="d-flex me-3">
+                                <img style="width:34px" src="../../assets/beranda/suka2.png" alt="">
+                                <h6 class="mt-2 ms-3">200</h6>
+                            </div>
+                            <div class="d-flex">
+                                <img style="width:34px" src="../../assets/beranda/melihat.png" alt="">
+                                <h6 class="mt-2 ms-3">200</h6>
+                            </div>
+                        </div>
+                        <div class="garis" style="width:60%; background-color:black; height:3px; margin-bottom : 20px"></div>
+                        <a href="" style="margin-left:0px;" class="lihat-wisata">Lihat Postingan</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 card-postingan d-flex">
+                    <div class="postingan-kiri"></div>
+                    <div class="postingan-kanan">
+                        <div class="d-flex">
+                            <div class="profil" style="background-image: url('../../assets/beranda/profil.png')"></div>
+                            <div class="ms-3 mt-1">
+                                <h5 style="font-weight:bold;">Firashinta Yudi</h5>
+                                <p style="margin-top:-9px; font-size:0.8rem;">Wisatawan</p>
+                            </div>
+                        </div>
+                        <h6 class="mt-3" style="font-weight:bold;">Pantai Kuta Dengan Kehangatan Sunsetnya</h6>
+                        <p style="text-align:justify; font-size:0.8rem; font-weight:500;">Lorem Ipsum is simply dummy text of the printing and typesetting 
+                            ndustry. Lorem Ipsum has been the industry's standard dummy
+                            text ever since the 1500s....</p>
+                        <div class="d-flex">
+                            <div class="d-flex me-3">
+                                <img style="width:34px" src="../../assets/beranda/suka2.png" alt="">
+                                <h6 class="mt-2 ms-3">200</h6>
+                            </div>
+                            <div class="d-flex">
+                                <img style="width:34px" src="../../assets/beranda/melihat.png" alt="">
+                                <h6 class="mt-2 ms-3">200</h6>
+                            </div>
+                        </div>
+                        <div class="garis" style="width:60%; background-color:black; height:3px; margin-bottom : 20px"></div>
+                        <a href="" style="margin-left:0px;" class="lihat-wisata">Lihat Postingan</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- pemandu -->
+    <section class="pemandu">
+        <div class="container">
+            <h2 class="mt-4 text-center">Postingan Terbaik</h2>
+            <div class="d-flex justify-content-center">
+                <div class="garis"></div>
+            </div>
+            <div class="d-flex justify-content-end mt-4">
+                <a href="" style="color:1B0698 !important; text-decoration:none; font-size: 1.1rem;" class="pb-4 text-end">Lihat selengkapnya...</a>
+            </div>
+            <div class="row container-pemandu">
+                <div class="col-lg-3 card-pemandu">
+
+                </div>
+                <div class="col-lg-3 card-pemandu">
+
+                </div>
+                <div class="col-lg-3 card-pemandu">
+
+                </div>
+                <div class="col-lg-3 card-pemandu">
+
                 </div>
             </div>
         </div>
