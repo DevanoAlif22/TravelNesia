@@ -115,7 +115,462 @@
                         <a href="" class="aktif">wisata yang dipandu</a>
                     </div>
                     <div class="isi-dalam">
+                        <div class="row">
+                            <div class="card-wisata col-lg-4">
+                                <div style="background-image: url('../../assets/beranda/wisata-terbaik.png');"
+                                    class="header-wisata d-flex flex-dirextion-column">
+                                    <div class="align-self-end"
+                                        style="background: linear-gradient(to bottom, transparent, black); width:100%;">
+                                        <h5 class="ms-3 mb-3" style="color:white;">Candi Borobudur</h5>
+                                        <div class="ms-3"
+                                            style="width:100px; background-color:white; height: 3px; margin-bottom:10px;">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bottom-wisata p-2">
+                                    <div class="d-flex" style="align-items: center; margin-top: -0.5rem;">
+                                        <img style="width:15px; height:25px; margin-right:5px;"
+                                            src="../../assets/wisata/map.png" alt="">
+                                        <p class="ms-1 alamat">Borobudur, Magelang, Jawa Tengah,
+                                            Indonesia.</p>
+                                    </div>
+                                    <div class="d-flex mb-2" style="align-items: center;margin-top: -1rem;">
+                                        <img style="width:20px; height:20px;" src="../../assets/wisata/uang.png" alt="">
+                                        <p class="ms-2 harga"><b>Rp. 300.000</b></p>
+                                    </div>
+                                    <div style="margin-left:0px; margin-top: -2rem; ">
+                                        <div class="d-flex">
+                                            <div class="d-flex" style="width:100%; align-items: center ">
+                                                <img style="width:20px; height:20px" src="../../assets/beranda/star.png"
+                                                    alt="">
+                                                <p class="ms-1 ret">4.4 Rating</p>
+                                            </div>
+                                            <div class="d-flex" style="width:100%; ">
+                                                <p class="ms-2 ret">250 Reviews</p>
+                                            </div>
+                                        </div>
+                                        <a href="" style="font-size: 10px;" class="lihat-wisata">Lihat Tawaran</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-wisata col-lg-4">
+                                <div style="background-image: url('../../assets/beranda/wisata-terbaik.png');"
+                                    class="header-wisata d-flex flex-dirextion-column">
+                                    <div class="align-self-end"
+                                        style="background: linear-gradient(to bottom, transparent, black); width:100%;">
+                                        <h5 class="ms-3 mb-3" style="color:white;">Candi Borobudur</h5>
+                                        <div class="ms-3"
+                                            style="width:100px; background-color:white; height: 3px; margin-bottom:10px;">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bottom-wisata p-2">
+                                    <div class="d-flex" style="align-items: center; margin-top: -0.5rem;">
+                                        <img style="width:15px; height:25px; margin-right:5px;"
+                                            src="../../assets/wisata/map.png" alt="">
+                                        <p class="ms-1 alamat">Borobudur, Magelang, Jawa Tengah,
+                                            Indonesia.</p>
+                                    </div>
+                                    <div class="d-flex mb-2" style="align-items: center;margin-top: -1rem;">
+                                        <img style="width:20px; height:20px;" src="../../assets/wisata/uang.png" alt="">
+                                        <p class="ms-2 harga"><b>Rp. 300.000</b></p>
+                                    </div>
+                                    <div style="margin-left:0px; margin-top: -2rem; ">
+                                        <div class="d-flex">
+                                            <div class="d-flex" style="width:100%; align-items: center ">
+                                                <img style="width:20px; height:20px" src="../../assets/beranda/star.png"
+                                                    alt="">
+                                                <p class="ms-1 ret">4.4 Rating</p>
+                                            </div>
+                                            <div class="d-flex" style="width:100%; ">
+                                                <p class="ms-2 ret">250 Reviews</p>
+                                            </div>
+                                        </div>
+                                        <a href="" style="font-size: 10px;" class="lihat-wisata">Lihat Tawaran</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-wisata col-lg-4">
+                                <div style="background-image: url('../../assets/beranda/wisata-terbaik.png');"
+                                    class="header-wisata d-flex flex-dirextion-column">
+                                    <div class="align-self-end"
+                                        style="background: linear-gradient(to bottom, transparent, black); width:100%;">
+                                        <h5 class="ms-3 mb-3" style="color:white;">Candi Borobudur</h5>
+                                        <div class="ms-3"
+                                            style="width:100px; background-color:white; height: 3px; margin-bottom:10px;">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bottom-wisata p-2">
+                                    <div class="d-flex" style="align-items: center; margin-top: -0.5rem;">
+                                        <img style="width:15px; height:25px; margin-right:5px;"
+                                            src="../../assets/wisata/map.png" alt="">
+                                        <p class="ms-1 alamat">Borobudur, Magelang, Jawa Tengah,
+                                            Indonesia.</p>
+                                    </div>
+                                    <div class="d-flex mb-2" style="align-items: center;margin-top: -1rem;">
+                                        <img style="width:20px; height:20px;" src="../../assets/wisata/uang.png" alt="">
+                                        <p class="ms-2 harga"><b>Rp. 300.000</b></p>
+                                    </div>
+                                    <div style="margin-left:0px; margin-top: -2rem; ">
+                                        <div class="d-flex">
+                                            <div class="d-flex" style="width:100%; align-items: center ">
+                                                <img style="width:20px; height:20px" src="../../assets/beranda/star.png"
+                                                    alt="">
+                                                <p class="ms-1 ret">4.4 Rating</p>
+                                            </div>
+                                            <div class="d-flex" style="width:100%; ">
+                                                <p class="ms-2 ret">250 Reviews</p>
+                                            </div>
+                                        </div>
+                                        <a href="" style="font-size: 10px;" class="lihat-wisata">Lihat Tawaran</a>
+                                    </div>
+                                </div>
+                            </div>
 
+                        </div>
+                        <div class="row">
+                            <div class="card-wisata col-lg-4">
+                                <div style="background-image: url('../../assets/beranda/wisata-terbaik.png');"
+                                    class="header-wisata d-flex flex-dirextion-column">
+                                    <div class="align-self-end"
+                                        style="background: linear-gradient(to bottom, transparent, black); width:100%;">
+                                        <h5 class="ms-3 mb-3" style="color:white;">Candi Borobudur</h5>
+                                        <div class="ms-3"
+                                            style="width:100px; background-color:white; height: 3px; margin-bottom:10px;">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bottom-wisata p-2">
+                                    <div class="d-flex" style="align-items: center; margin-top: -0.5rem;">
+                                        <img style="width:15px; height:25px; margin-right:5px;"
+                                            src="../../assets/wisata/map.png" alt="">
+                                        <p class="ms-1 alamat">Borobudur, Magelang, Jawa Tengah,
+                                            Indonesia.</p>
+                                    </div>
+                                    <div class="d-flex mb-2" style="align-items: center;margin-top: -1rem;">
+                                        <img style="width:20px; height:20px;" src="../../assets/wisata/uang.png" alt="">
+                                        <p class="ms-2 harga"><b>Rp. 300.000</b></p>
+                                    </div>
+                                    <div style="margin-left:0px; margin-top: -2rem; ">
+                                        <div class="d-flex">
+                                            <div class="d-flex" style="width:100%; align-items: center ">
+                                                <img style="width:20px; height:20px" src="../../assets/beranda/star.png"
+                                                    alt="">
+                                                <p class="ms-1 ret">4.4 Rating</p>
+                                            </div>
+                                            <div class="d-flex" style="width:100%; ">
+                                                <p class="ms-2 ret">250 Reviews</p>
+                                            </div>
+                                        </div>
+                                        <a href="" style="font-size: 10px;" class="lihat-wisata">Lihat Tawaran</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-wisata col-lg-4">
+                                <div style="background-image: url('../../assets/beranda/wisata-terbaik.png');"
+                                    class="header-wisata d-flex flex-dirextion-column">
+                                    <div class="align-self-end"
+                                        style="background: linear-gradient(to bottom, transparent, black); width:100%;">
+                                        <h5 class="ms-3 mb-3" style="color:white;">Candi Borobudur</h5>
+                                        <div class="ms-3"
+                                            style="width:100px; background-color:white; height: 3px; margin-bottom:10px;">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bottom-wisata p-2">
+                                    <div class="d-flex" style="align-items: center; margin-top: -0.5rem;">
+                                        <img style="width:15px; height:25px; margin-right:5px;"
+                                            src="../../assets/wisata/map.png" alt="">
+                                        <p class="ms-1 alamat">Borobudur, Magelang, Jawa Tengah,
+                                            Indonesia.</p>
+                                    </div>
+                                    <div class="d-flex mb-2" style="align-items: center;margin-top: -1rem;">
+                                        <img style="width:20px; height:20px;" src="../../assets/wisata/uang.png" alt="">
+                                        <p class="ms-2 harga"><b>Rp. 300.000</b></p>
+                                    </div>
+                                    <div style="margin-left:0px; margin-top: -2rem; ">
+                                        <div class="d-flex">
+                                            <div class="d-flex" style="width:100%; align-items: center ">
+                                                <img style="width:20px; height:20px" src="../../assets/beranda/star.png"
+                                                    alt="">
+                                                <p class="ms-1 ret">4.4 Rating</p>
+                                            </div>
+                                            <div class="d-flex" style="width:100%; ">
+                                                <p class="ms-2 ret">250 Reviews</p>
+                                            </div>
+                                        </div>
+                                        <a href="" style="font-size: 10px;" class="lihat-wisata">Lihat Tawaran</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-wisata col-lg-4">
+                                <div style="background-image: url('../../assets/beranda/wisata-terbaik.png');"
+                                    class="header-wisata d-flex flex-dirextion-column">
+                                    <div class="align-self-end"
+                                        style="background: linear-gradient(to bottom, transparent, black); width:100%;">
+                                        <h5 class="ms-3 mb-3" style="color:white;">Candi Borobudur</h5>
+                                        <div class="ms-3"
+                                            style="width:100px; background-color:white; height: 3px; margin-bottom:10px;">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bottom-wisata p-2">
+                                    <div class="d-flex" style="align-items: center; margin-top: -0.5rem;">
+                                        <img style="width:15px; height:25px; margin-right:5px;"
+                                            src="../../assets/wisata/map.png" alt="">
+                                        <p class="ms-1 alamat">Borobudur, Magelang, Jawa Tengah,
+                                            Indonesia.</p>
+                                    </div>
+                                    <div class="d-flex mb-2" style="align-items: center;margin-top: -1rem;">
+                                        <img style="width:20px; height:20px;" src="../../assets/wisata/uang.png" alt="">
+                                        <p class="ms-2 harga"><b>Rp. 300.000</b></p>
+                                    </div>
+                                    <div style="margin-left:0px; margin-top: -2rem; ">
+                                        <div class="d-flex">
+                                            <div class="d-flex" style="width:100%; align-items: center ">
+                                                <img style="width:20px; height:20px" src="../../assets/beranda/star.png"
+                                                    alt="">
+                                                <p class="ms-1 ret">4.4 Rating</p>
+                                            </div>
+                                            <div class="d-flex" style="width:100%; ">
+                                                <p class="ms-2 ret">250 Reviews</p>
+                                            </div>
+                                        </div>
+                                        <a href="" style="font-size: 10px;" class="lihat-wisata">Lihat Tawaran</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="card-wisata col-lg-4">
+                                <div style="background-image: url('../../assets/beranda/wisata-terbaik.png');"
+                                    class="header-wisata d-flex flex-dirextion-column">
+                                    <div class="align-self-end"
+                                        style="background: linear-gradient(to bottom, transparent, black); width:100%;">
+                                        <h5 class="ms-3 mb-3" style="color:white;">Candi Borobudur</h5>
+                                        <div class="ms-3"
+                                            style="width:100px; background-color:white; height: 3px; margin-bottom:10px;">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bottom-wisata p-2">
+                                    <div class="d-flex" style="align-items: center; margin-top: -0.5rem;">
+                                        <img style="width:15px; height:25px; margin-right:5px;"
+                                            src="../../assets/wisata/map.png" alt="">
+                                        <p class="ms-1 alamat">Borobudur, Magelang, Jawa Tengah,
+                                            Indonesia.</p>
+                                    </div>
+                                    <div class="d-flex mb-2" style="align-items: center;margin-top: -1rem;">
+                                        <img style="width:20px; height:20px;" src="../../assets/wisata/uang.png" alt="">
+                                        <p class="ms-2 harga"><b>Rp. 300.000</b></p>
+                                    </div>
+                                    <div style="margin-left:0px; margin-top: -2rem; ">
+                                        <div class="d-flex">
+                                            <div class="d-flex" style="width:100%; align-items: center ">
+                                                <img style="width:20px; height:20px" src="../../assets/beranda/star.png"
+                                                    alt="">
+                                                <p class="ms-1 ret">4.4 Rating</p>
+                                            </div>
+                                            <div class="d-flex" style="width:100%; ">
+                                                <p class="ms-2 ret">250 Reviews</p>
+                                            </div>
+                                        </div>
+                                        <a href="" style="font-size: 10px;" class="lihat-wisata">Lihat Tawaran</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-wisata col-lg-4">
+                                <div style="background-image: url('../../assets/beranda/wisata-terbaik.png');"
+                                    class="header-wisata d-flex flex-dirextion-column">
+                                    <div class="align-self-end"
+                                        style="background: linear-gradient(to bottom, transparent, black); width:100%;">
+                                        <h5 class="ms-3 mb-3" style="color:white;">Candi Borobudur</h5>
+                                        <div class="ms-3"
+                                            style="width:100px; background-color:white; height: 3px; margin-bottom:10px;">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bottom-wisata p-2">
+                                    <div class="d-flex" style="align-items: center; margin-top: -0.5rem;">
+                                        <img style="width:15px; height:25px; margin-right:5px;"
+                                            src="../../assets/wisata/map.png" alt="">
+                                        <p class="ms-1 alamat">Borobudur, Magelang, Jawa Tengah,
+                                            Indonesia.</p>
+                                    </div>
+                                    <div class="d-flex mb-2" style="align-items: center;margin-top: -1rem;">
+                                        <img style="width:20px; height:20px;" src="../../assets/wisata/uang.png" alt="">
+                                        <p class="ms-2 harga"><b>Rp. 300.000</b></p>
+                                    </div>
+                                    <div style="margin-left:0px; margin-top: -2rem; ">
+                                        <div class="d-flex">
+                                            <div class="d-flex" style="width:100%; align-items: center ">
+                                                <img style="width:20px; height:20px" src="../../assets/beranda/star.png"
+                                                    alt="">
+                                                <p class="ms-1 ret">4.4 Rating</p>
+                                            </div>
+                                            <div class="d-flex" style="width:100%; ">
+                                                <p class="ms-2 ret">250 Reviews</p>
+                                            </div>
+                                        </div>
+                                        <a href="" style="font-size: 10px;" class="lihat-wisata">Lihat Tawaran</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-wisata col-lg-4">
+                                <div style="background-image: url('../../assets/beranda/wisata-terbaik.png');"
+                                    class="header-wisata d-flex flex-dirextion-column">
+                                    <div class="align-self-end"
+                                        style="background: linear-gradient(to bottom, transparent, black); width:100%;">
+                                        <h5 class="ms-3 mb-3" style="color:white;">Candi Borobudur</h5>
+                                        <div class="ms-3"
+                                            style="width:100px; background-color:white; height: 3px; margin-bottom:10px;">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bottom-wisata p-2">
+                                    <div class="d-flex" style="align-items: center; margin-top: -0.5rem;">
+                                        <img style="width:15px; height:25px; margin-right:5px;"
+                                            src="../../assets/wisata/map.png" alt="">
+                                        <p class="ms-1 alamat">Borobudur, Magelang, Jawa Tengah,
+                                            Indonesia.</p>
+                                    </div>
+                                    <div class="d-flex mb-2" style="align-items: center;margin-top: -1rem;">
+                                        <img style="width:20px; height:20px;" src="../../assets/wisata/uang.png" alt="">
+                                        <p class="ms-2 harga"><b>Rp. 300.000</b></p>
+                                    </div>
+                                    <div style="margin-left:0px; margin-top: -2rem; ">
+                                        <div class="d-flex">
+                                            <div class="d-flex" style="width:100%; align-items: center ">
+                                                <img style="width:20px; height:20px" src="../../assets/beranda/star.png"
+                                                    alt="">
+                                                <p class="ms-1 ret">4.4 Rating</p>
+                                            </div>
+                                            <div class="d-flex" style="width:100%; ">
+                                                <p class="ms-2 ret">250 Reviews</p>
+                                            </div>
+                                        </div>
+                                        <a href="" style="font-size: 10px;" class="lihat-wisata">Lihat Tawaran</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="card-wisata col-lg-4">
+                                <div style="background-image: url('../../assets/beranda/wisata-terbaik.png');"
+                                    class="header-wisata d-flex flex-dirextion-column">
+                                    <div class="align-self-end"
+                                        style="background: linear-gradient(to bottom, transparent, black); width:100%;">
+                                        <h5 class="ms-3 mb-3" style="color:white;">Candi Borobudur</h5>
+                                        <div class="ms-3"
+                                            style="width:100px; background-color:white; height: 3px; margin-bottom:10px;">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bottom-wisata p-2">
+                                    <div class="d-flex" style="align-items: center; margin-top: -0.5rem;">
+                                        <img style="width:15px; height:25px; margin-right:5px;"
+                                            src="../../assets/wisata/map.png" alt="">
+                                        <p class="ms-1 alamat">Borobudur, Magelang, Jawa Tengah,
+                                            Indonesia.</p>
+                                    </div>
+                                    <div class="d-flex mb-2" style="align-items: center;margin-top: -1rem;">
+                                        <img style="width:20px; height:20px;" src="../../assets/wisata/uang.png" alt="">
+                                        <p class="ms-2 harga"><b>Rp. 300.000</b></p>
+                                    </div>
+                                    <div style="margin-left:0px; margin-top: -2rem; ">
+                                        <div class="d-flex">
+                                            <div class="d-flex" style="width:100%; align-items: center ">
+                                                <img style="width:20px; height:20px" src="../../assets/beranda/star.png"
+                                                    alt="">
+                                                <p class="ms-1 ret">4.4 Rating</p>
+                                            </div>
+                                            <div class="d-flex" style="width:100%; ">
+                                                <p class="ms-2 ret">250 Reviews</p>
+                                            </div>
+                                        </div>
+                                        <a href="" style="font-size: 10px;" class="lihat-wisata">Lihat Tawaran</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-wisata col-lg-4">
+                                <div style="background-image: url('../../assets/beranda/wisata-terbaik.png');"
+                                    class="header-wisata d-flex flex-dirextion-column">
+                                    <div class="align-self-end"
+                                        style="background: linear-gradient(to bottom, transparent, black); width:100%;">
+                                        <h5 class="ms-3 mb-3" style="color:white;">Candi Borobudur</h5>
+                                        <div class="ms-3"
+                                            style="width:100px; background-color:white; height: 3px; margin-bottom:10px;">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bottom-wisata p-2">
+                                    <div class="d-flex" style="align-items: center; margin-top: -0.5rem;">
+                                        <img style="width:15px; height:25px; margin-right:5px;"
+                                            src="../../assets/wisata/map.png" alt="">
+                                        <p class="ms-1 alamat">Borobudur, Magelang, Jawa Tengah,
+                                            Indonesia.</p>
+                                    </div>
+                                    <div class="d-flex mb-2" style="align-items: center;margin-top: -1rem;">
+                                        <img style="width:20px; height:20px;" src="../../assets/wisata/uang.png" alt="">
+                                        <p class="ms-2 harga"><b>Rp. 300.000</b></p>
+                                    </div>
+                                    <div style="margin-left:0px; margin-top: -2rem; ">
+                                        <div class="d-flex">
+                                            <div class="d-flex" style="width:100%; align-items: center ">
+                                                <img style="width:20px; height:20px" src="../../assets/beranda/star.png"
+                                                    alt="">
+                                                <p class="ms-1 ret">4.4 Rating</p>
+                                            </div>
+                                            <div class="d-flex" style="width:100%; ">
+                                                <p class="ms-2 ret">250 Reviews</p>
+                                            </div>
+                                        </div>
+                                        <a href="" style="font-size: 10px;" class="lihat-wisata">Lihat Tawaran</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-wisata col-lg-4">
+                                <div style="background-image: url('../../assets/beranda/wisata-terbaik.png');"
+                                    class="header-wisata d-flex flex-dirextion-column">
+                                    <div class="align-self-end"
+                                        style="background: linear-gradient(to bottom, transparent, black); width:100%;">
+                                        <h5 class="ms-3 mb-3" style="color:white;">Candi Borobudur</h5>
+                                        <div class="ms-3"
+                                            style="width:100px; background-color:white; height: 3px; margin-bottom:10px;">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bottom-wisata p-2">
+                                    <div class="d-flex" style="align-items: center; margin-top: -0.5rem;">
+                                        <img style="width:15px; height:25px; margin-right:5px;"
+                                            src="../../assets/wisata/map.png" alt="">
+                                        <p class="ms-1 alamat">Borobudur, Magelang, Jawa Tengah,
+                                            Indonesia.</p>
+                                    </div>
+                                    <div class="d-flex mb-2" style="align-items: center;margin-top: -1rem;">
+                                        <img style="width:20px; height:20px;" src="../../assets/wisata/uang.png" alt="">
+                                        <p class="ms-2 harga"><b>Rp. 300.000</b></p>
+                                    </div>
+                                    <div style="margin-left:0px; margin-top: -2rem; ">
+                                        <div class="d-flex">
+                                            <div class="d-flex" style="width:100%; align-items: center ">
+                                                <img style="width:20px; height:20px" src="../../assets/beranda/star.png"
+                                                    alt="">
+                                                <p class="ms-1 ret">4.4 Rating</p>
+                                            </div>
+                                            <div class="d-flex" style="width:100%; ">
+                                                <p class="ms-2 ret">250 Reviews</p>
+                                            </div>
+                                        </div>
+                                        <a href="" style="font-size: 10px;" class="lihat-wisata">Lihat Tawaran</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>

@@ -102,7 +102,7 @@ margin-top: 0.3rem;
     margin-top: -10rem;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    height: 94vh;
+    max-height: max-content;
   }
   .navbar-kanan{
     padding: 2rem 3rem;
@@ -147,7 +147,8 @@ margin-top: 0.3rem;
 }
 .isi-dalam{
   overflow-y: scroll;
-  height: 510px;
+  max-height: 80vh;
+  /* background-color: red; */
 
 }
 .isi-dalam::-webkit-scrollbar {
@@ -212,6 +213,110 @@ a.lihat-wisata:hover {
 .postingan-kanan h6{
   font-size: 13px;
 }
+/* style pemandu ambil di wisata */
+.card-wisata {
+  width: 200px !important;
+  margin-bottom: 25px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 15px;
+  padding: 0px !important;
+  padding-bottom: 10px;
+  margin-right: 25px;
+}
+
+.header-wisata {
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px 15px 0px 0px;
+}
+.lihat-wisata {
+  text-decoration: none;
+  color: white !important;
+  background-color: black;
+  padding: 10px 20px;
+  border-radius: 25px;
+  margin-left: 20px;
+}
+
+.pesan-button {
+  justify-content: end;
+}
+p.alamat{
+  font-size: 8px;
+}
+p.harga{
+  font-size: 1rem;
+}
+p.ret{
+  font-size: 10px;
+}
+/* upload */
+textarea{
+  resize: none !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+/* pengalaman */
+.input-kanan{
+ padding: 0.5rem 1rem;
+ border-radius: 10px;
+ border: 1px solid rgb(73, 73, 73);
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.input-kanan input{
+width: 100%;
+background-color: transparent;
+border: none;
+}
+.input-kanan input:focus{
+  outline: none;
+}
+.input-kanan-bawah textarea{
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  
+}
+.bungkus-kiri-up{
+  margin-top: 4rem;
+  background-color: #D9D9D9;
+  width: 250px;
+  height: 250px;
+  border: 2px dashed black;
+}
+.gambar-up img{
+  display: flex;
+  margin: auto;
+  margin-top: 3rem;
+}
+.custom-file-upload {
+  border: 2px solid #008CBA;
+  color: #ffffff;
+  background-color: #006FD6;
+  display: inline-block;
+  padding: 3px 1.5rem;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: background-color 0.3s, color 0.3s;
+  margin-left: 2.3rem;
+  margin-top: 1rem;
+}
+
+
+
+#file-upload {
+  display: none;
+}
+
+/* Optional: Adding styles for the file upload icon */
+.custom-file-upload i {
+  margin-right: 5px;
+}
+.input-jk{
+  gap: 3rem;
+  font-weight: 600;
+}
 
 @media screen and (max-width: 1000px) {
   
@@ -220,11 +325,11 @@ a.lihat-wisata:hover {
       margin-top: 2rem;
      
     }
-    .isi-dalam{
+    /* .isi-dalam{
       overflow-y: scroll;
       height: 940px;
     
-    }
+    } */
     .postingan-kanan p{
       font-size: 0.8rem;
     }
@@ -232,6 +337,25 @@ a.lihat-wisata:hover {
       font-size: 20px;
     }
     
+    .card-wisata {
+      width: 1000px !important;
+      margin-bottom: 25px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      border-radius: 15px;
+      padding: 0px !important;
+      padding-bottom: 10px;
+      margin-right: 25px;
+    }
+   
+p.alamat{
+  font-size: 15px;
+}
+p.harga{
+  font-size: 1.3rem;
+}
+p.ret{
+  font-size: 15px;
+}
 
 }
 @media screen and (max-width: 400px) {
@@ -248,11 +372,11 @@ a.lihat-wisata:hover {
       
   
     }
-    .isi-dalam{
+    /* .isi-dalam{
       overflow-y: scroll;
       height: 640px;
     
-    }
+    } */
     .postingan-kanan h6{
       font-size: 13px;
     }
@@ -260,4 +384,24 @@ a.lihat-wisata:hover {
     .postingan-kanan p{
       font-size: 0.6rem;
     }
+    .card-wisata {
+      width: 350px !important;
+      margin-bottom: 25px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      border-radius: 15px;
+      padding: 0px !important;
+      padding-bottom: 10px;
+      margin-right: 25px;
+    }
+    
+p.alamat{
+  font-size: 12px;
+}
+p.harga{
+  font-size: 1.1rem;
+}
+p.ret{
+  font-size: 11px;
+}
+
 }
