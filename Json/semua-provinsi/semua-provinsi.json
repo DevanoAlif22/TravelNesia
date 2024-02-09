@@ -1,0 +1,200 @@
+[
+  {
+    "id": "1",
+    "nama": "Aceh",
+    "gambar": "../../assets/provinsi/jambi.png",
+    "banner": "https://lh5.googleusercontent.com/p/AF1QipN76HiBazLzdm420xPDjPYv3KXzM45E3t4_opNY=w426-h240-k-no"
+  },
+  {
+    "id": "2",
+    "nama": "Sulawesi Utara",
+    "gambar": "../../assets/provinsi/sulut.png",
+    "banner": "https://lh5.googleusercontent.com/p/AF1QipOShBompqDPcnvMmFS3MvRUrQxev749indGDgN3=w408-h386-k-no"
+  },
+  {
+    "id": "3",
+    "nama": "Sulawesi Barat",
+    "gambar": "../../assets/provinsi/subar.png",
+    "banner": "https://lh5.googleusercontent.com/p/AF1QipObsSJ9updBGCeCHlxlrPF9LeM1Pf-8Y997c-eY=w408-h306-k-no"
+  },
+  {
+    "id": "4",
+    "nama": "Riau",
+    "gambar": "../../assets/provinsi/riau.png",
+    "banner": "https://lh5.googleusercontent.com/p/AF1QipMBN9nJMGS18XZZwhCg-i3VleCleE_2GSer3uaP=w408-h543-k-no"
+  },
+  {
+    "id": "5",
+    "nama": "Jambi",
+    "gambar": "../../assets/provinsi/jambi.png",
+    "banner": "https://lh5.googleusercontent.com/p/AF1QipNHmgUetw6jB1CLrLK_XXinm8_lymTYvSpgn3g=w408-h306-k-no"
+  },
+  {
+    "id": "6",
+    "nama": "Sumatera Selatan",
+    "gambar": "../../assets/provinsi/sumsel.png",
+    "banner": "https://lh5.googleusercontent.com/p/AF1QipN5TwEScij9pxe2sjmMKp7fWSvcMFOoaMIIMz8O=w408-h725-k-no"
+  },
+  {
+    "id": "7",
+    "nama": "Bangka Belitung",
+    "gambar": "../../assets/provinsi/bangka.png",
+    "banner": "https://lh5.googleusercontent.com/p/AF1QipMYofMZzgkdo0mdVnjBubAYiPKvBGNwL4fBl7Qm=w408-h268-k-no"
+  },
+  {
+    "id": "8",
+    "nama": "Bengkulu",
+    "gambar": "../../assets/provinsi/bengkulu.png",
+    "banner": "https://lh5.googleusercontent.com/p/AF1QipMXsq5v5vvMpMI1ak3uNGutgALTKyYpOyRXR_xj=w408-h544-k-no"
+  },
+  {
+    "id": "9",
+    "nama": "Lampung",
+    "gambar": "../../assets/provinsi/lampung.png",
+    "banner": "https://lh5.googleusercontent.com/p/AF1QipNGmIPtAcDLBLzCMYkSW5Lcde_cpVuTYYjfJo3U=w408-h272-k-no"
+  },
+  {
+    "id": "10",
+    "nama": "DKI Jakarta",
+    "gambar": "../../assets/provinsi/jakarta.png",
+    "banner": "https://lh5.googleusercontent.com/p/AF1QipNAYN17x5UF5tbZFn76TJR04JSfWfwrml9S1r_H=w426-h240-k-no"
+  },
+  {
+    "id": "11",
+    "nama": "Jawa Barat",
+    "gambar": "../../assets/provinsi/jawabarat.png",
+    "banner": "https://lh5.googleusercontent.com/p/AF1QipMTyr_MFX0RsbEqxgTBr9cIOW25VSiq5hNTFXQZ=w427-h240-k-no"
+  },
+  {
+    "id": "12",
+    "nama": "Banten",
+    "gambar": "../../assets/provinsi/banten.png",
+    "banner": "https://lh5.googleusercontent.com/p/AF1QipPt9b-O-0EdP-jcr9GBMVl_A5DKo8SPyM1xtqbQ=w408-h306-k-no"
+  },
+  {
+    "id": "13",
+    "nama": "Jawa Tengah",
+    "gambar": "../../assets/provinsi/jawatengah.png",
+    "banner": "https://lh5.googleusercontent.com/p/AF1QipPPCBCpSr6hwhGWeDv4YFgojwwuSf_aK4Dt9MHp=w437-h240-k-no"
+  },
+  {
+    "id": "14",
+    "nama": "Jawa Tengah",
+    "gambar": "../../assets/provinsi/jawatengah.png",
+    "banner": "https://lh5.googleusercontent.com/p/AF1QipPPCBCpSr6hwhGWeDv4YFgojwwuSf_aK4Dt9MHp=w437-h240-k-no"
+  },
+  {
+    "id": "15",
+    "nama": "Yogyakarta",
+    "gambar": "../../assets/provinsi/jogja.png",
+    "banner": "https://lh5.googleusercontent.com/p/AF1QipPZYxwq1zIjkSLEOLwhlddj4T0uzVfPkx0cpHqV=w408-h273-k-no"
+  },
+  {
+    "id": "16",
+    "nama": "Jawa Timur",
+    "gambar": "../../assets/provinsi/jawatimur.png",
+    "banner": "https://lh5.googleusercontent.com/p/AF1QipNtSkeSPSLln8UQ8OFcytZToK8DdseDi88zcPhI=w426-h240-k-no"
+  },
+  {
+    "id": "17",
+    "nama": "Bali",
+    "gambar": "../../assets/provinsi/bali.png",
+    "banner": "https://lh5.googleusercontent.com/p/AF1QipNRBl4FzzI7h-f9CPLZmVUeVjvT58LCI_uwYGoq=w426-h240-k-no"
+  },
+  {
+    "id": "18",
+    "nama": "Nusa Tenggara Barat",
+    "gambar": "../../assets/provinsi/ntb.png",
+    "banner": "https://lh5.googleusercontent.com/p/AF1QipO5vG3LrqGvKOjOq_o6cU1YXU03_1NgghT2S_Ec=w426-h240-k-no"
+  },
+  {
+    "id": "19",
+    "nama": "Nusa Tenggara Timur",
+    "gambar": "../../assets/provinsi/ntt.png",
+    "banner": "https://rotendaokab.go.id/wp-content/uploads/2016/07/pantai_nemberala2.jpg"
+  },
+  {
+    "id": "19",
+    "nama": "Nusa Tenggara Timur",
+    "gambar": "../../assets/provinsi/ntt.png",
+    "banner": "https://rotendaokab.go.id/wp-content/uploads/2016/07/pantai_nemberala2.jpg"
+  },
+  {
+    "id": "20",
+    "nama": "Kalimantan Barat",
+    "gambar": "../../assets/provinsi/kalbar.png",
+    "banner": "https://lh5.googleusercontent.com/p/AF1QipPhEf8g6LuAjncPGVPEvVV4v1-TYM_toXuK4Yij=w408-h306-k-no"
+  },
+  {
+    "id": "21",
+    "nama": "Kalimantan Tengah",
+    "gambar": "../../assets/provinsi/kalteng.png",
+    "banner": "https://lh5.googleusercontent.com/p/AF1QipP_AYj37JPu_wm97Yj9ebH3juEjOE1Th0UKldTh=w408-h246-k-no"
+  },
+  {
+    "id": "22",
+    "nama": "Kalimantan Selatan",
+    "gambar": "../../assets/provinsi/kalsel.png",
+    "banner": "https://lh5.googleusercontent.com/p/AF1QipOzEI8A-ldjL522dZ6knsVwGYQmLQrkqGyyeWL5=w408-h725-k-no"
+  },
+  {
+    "id": "23",
+    "nama": "Kalimantan Timur",
+    "gambar": "../../assets/provinsi/kaltim.png",
+    "banner": "https://lh5.googleusercontent.com/p/AF1QipPaeFXjwh3L7FqxzhxzaSHVnuiYGGQxxgPxR0Jl=w408-h271-k-no"
+  },
+  {
+    "id": "24",
+    "nama": "Kalimantan Utara",
+    "gambar": "../../assets/provinsi/kalut.png",
+    "banner": "https://lh5.googleusercontent.com/p/AF1QipPF0rSRIIJIo8gNKkt--KJwVgZNzcTLe0sushYN=w426-h240-k-no"
+  },
+  {
+    "id": "25",
+    "nama": "Sumatera Utara",
+    "gambar": "../../assets/provinsi/sumut.png",
+    "banner": "https://lh5.googleusercontent.com/p/AF1QipNse7CPaajWoRznRHN_LrqemWNc0NpeyemLQU-9=w408-h306-k-no"
+  },
+  {
+    "id": "26",
+    "nama": "Sulawesi Barat",
+    "gambar": "../../assets/provinsi/sulbar.png",
+    "banner": "https://lh5.googleusercontent.com/p/AF1QipObsSJ9updBGCeCHlxlrPF9LeM1Pf-8Y997c-eY=w408-h306-k-no"
+  },
+  {
+    "id": "27",
+    "nama": "Sulawesi Tengah",
+    "gambar": "../../assets/provinsi/sulteng.png",
+    "banner": "zonk"
+  },
+  {
+    "id": "28",
+    "nama": "Sulawesi Selatan",
+    "gambar": "../../assets/provinsi/sulsel.png",
+    "banner": "zonk"
+  },
+  {
+    "id": "28",
+    "nama": "Sulawesi Tenggara",
+    "gambar": "../../assets/provinsi/sultenggara.png",
+    "banner": "zonk"
+  },
+  {
+    "id": "28",
+    "nama": "Gorontalo",
+    "gambar": "../../assets/provinsi/gorontalo.png",
+    "banner": "https://lh5.googleusercontent.com/p/AF1QipPPDQN6wt64HH7g07CsrePREt5EtsHmR_tUGCic=w408-h272-k-no"
+  },
+  {
+    "id": "29",
+    "nama": "Maluku",
+    "gambar": "../../assets/provinsi/maluku.png",
+    "banner": "https://lh5.googleusercontent.com/p/AF1QipNgKkanNmr7_56ba9sSISM39vLKATU_ayv1okV3=w493-h240-k-no"
+  },
+  {
+    "id": "30",
+    "nama": "Papua",
+    "gambar": "../../assets/provinsi/papua.png",
+    "banner": "https://lh5.googleusercontent.com/p/AF1QipPW1_QEwJm4MDgk3-G-n9DNBOpSttJJjhKS9eli=w408-h306-k-no"
+  }
+]

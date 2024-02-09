@@ -63,7 +63,7 @@
               <div class="col-lg-3 card-provinsi">
                 <div class="isi-provinsi">
                   <div style="width:100%; display:flex; justify-content:center;">
-                    <img style="width: 60px" src="../../assets/provinsi/jawatimur.png" alt="">
+                    <img style="width:90px; " src="../../assets/provinsi/jawatimur.png" alt="">
                   </div>
                   <h4 class="pt-3 pb-3"><b>Jawa Timur</b></h4>
                   <a href="" style="margin-left:0px;" class="lihat-wisata">Pilih Provinsi</a>
@@ -72,16 +72,7 @@
               <div class="col-lg-3 card-provinsi">
                 <div class="isi-provinsi">
                   <div style="width:100%; display:flex; justify-content:center;">
-                    <img style="width: 60px" src="../../assets/provinsi/jawatimur.png" alt="">
-                  </div>
-                  <h4 class="pt-3 pb-3"><b>Jawa Timur</b></h4>
-                  <a href="pencarian-wisata.php" style="margin-left:0px;" class="lihat-wisata">Pilih Provinsi</a>
-                </div>
-              </div>
-              <div class="col-lg-3 card-provinsi">
-                <div class="isi-provinsi">
-                  <div style="width:100%; display:flex; justify-content:center;">
-                    <img style="width: 60px" src="../../assets/provinsi/jawatimur.png" alt="">
+                    <img style="width:90px; " src="../../assets/provinsi/aceh.png" alt="">
                   </div>
                   <h4 class="pt-3 pb-3"><b>Jawa Timur</b></h4>
                   <a href="" style="margin-left:0px;" class="lihat-wisata">Pilih Provinsi</a>
@@ -90,7 +81,7 @@
               <div class="col-lg-3 card-provinsi">
                 <div class="isi-provinsi">
                   <div style="width:100%; display:flex; justify-content:center;">
-                    <img style="width: 60px" src="../../assets/provinsi/jawatimur.png" alt="">
+                    <img style="width:90px; " src="../../assets/provinsi/sulut.png" alt="">
                   </div>
                   <h4 class="pt-3 pb-3"><b>Jawa Timur</b></h4>
                   <a href="" style="margin-left:0px;" class="lihat-wisata">Pilih Provinsi</a>
@@ -99,7 +90,7 @@
               <div class="col-lg-3 card-provinsi">
                 <div class="isi-provinsi">
                   <div style="width:100%; display:flex; justify-content:center;">
-                    <img style="width: 60px" src="../../assets/provinsi/jawatimur.png" alt="">
+                    <img style="width:90px; " src="../../assets/provinsi/subar.png" alt="">
                   </div>
                   <h4 class="pt-3 pb-3"><b>Jawa Timur</b></h4>
                   <a href="" style="margin-left:0px;" class="lihat-wisata">Pilih Provinsi</a>
@@ -108,7 +99,7 @@
               <div class="col-lg-3 card-provinsi">
                 <div class="isi-provinsi">
                   <div style="width:100%; display:flex; justify-content:center;">
-                    <img style="width: 60px" src="../../assets/provinsi/jawatimur.png" alt="">
+                    <img style="width:90px; " src="../../assets/provinsi/riau.png" alt="">
                   </div>
                   <h4 class="pt-3 pb-3"><b>Jawa Timur</b></h4>
                   <a href="" style="margin-left:0px;" class="lihat-wisata">Pilih Provinsi</a>
@@ -117,43 +108,7 @@
               <div class="col-lg-3 card-provinsi">
                 <div class="isi-provinsi">
                   <div style="width:100%; display:flex; justify-content:center;">
-                    <img style="width: 60px" src="../../assets/provinsi/jawatimur.png" alt="">
-                  </div>
-                  <h4 class="pt-3 pb-3"><b>Jawa Timur</b></h4>
-                  <a href="" style="margin-left:0px;" class="lihat-wisata">Pilih Provinsi</a>
-                </div>
-              </div>
-              <div class="col-lg-3 card-provinsi">
-                <div class="isi-provinsi">
-                  <div style="width:100%; display:flex; justify-content:center;">
-                    <img style="width: 60px" src="../../assets/provinsi/jawatimur.png" alt="">
-                  </div>
-                  <h4 class="pt-3 pb-3"><b>Jawa Timur</b></h4>
-                  <a href="" style="margin-left:0px;" class="lihat-wisata">Pilih Provinsi</a>
-                </div>
-              </div>
-              <div class="col-lg-3 card-provinsi">
-                <div class="isi-provinsi">
-                  <div style="width:100%; display:flex; justify-content:center;">
-                    <img style="width: 60px" src="../../assets/provinsi/jawatimur.png" alt="">
-                  </div>
-                  <h4 class="pt-3 pb-3"><b>Jawa Timur</b></h4>
-                  <a href="" style="margin-left:0px;" class="lihat-wisata">Pilih Provinsi</a>
-                </div>
-              </div>
-              <div class="col-lg-3 card-provinsi">
-                <div class="isi-provinsi">
-                  <div style="width:100%; display:flex; justify-content:center;">
-                    <img style="width: 60px" src="../../assets/provinsi/jawatimur.png" alt="">
-                  </div>
-                  <h4 class="pt-3 pb-3"><b>Jawa Timur</b></h4>
-                  <a href="" style="margin-left:0px;" class="lihat-wisata">Pilih Provinsi</a>
-                </div>
-              </div>
-              <div class="col-lg-3 card-provinsi">
-                <div class="isi-provinsi">
-                  <div style="width:100%; display:flex; justify-content:center;">
-                    <img style="width: 60px" src="../../assets/provinsi/jawatimur.png" alt="">
+                    <img style="width:90px; " src="../../assets/provinsi/jambi.png" alt="">
                   </div>
                   <h4 class="pt-3 pb-3"><b>Jawa Timur</b></h4>
                   <a href="" style="margin-left:0px;" class="lihat-wisata">Pilih Provinsi</a>

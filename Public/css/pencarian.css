@@ -58,7 +58,7 @@ body {
 
 .card-provinsi {
   width: 230px;
-  height: 240px;
+  height: 260px !important;
   background-color: #ffffff;
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -190,6 +190,10 @@ body {
   margin-top: 15px;
 }
 
+.gambar-provinsi {
+  background-position: center;
+  background-size: cover;
+}
 @media screen and (max-width: 500px) {
   .container-wisata {
     justify-content: center;

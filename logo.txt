@@ -1,0 +1,31 @@
+Aceh DONE 20 - DONE ✅ gol aceh
+Sulawesi Utara DONE 20 - DONE ✅ gol sulut
+Sumatera Barat DONE 20 - DONE ✅ gol subar
+Riau dan kepulauan DONE 20 - DONE ✅ gol riau
+Jambi DONE 20 - DONE ✅ gol jambi
+Sumatera Selatan DONE 20 - DONE ✅ gol sulsel
+Bangka Belitung DONE 20 - DONE ✅ gol bangka
+Bengkulu DONE 20 - DONE ✅ gol bengkulu
+Lampung DONE 20  - DONE ✅ gol lampung
+DKI Jakarta DONE 20 - DONE ✅ gol jakarta
+Jawa Barat DONE 30 - DONE ✅  gol jawabarat
+Banten DONE 20 - DONE ✅ del gol banten
+Jawa Tengah DONE 30 - DONE ✅ del gol jawatengah
+DI Yogyakarta DONE 30 - DONE ✅ del gol jogja
+Jawa Timur DONE 30 - DONE ✅ del gol jawatimur
+Bali DONE 30 - DONE ✅ gol bali
+Nusa Tenggara Barat (NTB) DONE 20 - DONE ✅ del gol ntb
+Nusa Tenggara Timur (NTT) DONE 20 - DONE ✅ gol ntt
+Kalimantan Barat DONE 20 - DONE ✅ gol kalbar
+Kalimantan Tengah DONE 20 - DONE ✅ del kalteng
+Kalimantan Selatan DONE 20  - DONE ✅ gol kalsel
+Kalimantan Timur DONE 20 - DONE ✅ del gol kaltim
+Kalimantan Utara DONE 20 - DONE ✅ gol kalut
+Sumatera Utara DONE 20 - DONE ✅ gol sumut
+Sulawesi Barat DONE 20 - DONE ✅ del gol sulbar
+Sulawesi Tengah DONE 20 - DONE ✅ gol sulteng
+Sulawesi Selatan DONE 20 - DONE ✅ del gol sulsel
+Sulawesi Tenggara DONE 20 - DONE ✅ gol sultenggara
+Gorontalo DONE 20 - DONE ✅ gol gorontalo
+Maluku DONE 20 - DONE ✅ gol maluku
+Papua DONE 20 - DONE ✅ gol papua
