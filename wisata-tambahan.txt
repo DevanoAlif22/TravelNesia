@@ -1,5 +1,109 @@
 List : 
+// ACEH
+Museum Tsunami Aceh - Aceh
+Pantan Terong - ACEH
+Danau Laut Tawar - ACEH
+Pantai Pasir Putih | Lhok Mee - ACEH
+Air Terjun Pria Laot - ACEH
+Wisata Gua Sarang - ACEH
 
-borobudur - jawa tengah
-jatim park 1-3 - jawa timur
-parangtritis - yogyakarta
+
+//BALI
+Gili Putih Sumberkima
+Savana Tianyar
+Pantai Gunung Payung
+Air Terjun Lemukih
+Desa Pinggan
+
+//SULAWESI UTARA(MANADO)
+Kota Bunga Tomohon 
+Pulau Manadotua
+Pantai Malalayang
+Taman Hutan Raya Gunung Tumpa
+Gua Jepang Tikala Kumaraka
+Monumen Yesus Memberkati
+
+//RIAU
+Vihara Avalokitesvara Graha
+Gua Bukit Batu Seludung Pelintung
+Gn. Bintan Besar
+
+
+//MALUKU
+Pantai Natsepa
+Pantai Ora
+Pantai Liang
+Patung Christina Martha Tiahahu
+Taman Pattimura
+Monumen Gong Perdamaian Dunia
+Mesjid Tua Wapauwe Kaitetu
+
+
+//PAPUA
+Danau Sentani
+Pantai Base-G
+Taman Nasional Wasur
+Taman Nasional Lorentz
+Lembah Baliem
+Raja Ampat
+
+
+//JAWA TIMUR
+Goa Lowo 
+Pantai prigi
+Pantai Pelang
+Pantai Konang
+Pantai Pasir Putih Karanggongso
+Desa Wisata pantai mutiara
+Pantai Cengkrong Karanggandu Watulimo Trenggalek
+Goa Gong Pacitan
+Goa Tetes
+Goa Luweng Jaran
+Air Terjun Tumpak Sewu
+Ranu Kumbolo
+Ranu Regulo
+The Grand Taman Safari Prigen Jawa Timur
+Jawa Timur Park 1,2,3
+
+
+
+//JAWA TENGAH
+Gua Maria Kerep Ambarawa
+Curug Telu
+Curug Jenggala
+Taman Nasional Gunung Merbabu
+Pulau Menjangan-kecil
+Kepulauan Karimunjawa
+Candi Borobudur 
+Lawang Sewu
+Dusun Semilir
+
+//Yogyakarta
+Candi Prambanan
+Pantai Parangtritis
+Tebing Breksi
+Museum Benteng Vredeburg
+Pantai Siung
+Pantai Wediombo
+HeHa Sky View
+Ledok Sambi
+
+// JAWA BARAT
+Taman Safari Indonesia Bogor
+Kawah Putih
+Kebun Raya Bogor
+Gunung Tangkuban Parahu
+Pantai Ujung Genteng
+Taman Hutan Raya Ir. H. Djuanda
+
+//NUSA TENGGARA BARAT
+Gili Trawangan
+Sirkuit Internasional Pertamina Mandalika
+Bukit Merese
+Gili Nanggu
+Sade Village
+
+//NUSA TENGGARA TIMUR
+Taman Nasional Komodo
+Pink Beach/ Pantai Merah
+Labuhan Bajo

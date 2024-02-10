@@ -190,5 +190,41 @@
     "about": "Belum lengkap rasanya apabila menjelajahi Kupang tanpa mampir berkunjung ke bukit cantik yang berlokasi dekat dengan Bandara El Tari, Kupang ini. Hamparan bukit dengan luas sekitar belasan hektar tersebut dinamakan Bukit Cinta karena bukit ini sering dijadikan sebagai tempat memadu kasih para pemuda dan pemudi Kupang. Setiap menjelang sore hari, bukit ini tak pernah terlihat sepi. Selalu saja dipenuhi oleh sekelompok anak muda yang terlihat memanfaatkan bukit ini sebagai area untuk sekedar berkumpul, bercengkerama dan berfoto-foto ria. Bukit Cinta Kupang memberikan pesona keindahan tersendiri dengan hamparan padang rumputnya bak permadani yang berwarna hijau segar ketika musim penghujan tiba.",
     "reviews": 3,
     "address": "74PF+J4J Bukit Cinta Dena Biko, Olakile, Kec. Boawae, Kabupaten Nagekeo, Nusa Tenggara Tim."
+  },
+  {
+    "place_id": "-",
+    "name": "Taman Nasional Komodo",
+    "link": "https://www.google.com/maps/place/Taman+Nasional+Komodo/@-8.527716,119.4807449,17z/data=!3m1!4b1!4m6!3m5!1s0x2db4f8f329ac91b9:0xb1a1078870e0d162!8m2!3d-8.527716!4d119.4833198!16zL20vMDJ6cGhm?entry=ttu",
+    "main_category": "Taman Nasional",
+    "categories": ["Taman Nasional"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipM4tJAhA2sCNF1otbtu6Q6NdYwejve_I5NiGCJk=w408-h306-k-no",
+    "rating": 4.7,
+    "about": " Taman Nasional Komodo merupakan salah satu dari 21 Taman Nasional Model yang ada di Indonesia dan merupakan salah satu dari lima taman nasional yang ditetapkan pertama kali di Indonesia. Taman Nasional Komodo didirikan pada 1980 yang terletak di Kecamatan Komodo, Kabupaten Manggarai, Provinsi Nusa Tenggara Timur. Ya, Komodo (Varanus komodoensis) adalah spesies purba dan langka yang hampir punah, hanya dapat Anda temukan di Taman Nasional Komodo. Hewan komodo merupakan makhluk besar mirip kadal raksasa dengan memiliki panjang 2-3 m dan berat mencapai 165 kg, atau 100 kg saat perut kosong. Karena keunikan dan kelangkaannya, Taman Nasional Komodo dinyatakan sebagai World Heritage Site dan Man and Biosphere Reserve oleh UNESCO tahun 1986. Pertama kali diteliti secara ilmiah pada tahun 1911 oleh JKH Van Steyn dan sejak saat itu tujuan konservasi semakin luas untuk melindungi seluruh keanekaragaman hayati, baik laut dan darat. Taman Nasional Komodo mencakup 3 pulau utama yaitu Pulau Komodo, Rinca, dan Padar, banyak juga pulau-pulau kecil lainnya yang jika dijumlahkan memiliki luas tanah 603 km². Total luas Taman Nasional Komodo saat ini adalah 1.817 km². Diperluas hingga 25 km² (Pulau Banta) dan 479 km² perairan laut akan menghasilkan total luas hingga 2.321 km².",
+    "reviews": 6.383,
+    "address": "Nusa Tenggara Tim."
+  },
+  {
+    "place_id": "-",
+    "name": "Pantai Merah",
+    "link": "https://www.google.com/maps/place/Pantai+Merah/@-8.6013775,119.5171736,17z/data=!3m1!4b1!4m6!3m5!1s0x2db4567cf6bd1967:0x9f2eb4aca51c5fd0!8m2!3d-8.6012033!4d119.5197902!16s%2Fg%2F11c0vbq4jv?entry=ttu",
+    "main_category": "Pantai",
+    "categories": ["Pantai"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipPT6JQYWiLLnYvIQCUva8nUO1CYwSaP-MEFPLXe=w408-h298-k-no",
+    "rating": 4.8,
+    "about": " Seperti namanya, pantai eksotis dan indah ini memiliki pasir berwarna merah muda. Pink Beach atau yang dikenal Pantai Merah di Pulau Komodo, menjadi satu dari tujuh pantai berpasir merah mudah di dunia.  Pemandangan luar biasa di Pink Beach sangat ciamik dijadikan spot foto. Tak hanya menikmati pemandangan pantai, wisatawan bisa melihat keindahan bawah laut dengan snorkeling atau diving. Wisatawan akan dimanjakan dengan beragam jenis ikan, batu karang, dan biota laut lainnya. Tak heran jika aktivitas snorkeling menjadi yang paling populer dan favorit di Pink Beach.",
+    "reviews": 2.779,
+    "address": "Nusa Tenggara Tim."
+  },
+  {
+    "place_id": "-",
+    "name": "Labuan Bajo",
+    "link": "https://www.google.com/maps/place/Labuan+Bajo,+Kec.+Komodo,+Kabupaten+Manggarai+Barat,+Nusa+Tenggara+Tim./@-8.4368266,119.8894605,13z/data=!4m6!3m5!1s0x2db468a6d47ed641:0x87f524333c6a6e8d!8m2!3d-8.4538484!4d119.8728421!16s%2Fm%2F09v4h8p?entry=ttu",
+    "main_category": "Pulau",
+    "categories": ["Pulau"],
+    "image": "https://lh5.googleusercontent.com/p/AF1QipOCdGrYSjk1JKOClP7mqeVk1cgtnhZtIv6gr4eS=w408-h306-k-no",
+    "rating": "null",
+    "about": "Labuan Bajo merupakan sebuah surga tersembunyi yang ada di Indonesia bagian timur. Desa ini terletak di Kecamatan Komodo, Kabupaten Manggarai Barat, Provinsi Nusa Tenggara Timur yang berbatasan langsung dengan Nusa Tenggara Barat dan dipisahkan oleh Selat Sape. Labuan Bajo adalah salah satu dari lima Destinasi Super Prioritas yang sedang dikembangkan di Indonesia.  Destinasi ini merupakan gerbang menuju Taman Nasional Komodo yang menyimpan keindahan alam yang menakjubkan dan hewan purba yang mendunia. Mulai dari hewan endemik komodo di Pulau Rinca dan Pulau Komodo, deretan pulau eksotis, keragaman hayati bawah laut, hingga pantai aduhai, semua bisa Sobat Pesona temukan dengan memulai perjalanan di Labuan Bajo. Menikmati pemandangan langit senja juga bisa menjadi cara lain menikmati Labuan Bajo. Spot strategis untuk menikmati keindahan senja ini berada tak jauh dari Bandar Udara Internasional Komodo. Sobat Pesona dapat memilih destinasi Bukit Cinta, Puncak Amelia, dan Puncak Silvia, untuk mengabadikan langit senja yang menentramkan jiwa. Ada juga Gua Rangko yang memiliki pesona bak oasis dengan kolam air asinnya yang begitu menyejukkan.",
+    "reviews": "null",
+    "address": "Kec. Komodo Kabupaten Manggarai Barat Nusa Tenggara Tim."
   }
 ]
