@@ -1,5 +1,109 @@
 List : 
+// ACEH
+Museum Tsunami Aceh - Aceh v
+Pantan Terong - ACEH v
+Danau Laut Tawar - ACEH v
+Pantai Pasir Putih | Lhok Mee - ACEH v
+Air Terjun Pria Laot - ACEH v
+Wisata Gua Sarang - ACEH v
 
-borobudur - jawa tengah
-jatim park 1-3 - jawa timur
-parangtritis - yogyakarta
+
+//BALI
+Gili Putih Sumberkima v
+Savana Tianyar v
+Pantai Gunung Payung v
+Air Terjun Lemukih v
+Desa Pinggan v
+
+//SULAWESI UTARA(MANADO)
+Kota Bunga Tomohon v
+Pulau Manadotua v
+Pantai Malalayang x
+Taman Hutan Raya Gunung Tumpa v
+Gua Jepang Tikala Kumaraka v
+Monumen Yesus Memberkati v
+
+//RIAU
+Vihara Avalokitesvara Graha v
+Gua Bukit Batu Seludung Pelintung v
+Gn. Bintan Besar v
+
+
+//MALUKU
+Pantai Natsepa v
+Pantai Ora v
+Pantai Liang v
+Patung Christina Martha Tiahahu v
+Taman Pattimura v
+Monumen Gong Perdamaian Dunia v
+Mesjid Tua Wapauwe Kaitetu v
+
+
+//PAPUA
+Danau Sentani v
+Pantai Base-G v
+Taman Nasional Wasur v
+Taman Nasional Lorentz v
+Lembah Baliem v
+Raja Ampat v
+
+
+//JAWA TIMUR ALL DONE
+Goa Lowo 
+Pantai prigi
+Pantai Pelang
+Pantai Konang
+Pantai Pasir Putih Karanggongso
+Desa Wisata pantai mutiara
+Pantai Cengkrong Karanggandu Watulimo Trenggalek
+Goa Gong Pacitan
+Goa Tetes
+Goa Luweng Jaran
+Air Terjun Tumpak Sewu
+Ranu Kumbolo
+Ranu Regulo
+The Grand Taman Safari Prigen Jawa Timur
+Jawa Timur Park 1,2,3
+
+
+
+//JAWA TENGAH ALL DONE
+Gua Maria Kerep Ambarawa
+Curug Telu
+Curug Jenggala
+Taman Nasional Gunung Merbabu
+Pulau Menjangan-kecil
+Kepulauan Karimunjawa
+Candi Borobudur 
+Lawang Sewu
+Dusun Semilir
+
+//Yogyakarta ALL DONE
+Candi Prambanan
+Pantai Parangtritis
+Tebing Breksi
+Museum Benteng Vredeburg
+Pantai Siung
+Pantai Wediombo
+HeHa Sky View
+Ledok Sambi
+
+// JAWA BARAT ALL DONE
+Taman Safari Indonesia Bogor
+Kawah Putih
+Kebun Raya Bogor
+Gunung Tangkuban Parahu
+Pantai Ujung Genteng
+Taman Hutan Raya Ir. H. Djuanda
+
+//NUSA TENGGARA BARAT ALL DONE
+Gili Trawangan
+Sirkuit Internasional Pertamina Mandalika
+Bukit Merese
+Gili Nanggu
+Sade Village
+
+//NUSA TENGGARA TIMUR 
+Taman Nasional Komodo
+Pink Beach/ Pantai Merah
+Labuhan Bajo

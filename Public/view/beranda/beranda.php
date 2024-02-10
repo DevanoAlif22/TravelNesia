@@ -1,3 +1,15 @@
+<?php 
+session_start();
+
+require_once '../../../Controller/UserController.php';
+
+if(!isset($_SESSION['login'])) {
+    header("Location: ../login/login.php");
+    exit;
+}
+
+?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -48,6 +60,7 @@
                 <p style="color:white; font-size: 1.3rem;" class="pb-3">Jelajahi Wisata Indonesia dengan Pencarian Cepat, Rekomendasi Terbaik, dan Pemandu Profesional di Setiap Petualangan</p>
                 <a class="tombol-cari" href="../pencarian/pencarian-provinsi-wisata.php">Cari Wisata</a>
             </div>
+            <a href="../lainnya/keluar.php">logout</a>
             <div class="col-lg-5">
                 <div class="container-slider">
                     <h3 style="color:white;">Foto Wisata</h3>

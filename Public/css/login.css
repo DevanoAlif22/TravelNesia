@@ -1,99 +1,93 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    background-image: url("../assets/login/bg.png");
-    height: 100vh;
-    width: 100%;
-    background-repeat:no-repeat;
-background-size:cover;
-background-position:center;
+body {
+  background-image: url("../assets/login/bg.png");
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-.judul h1{
-    font-weight: 700;
+.judul h1 {
+  font-weight: 700;
 }
- input{
-
-    background-color: transparent;
-    border: none;
-
+input {
+  background-color: transparent;
+  border: none;
 }
-input:focus{
-
-    outline: none;
+input:focus {
+  outline: none;
 }
-.email{
-    display: flex;
-    justify-content: space-between;
-    border-radius: 30px;
-    padding: 0.5rem 2rem;
-    background-color: white;
+.email {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 30px;
+  padding: 0.5rem 2rem;
+  background-color: white;
 }
-.password{
-    display: flex;
-    justify-content: space-between;
-    border-radius: 30px;
-    padding: 0.5rem 2rem;
-    background-color: white;
+.password {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 30px;
+  padding: 0.5rem 2rem;
+  background-color: white;
 }
-.buat-akun a{
-    text-decoration: none;
-    color: #1A8AEE;
+.buat-akun a {
+  text-decoration: none;
+  color: #1a8aee;
 }
-.buat-akun a:hover{
-  
-    color: #1A8AEE;
+.buat-akun a:hover {
+  color: #1a8aee;
 }
-.masuk a{
-    text-decoration: none;
-    color: white;
-    padding: 0.5rem 3rem;
-    border-radius: 30px;
-    background-color: #1A8AEE;
-    transition: .2s ease-in-out;
-    font-weight: 500;
-    font-size: 20px;
+.masuk button {
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem 3rem;
+  border-radius: 30px;
+  background-color: #1a8aee;
+  transition: 0.2s ease-in-out;
+  font-weight: 500;
+  font-size: 20px;
 }
-.masuk{
-    text-align: center;
-
+.masuk {
+  text-align: center;
 }
-.masuk a:hover{
-    color: white;
-    background-color: #1A8AEE;
-    
+.masuk a:hover {
+  color: white;
+  background-color: #1a8aee;
 }
 @media screen and (max-width: 1000px) {
-    .logo {
-        margin-bottom: 25rem;
-    }
-    .judul{
-        text-align: center;
-    }
-    body{
-        background-image: url("../assets/login/bg-hp.png");
-        height: 100vh;
-        width: 100%;
-        background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
-    }
+  .logo {
+    margin-bottom: 25rem;
+  }
+  .judul {
+    text-align: center;
+  }
+  body {
+    background-image: url("../assets/login/bg-hp.png");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 }
 
-        @media screen and (max-width: 500px) {
-            .logo {
-              margin-bottom: 5rem;
-            }
-            .judul{
-                text-align: center;
-            }
-            body{
-                background-image: url("../assets/login/bg-hp.png");
-                height: 100vh;
-                width: 100%;
-                background-repeat:no-repeat;
-            background-size:cover;
-            background-position:center;
-            }
-        }
+@media screen and (max-width: 500px) {
+  .logo {
+    margin-bottom: 5rem;
+  }
+  .judul {
+    text-align: center;
+  }
+  body {
+    background-image: url("../assets/login/bg-hp.png");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}

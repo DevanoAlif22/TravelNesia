@@ -64,11 +64,12 @@ body {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   display: flex;
   margin-bottom: 20px;
+  margin-right: 20px;
 }
 
 .container-provinsi {
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
 }
 
 .isi-provinsi {
@@ -81,10 +82,10 @@ body {
   background-color: black;
   padding: 5px 20px;
   border-radius: 25px;
-  margin-left: 30px;
+  /* margin-left: 30px; */
 }
 .container-wisata {
-  justify-content: space-between;
+  justify-content: start;
 }
 .wisata {
   width: 100%;
@@ -92,6 +93,7 @@ body {
 }
 
 .card-wisata {
+  margin-right: 20px;
   width: 300px;
   margin-bottom: 25px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -114,7 +116,6 @@ body {
   background-color: black;
   padding: 10px 20px;
   border-radius: 25px;
-  margin-left: 30px;
 }
 
 /* pemandu */
@@ -194,7 +195,7 @@ body {
   background-position: center;
   background-size: cover;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1400px) {
   .container-wisata {
     justify-content: center;
   }

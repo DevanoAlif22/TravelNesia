@@ -1,3 +1,19 @@
+<?php 
+
+
+require '../../../Controller/ProvinsiController.php';
+$json_data = file_get_contents('../../../Json/semua-provinsi/semua-provinsi.json');
+$data = json_decode($json_data, true);
+
+if(isset($_POST['cari-provinsi'])) {
+  $isi = $_POST['isi-pencarian'];
+  if($isi != '') {
+    $data = PencarianProvinsi($isi, $data);
+  }
+} 
+?>
+
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -11,6 +27,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
   </head>
+  <style>
+    input:focus {
+        outline: none;
+    }
+  </style>
   <body>
     
     <div class="container">
@@ -45,10 +66,13 @@
 
     <div class="container">
       <div class="d-flex flex-row-reverse">
-        <div class="p-2 me-5 cari d-flex">
-          <i class="fa-solid fa-magnifying-glass" style="margin-top:7px; margin-right:20px;color: #999999;"></i>  
-          <input type="text" placeholder="Cari Langsung Wisata">
-        </div>
+        <form action="" method="post">
+          <div class="p-2 me-5 cari d-flex">
+            <i class="fa-solid fa-magnifying-glass" style="margin-top:7px; margin-right:20px;color: #999999;"></i>  
+            <input autocomplete="off" name="isi-pencarian" type="text" placeholder="Cari Provinsi">
+            <button name="cari-provinsi" type="submit" style="border:none; background-color: #006FD6; padding: 5px 25px; color: white; border-radius: 25px;">Cari</button>
+          </div>
+        </form>
       </div>
     </div>
 
@@ -60,60 +84,17 @@
 
         <div class="container mt-5">
             <div class="row container-provinsi">
-              <div class="col-lg-3 card-provinsi">
-                <div class="isi-provinsi">
-                  <div style="width:100%; display:flex; justify-content:center;">
-                    <img style="width:90px; " src="../../assets/provinsi/jawatimur.png" alt="">
-                  </div>
-                  <h4 class="pt-3 pb-3"><b>Jawa Timur</b></h4>
-                  <a href="" style="margin-left:0px;" class="lihat-wisata">Pilih Provinsi</a>
-                </div>
-              </div>
-              <div class="col-lg-3 card-provinsi">
-                <div class="isi-provinsi">
-                  <div style="width:100%; display:flex; justify-content:center;">
-                    <img style="width:90px; " src="../../assets/provinsi/aceh.png" alt="">
-                  </div>
-                  <h4 class="pt-3 pb-3"><b>Jawa Timur</b></h4>
-                  <a href="" style="margin-left:0px;" class="lihat-wisata">Pilih Provinsi</a>
-                </div>
-              </div>
-              <div class="col-lg-3 card-provinsi">
-                <div class="isi-provinsi">
-                  <div style="width:100%; display:flex; justify-content:center;">
-                    <img style="width:90px; " src="../../assets/provinsi/sulut.png" alt="">
-                  </div>
-                  <h4 class="pt-3 pb-3"><b>Jawa Timur</b></h4>
-                  <a href="" style="margin-left:0px;" class="lihat-wisata">Pilih Provinsi</a>
-                </div>
-              </div>
-              <div class="col-lg-3 card-provinsi">
-                <div class="isi-provinsi">
-                  <div style="width:100%; display:flex; justify-content:center;">
-                    <img style="width:90px; " src="../../assets/provinsi/subar.png" alt="">
-                  </div>
-                  <h4 class="pt-3 pb-3"><b>Jawa Timur</b></h4>
-                  <a href="" style="margin-left:0px;" class="lihat-wisata">Pilih Provinsi</a>
-                </div>
-              </div>
-              <div class="col-lg-3 card-provinsi">
-                <div class="isi-provinsi">
-                  <div style="width:100%; display:flex; justify-content:center;">
-                    <img style="width:90px; " src="../../assets/provinsi/riau.png" alt="">
-                  </div>
-                  <h4 class="pt-3 pb-3"><b>Jawa Timur</b></h4>
-                  <a href="" style="margin-left:0px;" class="lihat-wisata">Pilih Provinsi</a>
-                </div>
-              </div>
-              <div class="col-lg-3 card-provinsi">
-                <div class="isi-provinsi">
-                  <div style="width:100%; display:flex; justify-content:center;">
-                    <img style="width:90px; " src="../../assets/provinsi/jambi.png" alt="">
-                  </div>
-                  <h4 class="pt-3 pb-3"><b>Jawa Timur</b></h4>
-                  <a href="" style="margin-left:0px;" class="lihat-wisata">Pilih Provinsi</a>
-                </div>
-              </div>
+                  <?php foreach ($data as $result) : ?>
+                    <div class="col-lg-3 card-provinsi">
+                      <div class="isi-provinsi">
+                        <div style="width:100%; display:flex; justify-content:center;">
+                          <img style="width:90px; " src="../../assets/provinsi/<?php echo $result['gambar'] ?>" alt="">
+                        </div>
+                        <h6 class="pt-3 pb-3 text-center"><b><?php echo $result['nama'] ?></b></h6>
+                        <a href="pencarian-wisata.php?id=<?php echo $result['id'] ?>" class="lihat-wisata text-center">Pilih Provinsi</a>
+                      </div>
+                    </div>
+                  <?php endforeach ?>
             </div>
         </div>
     </div>
