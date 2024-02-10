@@ -1,5 +1,4 @@
 <?php 
-
 // Sertakan file PHPMailer
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
@@ -126,9 +125,10 @@ function verifikasiMasuk($data) {
         $passwordDB = $result[0]['password'];
 
         if(password_verify($password, $passwordDB)) {
-            $_SESSION['login'] = true;
-            setcookie('user', $id, time() + 21600);
-            return true;
+            $result = mysqli_query($conn, "SELECT * From pengguna Where id_user = $id");
+            $row = mysqli_fetch_assoc($result);
+
+            return [$row['id_user'], $row['email']];
 
 
         } else {
@@ -136,7 +136,7 @@ function verifikasiMasuk($data) {
         }
 
     } else {
-        return 'Alamat email yang anda masukkan belum terdaftar';
+        return 'salah';
     }
 }
 

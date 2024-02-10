@@ -1,27 +1,38 @@
 <?php
 session_start();
-require '../../../Controller/UserController.php';
 
-if(isset($_COOKIE['user'])) {
-    $_SESSION['login'] = true;
-    header("Location: ../beranda/beranda.php");
-    exit;
-}
+require_once '../../../Controller/UserController.php';
+require_once '../../../Connection/connection.php';
 
-if(isset($_SESSION['login'])) {
-    header("Location: ../beranda/beranda.php");
-    exit;
+
+
+if(isset($_SESSION['login']) && isset($_SESSION['id']) && isset($_SESSION['key'])) {
+    global $conn;
+    $kunci = $_SESSION['key'];
+    $result = mysqli_query($conn, "SELECT email From pengguna Where id_user = " . $_SESSION['id']);
+    $row = mysqli_fetch_assoc($result);
+    if ($kunci === hash('sha256', $row['email'])) {
+        echo 'sampe';
+        $_SESSION["login"] = true;
+        header("Location: ../beranda/beranda.php");
+        exit;
+    }
 }
 
 if(isset($_POST['masuk'])) {
     $verifikasi = verifikasiMasuk($_POST);
 
-    if($verifikasi === true) {
-        header("Location: ../beranda/beranda.php");
-    } else if($verifikasi === false){
+    if($verifikasi === false){
         $error = 'Email atau password anda salah';
+    } else if($verifikasi == 'salah'){
+        $error = 'Email yang anda masukkan belum terdaftar';
     } else {
-        $error = $verifikasi;
+        $_SESSION['login'] = true;
+        $_SESSION['id'] = intval($verifikasi[0]);
+        $_SESSION['key'] = hash('sha256', $verifikasi[1]);
+        
+        header("Location: ../beranda/beranda.php");
+        exit;
     }
 }
 
