@@ -29,3 +29,8 @@ Sulawesi Tenggara DONE 20 - DONE ✅ gol sultenggara zonk siap
 Gorontalo DONE 20 - DONE ✅ gol gorontalo V siap
 Maluku DONE 20 - DONE ✅ gol maluku V siap
 Papua DONE 20 - DONE ✅ gol papua siap
+
+
+Dav : aceh - kalimantan timur
+Fer : kalimantan barat - sulawesi utara
+Dev : sumatera barat - yogyakarta

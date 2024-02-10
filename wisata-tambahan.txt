@@ -1,54 +1,54 @@
 List : 
 // ACEH
-Museum Tsunami Aceh - Aceh
-Pantan Terong - ACEH
-Danau Laut Tawar - ACEH
-Pantai Pasir Putih | Lhok Mee - ACEH
-Air Terjun Pria Laot - ACEH
-Wisata Gua Sarang - ACEH
+Museum Tsunami Aceh - Aceh v
+Pantan Terong - ACEH v
+Danau Laut Tawar - ACEH v
+Pantai Pasir Putih | Lhok Mee - ACEH v
+Air Terjun Pria Laot - ACEH v
+Wisata Gua Sarang - ACEH v
 
 
 //BALI
-Gili Putih Sumberkima
-Savana Tianyar
-Pantai Gunung Payung
-Air Terjun Lemukih
-Desa Pinggan
+Gili Putih Sumberkima v
+Savana Tianyar v
+Pantai Gunung Payung v
+Air Terjun Lemukih v
+Desa Pinggan v
 
 //SULAWESI UTARA(MANADO)
-Kota Bunga Tomohon 
-Pulau Manadotua
-Pantai Malalayang
-Taman Hutan Raya Gunung Tumpa
-Gua Jepang Tikala Kumaraka
-Monumen Yesus Memberkati
+Kota Bunga Tomohon v
+Pulau Manadotua v
+Pantai Malalayang x
+Taman Hutan Raya Gunung Tumpa v
+Gua Jepang Tikala Kumaraka v
+Monumen Yesus Memberkati v
 
 //RIAU
-Vihara Avalokitesvara Graha
-Gua Bukit Batu Seludung Pelintung
-Gn. Bintan Besar
+Vihara Avalokitesvara Graha v
+Gua Bukit Batu Seludung Pelintung v
+Gn. Bintan Besar v
 
 
 //MALUKU
-Pantai Natsepa
-Pantai Ora
-Pantai Liang
-Patung Christina Martha Tiahahu
-Taman Pattimura
-Monumen Gong Perdamaian Dunia
-Mesjid Tua Wapauwe Kaitetu
+Pantai Natsepa v
+Pantai Ora v
+Pantai Liang v
+Patung Christina Martha Tiahahu v
+Taman Pattimura v
+Monumen Gong Perdamaian Dunia v
+Mesjid Tua Wapauwe Kaitetu v
 
 
 //PAPUA
-Danau Sentani
-Pantai Base-G
-Taman Nasional Wasur
-Taman Nasional Lorentz
-Lembah Baliem
-Raja Ampat
+Danau Sentani v
+Pantai Base-G v
+Taman Nasional Wasur v
+Taman Nasional Lorentz v
+Lembah Baliem v
+Raja Ampat v
 
 
-//JAWA TIMUR
+//JAWA TIMUR ALL DONE
 Goa Lowo 
 Pantai prigi
 Pantai Pelang
@@ -67,7 +67,7 @@ Jawa Timur Park 1,2,3
 
 
 
-//JAWA TENGAH
+//JAWA TENGAH ALL DONE
 Gua Maria Kerep Ambarawa
 Curug Telu
 Curug Jenggala
@@ -78,7 +78,7 @@ Candi Borobudur
 Lawang Sewu
 Dusun Semilir
 
-//Yogyakarta
+//Yogyakarta ALL DONE
 Candi Prambanan
 Pantai Parangtritis
 Tebing Breksi
@@ -88,7 +88,7 @@ Pantai Wediombo
 HeHa Sky View
 Ledok Sambi
 
-// JAWA BARAT
+// JAWA BARAT ALL DONE
 Taman Safari Indonesia Bogor
 Kawah Putih
 Kebun Raya Bogor
@@ -96,14 +96,14 @@ Gunung Tangkuban Parahu
 Pantai Ujung Genteng
 Taman Hutan Raya Ir. H. Djuanda
 
-//NUSA TENGGARA BARAT
+//NUSA TENGGARA BARAT ALL DONE
 Gili Trawangan
 Sirkuit Internasional Pertamina Mandalika
 Bukit Merese
 Gili Nanggu
 Sade Village
 
-//NUSA TENGGARA TIMUR
+//NUSA TENGGARA TIMUR 
 Taman Nasional Komodo
 Pink Beach/ Pantai Merah
 Labuhan Bajo
