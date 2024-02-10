@@ -110,9 +110,8 @@
             <div class="col-lg-8">
                 <div class="bungkus-kanan">
                     <div class="navbar-kanan">
-                        <a href="">Biodata</a>
-                        <a href="" class="aktif">Pengalaman</a>
-                        <a href="">wisata yang dipandu</a>
+                        <h5 class="aktif" style="font-weight:600;">Edit Profil</h5>
+
                     </div>
                     <div class="isi-dalam">
                         <a href=""><img src="../../assets/profil/left.png" style="margin-top: -1rem;" width="30"
