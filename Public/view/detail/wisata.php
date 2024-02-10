@@ -1,3 +1,32 @@
+<?php 
+require '../../../Controller/ProvinsiController.php';
+// Baca isi file JSON
+$json_data = file_get_contents('../../../Json/semua-provinsi/semua-provinsi.json');
+$data = json_decode($json_data, true);
+
+if($_GET['id'] & $_GET['place_id']) {
+    $id = $_GET['id'];
+    $place_id = $_GET['place_id'];
+
+    $data = GetId($id, $data);
+    if($data == null) {
+        header("Location: pencarian-provinsi-wisata.php");
+    }
+    $json_wisata = file_get_contents('../../../Json/' . $data[1]);
+    $wisata = json_decode($json_wisata, true);
+    $data = PencarianDetailWisata( $place_id, $wisata);
+
+    if($data == null) {
+        header("Location: ../pencarian/pencarian-provinsi-wisata.php");
+        exit; 
+
+    }
+} else {
+    header("Location: ../pencarian/pencarian-provinsi-wisata.php");
+    exit; 
+}
+
+?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -43,38 +72,34 @@
         </nav>
     </div>
 
-    <div class="hero-image" style="background-image: url('../../assets/wisata/hero.png')"></div>
+    <div class="hero-image" style="background-image: url('<?php echo $data['image'] ?>"></div>
 
     <div class="container mt-4">
         <div class="row">
             <div class="col-lg-6">
-                <h2 class="mb-3"><b>Candi Borobudur Indonesia</b></h2>
+                <h2 class="mb-3"><b><?php echo $data['name'] ?></b></h2>
                 <div class="d-flex">
-                    <div class="kategori">
-                        <b>Alam</b>
-                    </div>
-                    <div class="kategori">
-                        <b>Tujuan Wisata</b>
-                    </div>
-                    <div class="kategori">
-                        <b>Candi</b>
-                    </div>
+                    <?php foreach ($data['categories'] as $kategori) : ?>
+                        <div class="kategori">
+                            <b><?php echo $kategori ?></b>
+                        </div>
+                    <?php endforeach ?>
                 </div>
         
                 <div class="d-flex mt-4 mb-4">
                     <div class="d-flex me-4">
                         <img style="width:23px" src="../../assets/wisata/rating.png" alt="">
-                        <b class="ms-2">4.5 Rating</b>
+                        <b class="ms-2"><?php echo $data['rating'] ?> Rating</b>
                     </div>
                     <div class="d-flex me-4">
                         <img style="width:30px" src="../../assets/wisata/melihat.png" alt="">
-                        <b class="ms-2">400 Review</b>
+                        <b class="ms-2"><?php echo $data['reviews'] ?> Review</b>
                     </div>
                 </div>
                 
                 <div class="d-flex mb-4">
                     <img style="width:23px; height:32px;" src="../../assets/wisata/map.png" alt="">
-                    <p class="ms-2">Borobudur, Magelang, Jawa Tengah, Indonesia.</p>
+                    <p class="ms-2"><?php echo $data['address'] ?></p>
                 </div>
             </div>
             
@@ -85,12 +110,12 @@
                     style="border:0;"
                     loading="lazy"
                     allowfullscreen
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.9863610662025!2d106.18373291525762!3d-1.902047338388655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e228d68bba10fcf%3A0x472261b174e46cae!2sPantai%20Tikus!5e0!3m2!1sid!2sid!4v1644255559154!5m2!1sid!2sid">
+                    src="<?php echo $data['link'] ?>">
                 </iframe>
             </div>
         </div>
 
-        <p class="pb-4" style="text-align:justify;">Lorem Ipsum is simply dummy text of the printing and typesettingindustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when  an unknown printer took a galley of type and scrambled it to make  a type specimen book. It has survived not only five centuries, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when  an unknown printer took a galley of type and scrambled it to make  a type specimen book. It has survived not only five centuries. Lorem Ipsum is simply dummy text of the printing and typesettingindustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when  an unknown printer took a galley of type and scrambled it to make  a type specimen book. It has survived not only five centuries, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when  an unknown printer took a galley of type and scrambled it to make  a type specimen book. It has survived not only five centuries</p>
+        <p class="pb-4" style="text-align:justify;"><?php echo $data['about'] ?></p>
 
         <div class="kategori-2 mb-4">
             <h5><b>Jasa pemandu wisata ini</b></h5>
