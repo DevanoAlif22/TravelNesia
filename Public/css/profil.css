@@ -1,162 +1,169 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    overflow-x: hidden;
-    padding-bottom: 3rem;
-    font-family: 'Poppins', sans-serif;
-  }
-  h1,h2,h3,h4,h5,h6,p,a{
-    font-family: 'Poppins', sans-serif;
-  }
-  
-  .gambar-logo {
-    width: 180px;
-    margin-right: 30px;
-  }
-  .nav-item {
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-top: 20px;
-  }
-  
-  .nav-link {
-    color: rgb(0, 0, 0) !important;
-    font-weight: 500;
-    font-size: 1.1rem;
-    margin-bottom: 25px;
-  }
-  .bg-image{
-    background-image: url("../assets/profil/bg-image.png");
-    width: 100%;
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
-    height: 350px;
-  }
-  .profil{
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
-    border-radius: 50%;
-    display: flex;
-    margin: auto;
-  }
-  .nama-user h4{
-    margin-top: 0.5rem;
-    font-weight: 700;
-  }
-  .nama-user p{
-    margin-top: -0.3rem;
-    font-size: 13px;
-    font-weight: 500;
-    color: #222;
-  }
-  .bungkus-kiri{
-    background-color: white;
-    padding: 2rem 2rem;
-    height: auto;
-    margin-top: -10rem;
-    border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  }
-  .bungkus-icon{
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-  }
-  .icon p{
-font-weight: 600;
-margin-top: 0.3rem;
-  }
-  .edit-profil a{
-    text-decoration: none;
-    color: white;
-    background-color: #006FD6;
-    padding: 0.5rem 2rem;
-    font-weight: 500;
-    border-radius: 30px;
-  }
-  .isi{
-    line-height: 10px;
-  }
-  .isi h5{
-    font-weight: 700;
-  }
-  .isi p{
-    font-weight: 600;
-    color: #222;
-  }
-  .bungkus-bio-kiri{
-    margin-top: 1rem;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 0.5rem;
-    align-items: center;
-    border-bottom: 1px solid black;
-  }
-  .bungkus-kanan{
-    background-color: white;
-    margin-top: -10rem;
-    border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    max-height: max-content;
-  }
-  .navbar-kanan{
-    padding: 2rem 3rem;
-    display: flex;
-    border-bottom: 2px solid black ;
-  }
+  margin: 0;
+  padding: 0;
+}
 
-  .navbar-kanan a{
-    text-decoration: none;
-    margin-right: 4rem;
-    font-weight: 600;
-    color: #929292;
+body {
+  overflow-x: hidden;
+  padding-bottom: 3rem;
+  font-family: "Poppins", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: "Poppins", sans-serif;
+}
 
-  }
-  .navbar-kanan a:hover{
+.gambar-logo {
+  width: 180px;
+  margin-right: 30px;
+}
+.nav-item {
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
 
-    color: #929292;
+.nav-link {
+  color: rgb(0, 0, 0) !important;
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+}
+.bg-image {
+  background-image: url("../assets/profil/bg-image.png");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+}
+.profil {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  display: flex;
+  margin: auto;
+}
+.nama-user h4 {
+  margin-top: 0.5rem;
+  font-weight: 700;
+}
+.nama-user p {
+  margin-top: -0.3rem;
+  font-size: 13px;
+  font-weight: 500;
+  color: #222;
+}
+.bungkus-kiri {
+  background-color: white;
+  padding: 2rem 2rem;
+  height: auto;
+  margin-top: -10rem;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.bungkus-icon {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.icon p {
+  font-weight: 600;
+  margin-top: 0.3rem;
+}
+.edit-profil a {
+  text-decoration: none;
+  color: white;
+  background-color: #006fd6;
+  padding: 0.5rem 2rem;
+  font-weight: 500;
+  border-radius: 30px;
+}
 
-  }
-  a.aktif{
-    color: black;
-  }
-  a.aktif:hover{
-    color: black;
-  }
-  .isi-dalam{
-    padding: 2rem 2rem;
-  }
-  .isi-dalam h5{
-    font-weight: 700;
-  }
-  .isi-dalam p{
-    margin-top: 1rem;
-    font-size: 14px;
-    font-weight: 500;
-  }
+.edit-profil a:hover {
+  color: white !important;
+}
+.isi {
+  line-height: 10px;
+}
+.isi h5 {
+  font-weight: 700;
+}
+.isi p {
+  font-weight: 600;
+  color: #222;
+}
+.bungkus-bio-kiri {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.5rem;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+.bungkus-kanan {
+  background-color: white;
+  margin-top: -10rem;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  max-height: max-content;
+}
+.navbar-kanan {
+  padding: 2rem 3rem;
+  display: flex;
+  border-bottom: 2px solid black;
+}
+
+.navbar-kanan a {
+  text-decoration: none;
+  margin-right: 4rem;
+  font-weight: 600;
+  color: #929292;
+}
+.navbar-kanan a:hover {
+  color: #929292;
+}
+a.aktif {
+  color: black;
+}
+a.aktif:hover {
+  color: black;
+}
+.isi-dalam {
+  padding: 2rem 2rem;
+}
+.isi-dalam h5 {
+  font-weight: 700;
+}
+.isi-dalam p {
+  margin-top: 1rem;
+  font-size: 14px;
+  font-weight: 500;
+}
 
 /* pengalaman di pemandu-wisata-pengalaman */
 .postingan {
   width: 100%;
   padding-bottom: 20px;
 }
-.isi-dalam{
+.isi-dalam {
   overflow-y: scroll;
   max-height: 80vh;
   /* background-color: red; */
-
 }
 .isi-dalam::-webkit-scrollbar {
   width: 5px; /* Atur lebar scroll bar */
 }
 
 .isi-dalam::-webkit-scrollbar-thumb {
-  background-color: #006FD6; /* Atur warna bagian thumb (badan) scroll bar */
+  background-color: #006fd6; /* Atur warna bagian thumb (badan) scroll bar */
 }
 
 .isi-dalam::-webkit-scrollbar-track {
@@ -165,7 +172,7 @@ margin-top: 0.3rem;
 .card-postingan {
   /* width: 330px !important; */
   padding-bottom: 25px;
- 
+
   border-radius: 20px;
   padding: 0px !important;
   margin-bottom: 20px;
@@ -176,7 +183,6 @@ margin-top: 0.3rem;
   width: 45%;
   padding: 0;
   max-height: max-content;
-  background-image: url("../assets/beranda/postingan-terbaik.png");
   background-position: center;
   background-size: cover;
   border-radius: 20px 0px 0px 20px;
@@ -199,18 +205,16 @@ a.lihat-wisata {
   font-size: 12px;
   border-radius: 20px;
   color: white;
-  background-color: #006FD6;
+  background-color: #006fd6;
   padding: 0.3rem 1rem;
-
 }
 a.lihat-wisata:hover {
   color: white;
- 
 }
-.postingan-kanan p{
+.postingan-kanan p {
   font-size: 0.5rem;
 }
-.postingan-kanan h6{
+.postingan-kanan h6 {
   font-size: 13px;
 }
 /* style pemandu ambil di wisata */
@@ -243,57 +247,55 @@ a.lihat-wisata:hover {
 .pesan-button {
   justify-content: end;
 }
-p.alamat{
+p.alamat {
   font-size: 8px;
 }
-p.harga{
+p.harga {
   font-size: 1rem;
 }
-p.ret{
+p.ret {
   font-size: 10px;
 }
 /* upload */
-textarea{
+textarea {
   resize: none !important;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 /* pengalaman */
-.input-kanan{
- padding: 0.5rem 1rem;
- border-radius: 10px;
- border: 1px solid rgb(73, 73, 73);
- box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
-}
-.input-kanan input{
-width: 100%;
-background-color: transparent;
-border: none;
-}
-.input-kanan input:focus{
-  outline: none;
-}
-.input-kanan-bawah textarea{
+.input-kanan {
   padding: 0.5rem 1rem;
   border-radius: 10px;
-  
+  border: 1px solid rgb(73, 73, 73);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.bungkus-kiri-up{
+.input-kanan input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+}
+.input-kanan input:focus {
+  outline: none;
+}
+.input-kanan-bawah textarea {
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+.bungkus-kiri-up {
   margin-top: 4rem;
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
   width: 250px;
   height: 250px;
   border: 2px dashed black;
 }
-.gambar-up img{
+.gambar-up img {
   display: flex;
   margin: auto;
   margin-top: 3rem;
 }
 .custom-file-upload {
-  border: 2px solid #008CBA;
+  border: 2px solid #008cba;
   color: #ffffff;
-  background-color: #006FD6;
+  background-color: #006fd6;
   display: inline-block;
   padding: 3px 1.5rem;
   cursor: pointer;
@@ -303,8 +305,6 @@ border: none;
   margin-top: 1rem;
 }
 
-
-
 #file-upload {
   display: none;
 }
@@ -313,95 +313,87 @@ border: none;
 .custom-file-upload i {
   margin-right: 5px;
 }
-.input-jk{
+.input-jk {
   gap: 3rem;
   font-weight: 600;
 }
 
 @media screen and (max-width: 1000px) {
-  
-  .bungkus-kanan{
-     
-      margin-top: 2rem;
-     
-    }
-    /* .isi-dalam{
+  .bungkus-kanan {
+    margin-top: 2rem;
+  }
+  /* .isi-dalam{
       overflow-y: scroll;
       height: 940px;
     
     } */
-    .postingan-kanan p{
-      font-size: 0.8rem;
-    }
-    .postingan-kanan h6{
-      font-size: 20px;
-    }
-    
-    .card-wisata {
-      width: 1000px !important;
-      margin-bottom: 25px;
-      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-      border-radius: 15px;
-      padding: 0px !important;
-      padding-bottom: 10px;
-      margin-right: 25px;
-    }
-   
-p.alamat{
-  font-size: 15px;
-}
-p.harga{
-  font-size: 1.3rem;
-}
-p.ret{
-  font-size: 15px;
-}
+  .postingan-kanan p {
+    font-size: 0.8rem;
+  }
+  .postingan-kanan h6 {
+    font-size: 20px;
+  }
 
+  .card-wisata {
+    width: 1000px !important;
+    margin-bottom: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 15px;
+    padding: 0px !important;
+    padding-bottom: 10px;
+    margin-right: 25px;
+  }
+
+  p.alamat {
+    font-size: 15px;
+  }
+  p.harga {
+    font-size: 1.3rem;
+  }
+  p.ret {
+    font-size: 15px;
+  }
 }
 @media screen and (max-width: 400px) {
- 
-  .navbar-kanan{
-      padding: 1rem 1rem;
-      display: flex;
-      border-bottom: 2px solid black ;
-    }
-    .navbar-kanan a{
-      text-decoration: none;
-      margin-right: 1.5rem;
-      font-size: 12px;
-      
-  
-    }
-    /* .isi-dalam{
+  .navbar-kanan {
+    padding: 1rem 1rem;
+    display: flex;
+    border-bottom: 2px solid black;
+  }
+  .navbar-kanan a {
+    text-decoration: none;
+    margin-right: 1.5rem;
+    font-size: 12px;
+  }
+  /* .isi-dalam{
       overflow-y: scroll;
       height: 640px;
     
     } */
-    .postingan-kanan h6{
-      font-size: 13px;
-    }
+  .postingan-kanan h6 {
+    font-size: 13px;
+  }
 
-    .postingan-kanan p{
-      font-size: 0.6rem;
-    }
-    .card-wisata {
-      width: 350px !important;
-      margin-bottom: 25px;
-      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-      border-radius: 15px;
-      padding: 0px !important;
-      padding-bottom: 10px;
-      margin-right: 25px;
-    }
-    
-p.alamat{
-  font-size: 12px;
-}
-p.harga{
-  font-size: 1.1rem;
-}
-p.ret{
-  font-size: 11px;
-}
+  .postingan-kanan p {
+    font-size: 0.6rem;
+  }
+  .card-wisata {
+    width: 350px !important;
+    margin-bottom: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 15px;
+    padding: 0px !important;
+    padding-bottom: 10px;
+    margin-right: 25px;
+  }
 
+  p.alamat {
+    font-size: 12px;
+  }
+  p.harga {
+    font-size: 1.1rem;
+  }
+  p.ret {
+    font-size: 11px;
+  }
 }

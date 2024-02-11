@@ -7,7 +7,6 @@ if(!isset($_SESSION['login'])) {
     header("Location: ../login/login.php");
     exit;
 }
-
 ?>
 
 <!doctype html>
@@ -39,16 +38,19 @@ if(!isset($_SESSION['login'])) {
                   <a class="nav-link" href="#">Beranda</a>
                   </li>
                   <li class="nav-item">
-                  <a class="nav-link" href="#">Wisata</a>
+                  <a class="nav-link" href="../pencarian/pencarian-provinsi-wisata.php">Wisata</a>
                   </li>
                   <li class="nav-item">
-                  <a class="nav-link" >Postingan</a>
+                  <a class="nav-link" href="../pencarian/pencarian-postingan.php" >Postingan</a>
                   </li>
                   <li class="nav-item">
-                  <a class="nav-link" >Pemandu</a>
+                  <a class="nav-link" href="../pencarian/pencarian-pemandu.php" >Pemandu</a>
                   </li>
                   <li class="nav-item">
-                  <a class="nav-link" >Masuk</a>
+                  <a class="nav-link" href="../pencarian/pencarian-wisatawan.php" >Wisatawan</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link" href="../profil/wisata-biodata.php?id=<?php echo $_SESSION['id']?>">Profil</a>
                   </li>
               </ul>
               </div>
@@ -60,7 +62,6 @@ if(!isset($_SESSION['login'])) {
                 <p style="color:white; font-size: 1.3rem;" class="pb-3">Jelajahi Wisata Indonesia dengan Pencarian Cepat, Rekomendasi Terbaik, dan Pemandu Profesional di Setiap Petualangan</p>
                 <a class="tombol-cari" href="../pencarian/pencarian-provinsi-wisata.php">Cari Wisata</a>
             </div>
-            <a href="../lainnya/keluar.php">logout</a>
             <div class="col-lg-5">
                 <div class="container-slider">
                     <h3 style="color:white;">Foto Wisata</h3>
@@ -136,6 +137,32 @@ if(!isset($_SESSION['login'])) {
             </div>
             <div class="col-lg-6">
                 <img class="gambar-tentang" src="../../assets/beranda/tentang-gambar.png" alt="">
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- jadi pemandu -->
+  <section class="rekomendasi">
+    <div class="container">
+        <h2 class="mt-4 text-center">Rekomendasi Wisata</h2>
+        <div class="d-flex justify-content-center">
+            <div class="garis"></div>
+        </div>
+        <div class="row">           
+            <div class="col-lg-6">
+                <img class="gambar-tentang" src="../../assets/beranda/jadipemandu.png" alt="">
+            </div>
+            <div class="col-lg-6">
+                <div class="container-tentang">
+                    <h3 class="text-black ms-4 pb-2"><b>Ingin jadi pemandu di Travelnesia?</b></h3>
+                    <p class="ms-4 pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been the industry's standard dummy 
+                        text ever since the 1500s, when  an unknown printer took a galley 
+                        of type and scrambled it to make  a type specimen book. It has 
+                        survived not only five centuries,</p>
+                        <a style="border: solid 1px black; color : black;" class="tombol-cari ms-3" href="">Daftar Sekarang</a>
+                </div>
             </div>
         </div>
     </div>

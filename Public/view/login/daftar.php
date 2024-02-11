@@ -88,15 +88,15 @@ if(isset($_GET['verify'])) {
                         <?php endif;?>
                     </div>
                     <div class="email mb-4">
-                        <input type="email" name="email" placeholder="masukan email">
+                        <input style="width: 280px;" type="email" name="email" placeholder="masukan email">
                         <span><img src="../../assets/login/email.png" alt=""></span>
                     </div>
                     <div class="password mb-4">
-                        <input min="8" name="password" type="password" id="password" placeholder="masukan password">
+                        <input style="width: 280px;" min="8" name="password" type="password" id="password" placeholder="masukan password">
                         <span><img src="../../assets/login/pw.png" alt=""></span>
                     </div>
                     <div class="password">
-                        <input min="8" name="verifikasi-password" type="password" id="confirm_password" placeholder="konfirmasi password">
+                        <input style="width: 280px;" min="8" name="verifikasi-password" type="password" id="confirm_password" placeholder="konfirmasi password">
                         <span><img src="../../assets/login/pw.png" alt=""></span>
                     </div>
                     <div class="lihat-pw mt-3 me-3" style="text-align: right;">

@@ -1,5 +1,5 @@
 <?php 
-
+session_start();
 
 require '../../../Controller/ProvinsiController.php';
 $json_data = file_get_contents('../../../Json/semua-provinsi/semua-provinsi.json');
@@ -43,20 +43,23 @@ if(isset($_POST['cari-provinsi'])) {
               </button>
               <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
               <ul class="navbar-nav">
-                  <li class="nav-item">
+                 <li class="nav-item">
                   <a class="nav-link" href="#">Beranda</a>
                   </li>
                   <li class="nav-item">
-                  <a class="nav-link" href="#">Wisata</a>
+                  <a class="nav-link" href="../pencarian/pencarian-provinsi-wisata.php">Wisata</a>
                   </li>
                   <li class="nav-item">
-                  <a class="nav-link" >Postingan</a>
+                  <a class="nav-link" href="../pencarian/pencarian-postingan.php" >Postingan</a>
                   </li>
                   <li class="nav-item">
-                  <a class="nav-link" >Pemandu</a>
+                  <a class="nav-link" href="../pencarian/pencarian-pemandu.php" >Pemandu</a>
                   </li>
                   <li class="nav-item">
-                  <a class="nav-link" >Masuk</a>
+                  <a class="nav-link" href="../pencarian/pencarian-wisatawan.php" >Wisatawan</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link" href="../profil/wisata-biodata.php?id=<?php echo $_SESSION['id']?>">Profil</a>
                   </li>
               </ul>
               </div>

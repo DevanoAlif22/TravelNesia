@@ -78,11 +78,11 @@ if(isset($_POST['masuk'])) {
                         <?php endif;?>
                     </div>
                     <div class="email mb-4">
-                        <input autocomplete="off" name="email" type="email" placeholder="masukan email">
+                        <input style="width: 280px;" autocomplete="off" name="email" type="email" placeholder="masukan email">
                         <span><img src="../../assets/login/email.png" alt=""></span>
                     </div>
                     <div class="password mb-4">
-                        <input name="password" type="password" id="password" placeholder="masukan password">
+                        <input style="width: 280px;" name="password" type="password" id="password" placeholder="masukan password">
                         <span><img src="../../assets/login/pw.png" alt=""></span>
                     </div>
                     <div class="lihat-pw mt-3 me-3" style="text-align: right;">

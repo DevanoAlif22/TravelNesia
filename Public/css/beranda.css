@@ -221,8 +221,23 @@ header {
   justify-content: space-between;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
   .container-wisata {
+    justify-content: center;
+  }
+  .selamat-datang {
+    font-size: 3rem;
+  }
+  .tentang img {
+    width: 300px !important;
+    padding-top: 25px;
+  }
+  .rekomendasi img {
+    width: 300px !important;
+    padding-top: 25px;
+  }
+
+  .rekomendasi {
     justify-content: center;
   }
   .container-pemandu {
