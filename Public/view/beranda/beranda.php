@@ -1,3 +1,15 @@
+<?php 
+session_start();
+
+require_once '../../../Controller/UserController.php';
+
+if(!isset($_SESSION['login'])) {
+    header("Location: ../login/login.php");
+    exit;
+}
+
+?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -7,6 +19,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../../css/beranda.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
   <body>
 
@@ -45,6 +60,7 @@
                 <p style="color:white; font-size: 1.3rem;" class="pb-3">Jelajahi Wisata Indonesia dengan Pencarian Cepat, Rekomendasi Terbaik, dan Pemandu Profesional di Setiap Petualangan</p>
                 <a class="tombol-cari" href="../pencarian/pencarian-provinsi-wisata.php">Cari Wisata</a>
             </div>
+            <a href="../lainnya/keluar.php">logout</a>
             <div class="col-lg-5">
                 <div class="container-slider">
                     <h3 style="color:white;">Foto Wisata</h3>

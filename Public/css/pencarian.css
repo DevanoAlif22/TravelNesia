@@ -2,7 +2,16 @@
   margin: 0;
   padding: 0;
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: "Poppins", sans-serif;
+}
 body {
   overflow-x: hidden;
 }
@@ -18,8 +27,9 @@ body {
   font-size: 4rem;
 }
 .nav-item {
-  margin-right: 50px;
-  margin-left: 50px;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 20px;
 }
 
 .nav-link {
@@ -48,17 +58,18 @@ body {
 
 .card-provinsi {
   width: 230px;
-  height: 240px;
+  height: 260px !important;
   background-color: #ffffff;
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   display: flex;
   margin-bottom: 20px;
+  margin-right: 20px;
 }
 
 .container-provinsi {
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
 }
 
 .isi-provinsi {
@@ -71,10 +82,10 @@ body {
   background-color: black;
   padding: 5px 20px;
   border-radius: 25px;
-  margin-left: 30px;
+  /* margin-left: 30px; */
 }
 .container-wisata {
-  justify-content: space-between;
+  justify-content: start;
 }
 .wisata {
   width: 100%;
@@ -82,6 +93,7 @@ body {
 }
 
 .card-wisata {
+  margin-right: 20px;
   width: 300px;
   margin-bottom: 25px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -104,7 +116,6 @@ body {
   background-color: black;
   padding: 10px 20px;
   border-radius: 25px;
-  margin-left: 30px;
 }
 
 /* pemandu */
@@ -139,7 +150,6 @@ body {
   justify-content: space-between;
 }
 
-/* postingan */
 /* postingan */
 .postingan {
   width: 100%;
@@ -181,7 +191,11 @@ body {
   margin-top: 15px;
 }
 
-@media screen and (max-width: 500px) {
+.gambar-provinsi {
+  background-position: center;
+  background-size: cover;
+}
+@media screen and (max-width: 1400px) {
   .container-wisata {
     justify-content: center;
   }
