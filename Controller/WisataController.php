@@ -42,7 +42,7 @@ function uploadPemanduWisata($idUser, $data) {
         if(mysqli_num_rows($cekSudahAda) > 0) {
             return 'ada';
         } else {
-            $result = mysqli_query($conn, "INSERT INTO wisata ( id_user,place_id,nama,deskripsi,harga,gambar,created_at, melihat, id_provinsi, nama_wisata, tempat. embed) values 
+            $result = mysqli_query($conn, "INSERT INTO wisata ( id_user,place_id,nama,deskripsi,harga,gambar,created_at, melihat, id_provinsi, nama_wisata, tempat, embed) values 
             ('$id','$place_id','$nama','$deskripsi','$harga','$gambar','$created_at',0,'$id_provinsi','$nama_wisata','$tempat','$embed');");
             return 'berhasil';
         }
