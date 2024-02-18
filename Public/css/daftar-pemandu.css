@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* .bungkus-kanan-daftar h3{
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    background-color: #1A2249;
+border-radius: 20px;
+  
+} */
+.bungkus-kanan-berhasil{
+   padding: 1rem 2rem;
+   background-color: #1A2249;
+   border-radius: 20px;
+}
+.bungkus-kanan-berhasil h4{
+    font-weight: 600;
+    margin-top: 1.5rem;
+    color: white;
+    text-align: center;
+}
+.bungkus-kanan-berhasil img{
+    display: flex;
+    margin: auto;
+}
+.bungkus-kanan-berhasil p{
+ color: white;
+ text-align: center;
+ font-size: 15px;
+}
+.bungkus-kanan-berhasil a{
+ text-decoration: none;
+ color: white;
+ padding: 0.5rem 3rem;
+ text-align: center;
+ background-color: rgb(4, 185, 4);
+ border-radius: 20px;
+}
