@@ -1,3 +1,55 @@
+<?php 
+session_start();
+require_once '../../../Controller/WisataController.php';
+
+if(!isset($_SESSION['login'])) {
+  header("Location: ../login/login.php");
+  exit;
+} else {
+  $user = false;
+  if($_GET['id']){
+    // cek apakah postingan ada
+    $cekWisata = cekWisata(intval($_GET['id']));
+    if($cekWisata === false) {
+        header("Location: ../beranda/beranda.php");
+        exit;
+    }
+    $cekUser = cekWisataUser(intval($_GET['id']));
+    if($cekUser === true) {
+        $user = true;
+    } else {
+        $user = false;    
+    }
+
+    $dataPemirsa = dataPemirsa($_SESSION['id'], $cekWisata['id_ini']);
+    $profilPengguna = $dataPemirsa[1]['gambar'];
+    $dataKomentar = dataKomentar($cekWisata['id_ini']);
+}
+}
+
+if(isset($_POST['tambahKomentar'])) {
+    $id_wisata = intval($_GET['id']);
+    $tambahKomentar = tambahKomentar($id_wisata, $_POST);
+    if($tambahKomentar === 'berhasil') {
+        $_SESSION['notifikasiBerhasil'] = 'berhasil'; 
+    } else {
+        $_SESSION['notifikasiBerhasil'] = 'gagal'; 
+    } 
+    header("Location: postingan.php?id=" . $_GET['id']);
+    exit;
+}
+
+$notifikasiBerhasil = isset($_SESSION['notifikasiBerhasil']) ? $_SESSION['notifikasiBerhasil'] : null;
+unset($_SESSION['notifikasiBerhasil']);
+
+if(isset($_POST['menyukai'])) {
+    $id_wisata = intval($_GET['id']);
+    $menyukai = menyukaiPostingan($id_wisata,$_POST);
+    header("Location: postingan.php?id=" . $_GET['id']);
+    exit;
+}
+?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -85,6 +137,11 @@
                         <h5 style="font-weight:bold;">Firashinta Yudi</h5>
                         <p style="margin-top:-9px; font-size:0.8rem;">Pemandu Wisata Ini</p>
                     </div>
+                    
+                </div>
+                <div class="d-flex me-4 mb-3">
+                    <img style="width:23px" src="../../assets/wisata/rating.png" alt="">
+                    <b class="ms-2">4.5 Rating Pemandu wisata</b>
                 </div>
                 <h2 class="mb-3"><b>Candi Borobudur Indonesia</b></h2>
                 <p>22 - november - 2023</p>
@@ -104,10 +161,6 @@
                     <div class="d-flex me-4 mb-3">
                         <img style="width:30px; height:30px;" src="../../assets/wisata/uang.png" alt="">
                         <h4 class="ms-2"><b >Rp 300.000</b></h4>
-                    </div>
-                    <div class="d-flex me-4 mb-3">
-                        <img style="width:23px" src="../../assets/wisata/rating.png" alt="">
-                        <b class="ms-2">4.5 Rating</b>
                     </div>
                 </div>
                 

@@ -1,39 +1,43 @@
 <?php 
 session_start();
 require_once '../../../Controller/ProfilController.php';
-require_once '../../../Controller/PostinganController.php';
+require_once '../../../Controller/ProvinsiController.php';
 
-if(isset($_POST['hapus'])) {
-    $hapusPostingan = hapusPostingan($_POST);
-    if($hapusPostingan === 'berhasil') {
-        $_SESSION['notifikasiBerhasil'] = 'true'; 
-    } else {
-        $_SESSION['notifikasiBerhasil'] = 'false'; 
+$json_data = file_get_contents('../../../Json/semua-provinsi/semua-provinsi.json');
+$data = json_decode($json_data, true);
+
+if($_GET['id']) {
+    $id = $_GET['id'];
+    $data = GetId($id, $data);
+    $nama = $data[0]['nama'];
+    if($data == null) {
+        header("Location: pencarian-provinsi-wisata.php");
     }
-    header("Location: wisata-postingan.php?id=" . $_SESSION['id']);
-    exit;
+    $json_wisata = file_get_contents('../../../Json/' . $data[1]);
+    $wisata = json_decode($json_wisata, true);
+} else {
+    header("Location: wisata-postingan-provinsi.php");
+    exit; 
 }
+
 
 if(!isset($_SESSION['login'])) {
     header("Location: ../login/login.php");
     exit;
   } else {
     $user = false;
-    if(intval($_GET['id']) === $_SESSION['id']){
+    if($_SESSION['id']){
       $user = true;
     } else {
       $user = false;    
     }
-    $dataUser = ambilBiodata($_GET['id']);
+    $dataUser = ambilBiodata($_SESSION['id']);
     if($dataUser === false) {
       header("Location: ../beranda/beranda.php");
       exit;
     }
-    $dataPostingan = ambilPostingan($_GET['id']);
   }
 
-  $notifikasiBerhasil = isset($_SESSION['notifikasiBerhasil']) ? $_SESSION['notifikasiBerhasil'] : null;
-  unset($_SESSION['notifikasiBerhasil']);
 ?>
 <!doctype html>
 <html lang="en">
@@ -66,22 +70,19 @@ if(!isset($_SESSION['login'])) {
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="../beranda/beranda.php">Beranda</a>
-                            </li>
-                            <li class="nav-item">
-                            <a class="nav-link" href="../pencarian/pencarian-provinsi-wisata.php">Wisata</a>
-                            </li>
-                            <li class="nav-item">
-                            <a class="nav-link" href="../pencarian/pencarian-postingan.php" >Postingan</a>
-                            </li>
-                            <li class="nav-item">
-                            <a class="nav-link" href="../pencarian/pencarian-pemandu.php" >Pemandu</a>
-                            </li>
-                            <li class="nav-item">
-                            <a class="nav-link" href="../pencarian/pencarian-wisatawan.php" >Wisatawan</a>
-                            </li>
-                            <li class="nav-item">
-                            <a class="nav-link" href="../profil/wisata-biodata.php?id=<?php echo $_SESSION['id']?>">Profil</a>
+                            <a class="nav-link" href="#">Beranda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Wisata</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Postingan</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Pemandu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Masuk</a>
                         </li>
                     </ul>
                 </div>
@@ -189,75 +190,41 @@ if(!isset($_SESSION['login'])) {
             <div class="col-lg-8 scrol-isi">
                 <div class="bungkus-kanan">
                     <div class="navbar-kanan">
-                        <a href="wisata-biodata.php?id=<?php echo  $_GET['id'] ?>" >Biodata</a>
-                        <a class="aktif" href="wisata-postingan.php?id=<?php echo $_GET['id']?>">Postingan Wisata</a>
-                        <?php if($dataUser['nama_peran'] === 'Wisatawan') :?>
-                        <a href="">Rekomendasikan Wisata</a>
-                        <?php else : ?>
-                        <a href="pemandu-wisata-dipandu.php?id=<?php echo $_GET['id']?>">wisata yang dipandu</a>
-                        <?php endif; ?>
+                        <h5><b>Pilih Wisata di <?php echo $nama ?></b></h5>
                     </div>
-                    <div class="isi-dalam">
-                        <?php if(isset( $notifikasiBerhasil) &&  $notifikasiBerhasil === 'false') : ?>
-                            <div class="alert alert-danger" role="alert">
-                                Postingan gagal di hapus!
-                            </div>
-                        <?php elseif(isset( $notifikasiBerhasil) &&  $notifikasiBerhasil === 'true'):?>
-                            <div class="alert alert-success" role="alert">
-                                Postingan berhasil di hapus!
-                            </div>
-                        <?php endif;?>
-
-                        <div class="row">
-                            
-                            <div class="edit-profil text-end mb-3">
-                                <?php if ($user === true) : ?>
-                                <a class="" href="wisata-postingan-provinsi.php">Tambah Postingan</a>
-                                <?php endif; ?>
-                            </div>
-
-                            <?php if($dataPostingan !== false) : ?>
-                                <?php foreach ($dataPostingan as $data) : ?>
-                                    <div class="col-lg-6 card-postingan d-flex">
-                                        <div class="postingan-kiri" style="background-image: url('<?php echo $data['gambar']?>');"></div>
-                                        <div class="postingan-kanan">
-                                            <h6 class="mt-3" style="padding:0px; font-weight:bold;"><?php echo $data['judul']?>...</h6>
-                                            <p style="font-size: 0.9rem; padding:0px;margin:0px;"><?php echo substr($data['nama_wisata'], 0, 100);?></p>
-                                            <p style="text-align:justify;  font-size:0.6rem;"><?php echo substr($data['konten'], 0, 100);?>....</p>
-                                            <div class="d-flex">
-                                                <div class="d-flex me-3">
-                                                    <img style="width:25px;height:25px;" src="../../assets/beranda/suka2.png"
-                                                        alt="">
-                                                    <h6 style="font-size: 13px;" class="mt-1 ms-1"><?php echo $data['menyukai']?></h6>
-                                                </div>
-                                                <div class="d-flex">
-                                                    <img style="width: 25px;height:25px;" src="../../assets/beranda/melihat.png"
-                                                        alt="">
-                                                    <h6 style="font-size: 13px;" class="mt-1 ms-1"><?php echo $data['melihat']?></h6>
-                                                </div>
-                                            </div>
-                                            <div class="garis"
-                                                style="width:60%; margin-top:5px; background-color:black; height:2px; margin-bottom : 10px">
-                                            </div>
-                                            <a href="../detail/postingan.php?id=<?php echo $data['id_ini']?>" style="margin-left:0px;" class="lihat-wisata">Lihat Postingan</a>
-                                            <?php if($user === true) :?>
-                                            <div class="d-flex">
-                                                <form action="" method="post" class="me-2">
-                                                    <input type="hidden" value="<?php echo $data['id_ini']?>" name="id_postingan">
-                                                    <p style="padding-top:4px;"><button name="hapus" type="submit" style="margin-top:30px; padding: 5px 20px; background-color:red; margin:0px; border:none; font-weight:bold; font-size: 0.7rem;" href="?hapus=<?php echo $data['id_ini']?>&id=<?php echo $_SESSION['id']?>" style="margin-left:0px;" class="lihat-wisata">Hapus</button></p>
-                                                </form>
-                                                <p class="mt-4" ><a style="background-color:green; margin:0px; border:none; font-weight:bold;" href="wisata-postingan-update.php?update=<?php echo $data['id_ini']?>&id=<?php echo $_SESSION['id']?>" style="margin-left:0px;" class="lihat-wisata">Update</a></p>
-                                            </div>
-                                            <?php endif;?>
+                    <div class="isi-dalam d-flex">
+                        <div class="row d-flex container-wisata">
+                            <?php foreach ($wisata as $result) : ?>
+                                <div class="card-wisata col-lg-3" style="width:300px !important;">
+                                    <div style="background-image: url('<?php echo $result['image']?>');" class="header-wisata d-flex flex-dirextion-column">
+                                        <div class="align-self-end" style="background: linear-gradient(to bottom, transparent, black); width:100%;">
+                                            <h5 class="ms-3 mb-3" style="color:white;"><?php echo $result['name'] ?></h5>
+                                            <div class="ms-3" style="width:100px; background-color:white; height: 3px; margin-bottom:10px;"></div>
                                         </div>
                                     </div>
-                                <?php endforeach ?>
-                            <?php else : ?>
-                                <p class="pt-3">Bagi pengalaman menarik dari wisata di website kami dan posting ke semua orang!</p>
-                            <?php endif; ?>
-
+                                    <div class="bottom-wisata p-3">
+                                        <div class="d-flex" style="width:100%;">
+                                            <img class="mt-3" style="width:15px; height:23px; margin-top:6px;" src="../../assets/beranda/map.png" alt="">
+                                            <p class="ms-3" style="width:90%;"><?php echo substr($result['address'], 0, 35);?> ...</p>
+                                        </div>
+                                        <div>
+                                            <div class="d-flex mb-3">
+                                                <div class="d-flex" style="width:100%;">
+                                                    <img class="mt-2" style="width:25px; height:25px" src="../../assets/beranda/star.png" alt="">
+                                                    <p class="ms-2"><?php echo $result['rating'] ?> Rating</p>
+                                                </div>
+                                                <div class="d-flex" style="width:100%;">
+                                                    <p class="ms-2"><?php echo $result['reviews'] ?> Reviews</p>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-center">
+                                                <a href="wisata-postingan-upload.php?id=<?php echo $id?>&place_id=<?php echo $result['place_id'] ?>" class="lihat-wisata">Pilih Wisata</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <?php endforeach ?>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -266,8 +233,6 @@ if(!isset($_SESSION['login'])) {
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
-
-
 </body>
 
 </html>

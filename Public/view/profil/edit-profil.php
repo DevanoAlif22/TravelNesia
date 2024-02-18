@@ -21,8 +21,24 @@ if(!isset($_SESSION['login'])) {
 }
 
 if(isset($_POST['edit'])) {
-    $editProfil = uploadProfil($_SESSION['id'], $_POST);
+    if ($_FILES['gambar']['name'] === '') {
+        $gambar = 'tidak ada';
+    } else {
+        $gambar = 'ada';
+    }
+    $editProfil = uploadProfil($_SESSION['id'], $_POST, $gambar);
+    if($editProfil === 'berhasil') {
+        $_SESSION['notifikasiBerhasil'] = 'berhasil'; 
+    } else if($editProfil === 'tipe') {
+        $_SESSION['notifikasiBerhasil'] = 'tipe'; 
+    } else if($editProfil === 'ukuran') {
+        $_SESSION['notifikasiBerhasil'] = 'ukuran'; 
+    }
+    header("Location: edit-profil.php");
+    exit;
 }
+$notifikasiBerhasil = isset($_SESSION['notifikasiBerhasil']) ? $_SESSION['notifikasiBerhasil'] : null;
+unset($_SESSION['notifikasiBerhasil']);
 ?>
 
 <!doctype html>
@@ -56,21 +72,24 @@ if(isset($_POST['edit'])) {
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Beranda</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Wisata</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link">Postingan</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link">Pemandu</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link">Masuk</a>
-                        </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="../beranda/beranda.php">Beranda</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="../pencarian/pencarian-provinsi-wisata.php">Wisata</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="../pencarian/pencarian-postingan.php" >Postingan</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="../pencarian/pencarian-pemandu.php" >Pemandu</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="../pencarian/pencarian-wisatawan.php" >Wisatawan</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="../profil/wisata-biodata.php?id=<?php echo $_SESSION['id']?>">Profil</a>
+                            </li>
                     </ul>
                 </div>
             </div>
@@ -88,10 +107,10 @@ if(isset($_POST['edit'])) {
                 <div class="profil"
                     
                     style="background-image: 
-                    <?php if (!isset($dataUser['alamat_gambar']) || $dataUser['alamat_gambar'] === NULL) : ?>
+                    <?php if (!isset($dataUser['gambar']) || $dataUser['gambar'] === NULL) : ?>
                     url('../../assets/profil/noprofil.jfif'); 
                     <?php else : ?>
-                    url('<?php echo $dataUser['alamat_gambar']?>'); 
+                    url('<?php echo $dataUser['gambar']?>'); 
                     <?php endif; ?>
                     
                     max-width: 100px; height: 100px; ">
@@ -113,7 +132,7 @@ if(isset($_POST['edit'])) {
                     <p><?php echo $dataUser['melihat']?> Melihat</p>
                     </div>
                     <div class="icon">
-                    <?php if ($dataUser['nama_peran'] === 'wisatawan') : ?>
+                    <?php if ($dataUser['nama_peran'] === 'Wisatawan') : ?>
                     <img style="width: 43px;" src="../../assets/wisata/suka.png" alt="">
                     <p><?php echo $dataUser['menyukai']?> Menyukai</p>
                     <?php else : ?>
@@ -156,15 +175,20 @@ if(isset($_POST['edit'])) {
                 <div class="bungkus-bio-kiri">
                     <div class="isi">
                     <h5>Jenis kelamin</h5>
-                    <?php if (!isset($dataUser['biodata']) || $dataUser['biodata'] === NULL) : ?>
+                    <?php if (!isset($dataUser['jenis_kelamin']) || $dataUser['jenis_kelamin'] === NULL) : ?>
                         <p style="color: gray;">-</p>
                     <?php else : ?>
-                        <p><?php echo $dataUser['biodata']?></p>
+                        <p><?php echo $dataUser['jenis_kelamin']?></p>
                     <?php endif; ?>
                     </div>
                     <div class="isi">
                     <img src="../../assets/profil/icon-jk.png" alt="">
                     </div>
+                </div>
+                <div class="mt-4 edit-profil text-center">
+                  <?php if ($user === true) : ?>
+                  <a style="background-color:red;" href="../lainnya/keluar.php">Keluar</a>
+                  <?php endif; ?>
                 </div>
                 </div>
             </div>
@@ -176,16 +200,29 @@ if(isset($_POST['edit'])) {
                             <h5><b>Edit Profil</b></h5>
                         </div>
                         <div class="isi-dalam">
-                            <a href=""><img src="../../assets/profil/left.png" style="margin-top: -1rem;" width="30"
+                            <a href="wisata-biodata.php?id=<?php echo $_SESSION['id'] ?>"><img src="../../assets/profil/left.png" style="margin-top: -1rem;" width="30"
                                     alt=""></a>
+                                    <?php if(isset( $notifikasiBerhasil) &&  $notifikasiBerhasil === 'tipe') : ?>
+                                        <div class="alert alert-danger" role="alert">
+                                            Profil gagal diperbarui, pastikan tipe gambar adalah jpg, jpeg atau png!
+                                        </div>
+                                    <?php elseif(isset( $notifikasiBerhasil) &&  $notifikasiBerhasil === 'ukuran'):?>
+                                        <div class="alert alert-danger" role="alert">
+                                            Profil gagal di erbarui, pastikan ukuran gambar maksimal 5MB!
+                                        </div>
+                                    <?php elseif(isset( $notifikasiBerhasil) &&  $notifikasiBerhasil === 'berhasil'):?>
+                                        <div class="alert alert-success" role="alert">
+                                            Profil berhasil diperbarui
+                                        </div>
+                                    <?php endif;?>
                             <div class="row">
                                 <div class="col-lg-5 mb-3">
                                     <div class="bungkus-kiri-up">
                                         <div class="gambar-up">
                                             <div class="profil mt-4"
                                             style="
-                                                <?php if(isset($dataUser['nama']) && $dataUser['nama'] !== null) : ?>
-                                                    background-image: url(<?php echo $dataUser['alamat_gambar'] ?>); 
+                                                <?php if(isset($dataUser['gambar']) && $dataUser['gambar'] !== null) : ?>
+                                                    background-image: url(<?php echo $dataUser['gambar'] ?>); 
                                                 <?php else : ?>
                                                     background-image: url(../../assets/profil/noprofil.jfif); 
                                                 <?php endif; ?>
@@ -202,31 +239,50 @@ if(isset($_POST['edit'])) {
                                             style="color:red;">*</span> </h5>
                                     <div class="input-kanan"> 
                                         <?php if(isset($dataUser['nama']) && $dataUser['nama'] !== null) : ?>
-                                        <input type="text" name="nama" value="<?php echo $dataUser['nama'] ?>">
+                                        <input type="text" maxlength="15" required name="nama" value="<?php echo $dataUser['nama'] ?>">
                                         <?php else : ?>
-                                            <input type="text" name="nama">
+                                            <input type="text" maxlength="15" required name="nama">
                                         <?php endif; ?>
                                     </div>
                                     <h5 class="mb-3 mt-4" style="font-weight: 600;">Umur <span style="color:red;">*</span>
                                     </h5>
                                     <div class="input-kanan">
                                         <?php if(isset($dataUser['umur']) && $dataUser['umur'] !== null) : ?>
-                                        <input type="text" name="umur" value="<?php echo $dataUser['umur'] ?>">
+                                        <input type="text" name="umur" required value="<?php echo $dataUser['umur'] ?>">
                                         <?php else : ?>
-                                            <input type="number" min="1" name="umur">
+                                            <input type="number" min="1" name="umur" required>
                                         <?php endif; ?>
                                     </div>
                                     <h5 class="mb-3 mt-4" style="font-weight: 600;">Jenis kelamin <span
                                             style="color:red;">*</span>
                                     </h5>
                                     <div class="input-jk d-flex">
-                                        <div class="jk-1">
+                                        <?php if(isset($dataUser['jenis_kelamin']) && $dataUser['jenis_kelamin'] !== null) : ?>
+                                            <?php if($dataUser['jenis_kelamin'] === 'Laki-laki') : ?>
+                                            <div class="jk-1">
+                                            <input type="radio" checked value="Laki-laki" name="jenis_kelamin"><span class="ms-2">Laki-Laki</span>
+                                            </div>
+                                            <div class="jk-1">
+                                                <input type="radio" value="Perempuan" name="jenis_kelamin"><span class="ms-2">Perempuan</span>
+                                            </div>
+                                            <?php elseif($dataUser['jenis_kelamin'] === 'Perempuan') : ?>
+                                                <div class="jk-1">
+                                                <input type="radio" value="Laki-laki" name="jenis_kelamin"><span class="ms-2">Laki-Laki</span>
+                                                </div>
+                                                <div class="jk-1">
+                                                    <input type="radio" checked value="Perempuan" name="jenis_kelamin"><span class="ms-2">Perempuan</span>
+                                                </div>
+                                            <?php endif; ?>
+                                        <?php else : ?>
+                                            <div class="jk-1">
                                             <input type="radio" value="Laki-laki" name="jenis_kelamin"><span class="ms-2">Laki-Laki</span>
-                                        </div>
-    
-                                        <div class="jk-1">
-                                            <input type="radio" value="Perempuan" name="jenis_kelamin"><span class="ms-2">Perempuan</span>
-                                        </div>
+                                            </div>
+                                            <div class="jk-1">
+                                                <input type="radio" value="Perempuan" name="jenis_kelamin"><span class="ms-2">Perempuan</span>
+                                            </div>
+                                            
+                                        <?php endif; ?>
+                                        
     
                                     </div>
     

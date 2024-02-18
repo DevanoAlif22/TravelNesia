@@ -1,3 +1,55 @@
+<?php 
+session_start();
+require_once '../../../Controller/PostinganController.php';
+
+if(!isset($_SESSION['login'])) {
+  header("Location: ../login/login.php");
+  exit;
+} else {
+  $user = false;
+  if($_GET['id']){
+    // cek apakah postingan ada
+    $cekPostingan = cekPostingan(intval($_GET['id']));
+    if($cekPostingan === false) {
+        header("Location: ../beranda/beranda.php");
+        exit;
+    }
+    $cekUser = cekPostinganUser(intval($_GET['id']));
+    if($cekUser === true) {
+        $user = true;
+    } else {
+        $user = false;    
+    }
+
+    $dataPemirsa = dataPemirsa($_SESSION['id'], $cekPostingan['id_ini']);
+    $profilPengguna = $dataPemirsa[1]['gambar'];
+    $dataKomentar = dataKomentar($cekPostingan['id_ini']);
+}
+}
+
+if(isset($_POST['tambahKomentar'])) {
+    $id_postingan = intval($_GET['id']);
+    $tambahKomentar = tambahKomentar($id_postingan, $_POST);
+    if($tambahKomentar === 'berhasil') {
+        $_SESSION['notifikasiBerhasil'] = 'berhasil'; 
+    } else {
+        $_SESSION['notifikasiBerhasil'] = 'gagal'; 
+    } 
+    header("Location: postingan.php?id=" . $_GET['id']);
+    exit;
+}
+
+$notifikasiBerhasil = isset($_SESSION['notifikasiBerhasil']) ? $_SESSION['notifikasiBerhasil'] : null;
+unset($_SESSION['notifikasiBerhasil']);
+
+if(isset($_POST['menyukai'])) {
+    $id_postingan = intval($_GET['id']);
+    $menyukai = menyukaiPostingan($id_postingan,$_POST);
+    header("Location: postingan.php?id=" . $_GET['id']);
+    exit;
+}
+?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -74,110 +126,91 @@
         </nav>
     </div>
 
-    <div class="hero-image" style="background-image: url('../../assets/wisata/hero.png')"></div>
+    <div class="hero-image" style="background-image: url('<?php echo $cekPostingan['gambar'] ?>')"></div>
 
     <div class="container mt-4">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-8">
                 <div class="d-flex">
-                    <div class="profil" style="background-image: url('../../assets/beranda/profil.png'); width:40px; height: 40px;"></div>
+                    <div class="profil" style="background-image: url('<?php echo $cekPostingan['profil'] ?>'); width:40px; height: 40px; border-radius: 50px;"></div>
                     <div class="ms-3 mt-1">
-                        <h5 style="font-weight:bold;">Firashinta Yudi</h5>
+                        <h5 style="font-weight:bold;"><?php echo $cekPostingan['nama_pengguna'] ?></h5>
                         <p style="margin-top:-9px; font-size:0.8rem;">Pemandu Wisata Ini</p>
                     </div>
                 </div>
-                <h2 class="mb-3"><b>Candi Borobudur Indonesia</b></h2>
-                <p>22 - november - 2023</p>
+                <h2 class="mb-3"><b><?php echo $cekPostingan['judul']?></b></h2>
+                <p><?php echo $cekPostingan['created_at']?></p>
                 
             </div>
             
-            <div class="col-lg-6">
+            <div class="col-lg-4">
                 <div class="d-flex mb-4 pesan-button me-5">
-                    <div class="d-flex me-4">
-                       <a href=""><img style="width:50px" src="../../assets/wisata/suka.png" alt=""></a>
-                       <h5 class=" ms-3 me-3 mt-2"><b>200</b></h5>
-                    </div>
+                    <form action="" method="post">
+                        <div class="d-flex me-4">
+                           <?php if($dataPemirsa[0] === 'true') : ?>
+                                <button type="submit" name="menyukai" style="border:none; background-color: transparent;" href=""><img style="width:50px" src="../../assets/wisata/suka.png" alt=""></button>
+                            <?php else : ?>
+                                <button type="submit" name="menyukai" style="border:none; background-color: transparent;" href=""><img style="width:50px" src="../../assets/wisata/suka2.png" alt=""></button>
+                            <?php endif; ?>
+                           <h5 class=" ms-3 me-3 mt-2"><b><?php echo $cekPostingan['menyukai']?></b></h5>
+                        </div>
+                    </form>
+
                     <div class="d-flex">
                        <img style="width:50px" src="../../assets/wisata/komen.png">
-                       <h5 class=" ms-3 me-3 mt-2"><b>200</b></h5>
+                       <h5 class=" ms-3 me-3 mt-2"><b><?php echo $cekPostingan['komentar']?></b></h5>
                     </div>
                 </div>
             </div>
         </div>
 
-        <p class="pb-4" style="text-align:justify;">Lorem Ipsum is simply dummy text of the printing and typesettingindustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when  an unknown printer took a galley of type and scrambled it to make  a type specimen book. It has survived not only five centuries, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when  an unknown printer took a galley of type and scrambled it to make  a type specimen book. It has survived not only five centuries. Lorem Ipsum is simply dummy text of the printing and typesettingindustry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when  an unknown printer took a galley of type and scrambled it to make  a type specimen book. It has survived not only five centuries, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when  an unknown printer took a galley of type and scrambled it to make  a type specimen book. It has survived not only five centuries</p>
+        <p class="pb-4" style="text-align:justify;"><?php echo $cekPostingan['konten']?></p>
 
         <div class="komentar mt-3 mb-3">
             <div class="isi-komentar d-flex row">
-                <div class="profil col-lg-2" style="background-image: url('../../assets/beranda/profil.png'); width:70px; height: 70px;"></div>
-                <div class="konten-komentar d-flex col-lg-8">
-                    <input type="text" name="" id="">
-                    <button class=" kirim-komentar">Kirim</button>
-                </div>
+
+                <div class="profil col-lg-2" style="background-image: url(''); width:70px; height: 70px;"></div>
+                <form action="" method="post">
+                    <div class="konten-komentar d-flex col-lg-8">
+                        <div style="margin-top:-40px; margin-right: 30px;">
+                            <div class="profil col-lg-2" style="background-image: 
+                            <?php if($profilPengguna !== null) : ?>
+                                url('<?php echo $profilPengguna ?>'); 
+                            <?php else :?>
+                                url('../../assets/profil/noprofil.jfif'); 
+                            <?php endif;?>
+                            width:70px; height: 70px; border-radius: 50px;"></div>
+                        </div>
+                        <input type="hidden" name="id_postingan" value="<?php echo $_GET['id']?>">
+                        <input style="margin-top:-10px;" type="text" name="konten" id="">
+                        <button class=" kirim-komentar" type="submit" name="tambahKomentar">Kirim</button>
+                    </div>
+                </form>
             </div>
         </div>
 
         <div class="list-komentar mt-5 mb-3">
+            <?php if(isset( $notifikasiBerhasil) &&  $notifikasiBerhasil === 'gagal') : ?>
+                <div class="alert alert-danger" role="alert">
+                    Komentar gagal ditambahkan di postingan ini
+                </div>
+                <?php elseif(isset( $notifikasiBerhasil) &&  $notifikasiBerhasil === 'berhasil'):?>
+                    <div class="alert alert-success" role="alert">
+                        Komentar berhasil ditambahkan di postingan ini
+                    </div>
+            <?php endif;?>
+            <?php foreach ($dataKomentar as $data) : ?>
                 <div class="d-flex mb-4">
-                    <div class="profil me-4" style="background-image: url('../../assets/beranda/profil.png'); width:55px; height: 55px;"></div>
+                    <div class="profil me-4" style="background-image: url('<?php echo $data['gambar'] ?>'); width:55px; height: 55px; border-radius:50px;"></div>
                     <div class="ms-3 mt-1">
                         <div class="d-flex">
-                            <h6 class="pb-2 me-4" style="font-weight:bold;">Firashinta Yudi</h6>
-                            <p style="font-size:0.8rem; color:gray;">22 - november - 2023</p>
+                            <h6 class="pb-2 me-4" style="font-weight:bold;"><?php echo $data['nama'] ?></h6>
+                            <p style="font-size:0.8rem; color:gray;"><?php echo $data['created_at'] ?></p>
                         </div>
-                        <p style="margin-top:-9px; font-size:0.95rem;">Your video deserves to be recognized as a masterpiece of digital storytelling. 7</p>
+                        <p style="margin-top:-9px; font-size:0.95rem;"><?php echo $data['konten'] ?></p>
                     </div>
                 </div>
-                <div class="d-flex mb-4">
-                    <div class="profil me-4" style="background-image: url('../../assets/beranda/profil.png'); width:50px; height: 50px;"></div>
-                    <div class="ms-3 mt-1">
-                        <div class="d-flex">
-                            <h6 class="pb-2 me-4" style="font-weight:bold;">Firashinta Yudi</h6>
-                            <p style="font-size:0.8rem; color:gray;">22 - november - 2023</p>
-                        </div>
-                        <p style="margin-top:-9px; font-size:0.95rem;">Your video deserves to be recognized as a masterpiece of digital storytelling. 7</p>
-                    </div>
-                </div>
-                <div class="d-flex mb-4">
-                    <div class="profil me-4" style="background-image: url('../../assets/beranda/profil.png'); width:50px; height: 50px;"></div>
-                    <div class="ms-3 mt-1">
-                        <div class="d-flex">
-                            <h6 class="pb-2 me-4" style="font-weight:bold;">Firashinta Yudi</h6>
-                            <p style="font-size:0.8rem; color:gray;">22 - november - 2023</p>
-                        </div>
-                        <p style="margin-top:-9px; font-size:0.95rem;">Your video deserves to be recognized as a masterpiece of digital storytelling. 7</p>
-                    </div>
-                </div>
-                <div class="d-flex mb-4">
-                    <div class="profil me-4" style="background-image: url('../../assets/beranda/profil.png'); width:50px; height: 50px;"></div>
-                    <div class="ms-3 mt-1">
-                        <div class="d-flex">
-                            <h6 class="pb-2 me-4" style="font-weight:bold;">Firashinta Yudi</h6>
-                            <p style="font-size:0.8rem; color:gray;">22 - november - 2023</p>
-                        </div>
-                        <p style="margin-top:-9px; font-size:0.95rem;">Your video deserves to be recognized as a masterpiece of digital storytelling. 7</p>
-                    </div>
-                </div>
-                <div class="d-flex mb-4">
-                    <div class="profil me-4" style="background-image: url('../../assets/beranda/profil.png'); width:50px; height: 50px;"></div>
-                    <div class="ms-3 mt-1">
-                        <div class="d-flex">
-                            <h6 class="pb-2 me-4" style="font-weight:bold;">Firashinta Yudi</h6>
-                            <p style="font-size:0.8rem; color:gray;">22 - november - 2023</p>
-                        </div>
-                        <p style="margin-top:-9px; font-size:0.95rem;">Your video deserves to be recognized as a masterpiece of digital storytelling. 7</p>
-                    </div>
-                </div>
-                <div class="d-flex mb-4">
-                    <div class="profil me-4" style="background-image: url('../../assets/beranda/profil.png'); width:50px; height: 50px;"></div>
-                    <div class="ms-3 mt-1">
-                        <div class="d-flex">
-                            <h6 class="pb-2 me-4" style="font-weight:bold;">Firashinta Yudi</h6>
-                            <p style="font-size:0.8rem; color:gray;">22 - november - 2023</p>
-                        </div>
-                        <p style="margin-top:-9px; font-size:0.95rem;">Your video deserves to be recognized as a masterpiece of digital storytelling. 7</p>
-                    </div>
-                </div>
+            <?php endforeach ?>
         </div>
 
     </div>

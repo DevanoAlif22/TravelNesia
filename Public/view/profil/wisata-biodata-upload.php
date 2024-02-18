@@ -1,3 +1,39 @@
+<?php 
+session_start();
+require_once '../../../Controller/ProfilController.php';
+
+if(!isset($_SESSION['login'])) {
+  header("Location: ../login/login.php");
+  exit;
+} else {
+  $user = false;
+  if($_SESSION['id']){
+    $user = true;
+  } else {
+    $user = false;    
+  }
+  $dataUser = ambilBiodata($_SESSION['id']);
+  // var_dump($dataUser);
+  if($dataUser === false) {
+    header("Location: ../beranda/beranda.php");
+    exit;
+  }
+}
+
+if(isset($_POST['edit'])) {
+
+    $editBiodata = uploadBiodata($_SESSION['id'], $_POST);
+    if($editBiodata === 'berhasil') {
+        $_SESSION['notifikasiBerhasil'] = 'berhasil'; 
+    } 
+    header("Location: wisata-biodata-upload.php");
+    exit;
+}
+$notifikasiBerhasil = isset($_SESSION['notifikasiBerhasil']) ? $_SESSION['notifikasiBerhasil'] : null;
+unset($_SESSION['notifikasiBerhasil']);
+?>
+
+
 <!doctype html>
 <html lang="en">
 
@@ -29,21 +65,24 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Beranda</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Wisata</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link">Postingan</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link">Pemandu</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link">Masuk</a>
-                        </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="../beranda/beranda.php">Beranda</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="../pencarian/pencarian-provinsi-wisata.php">Wisata</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="../pencarian/pencarian-postingan.php" >Postingan</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="../pencarian/pencarian-pemandu.php" >Pemandu</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="../pencarian/pencarian-wisatawan.php" >Wisatawan</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="../profil/wisata-biodata.php?id=<?php echo $_SESSION['id']?>">Profil</a>
+                            </li>
                     </ul>
                 </div>
             </div>
@@ -55,77 +94,120 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
+                    <div class="bungkus-kiri">
+                        <div class="profil"
+                            
+                            style="background-image: 
+                            <?php if (!isset($dataUser['gambar']) || $dataUser['gambar'] === NULL) : ?>
+                            url('../../assets/profil/noprofil.jfif'); 
+                            <?php else : ?>
+                            url('<?php echo $dataUser['gambar']?>'); 
+                            <?php endif; ?>
+                            
+                            max-width: 100px; height: 100px; ">
 
-                <div class="bungkus-kiri">
-                    <div class="profil"
-                        style="background-image: url(../../assets/profil/profil.jpg); max-width: 100px; height: 100px; ">
+                        </div>
+                        <div class="nama-user text-center">
+                        <?php if (!isset($dataUser['nama']) || $dataUser['nama'] === NULL) : ?>
+                            <h4 style="color: gray;">-</h4>
+                        <?php else : ?>
+                            <h4><?php echo $dataUser['nama']?></h4>
+                        <?php endif; ?>
+                        
 
-                    </div>
-                    <div class="nama-user text-center">
-                        <h4>Davano alif</h4>
-                        <p>Pemandu Wisata</p>
-                    </div>
-                    <div class="bungkus-icon">
-                        <div class="icon">
+                            <p><?php echo $dataUser['nama_peran']?></p>
+                        </div>
+                        <div class="bungkus-icon">
+                            <div class="icon">
                             <img src="../../assets/profil/icon-mata.png" alt="">
-                            <p>200 Viewers</p>
-                        </div>
-                        <div class="icon">
+                            <p><?php echo $dataUser['melihat']?> Melihat</p>
+                            </div>
+                            <div class="icon">
+                            <?php if ($dataUser['nama_peran'] === 'Wisatawan') : ?>
+                            <img style="width: 43px;" src="../../assets/wisata/suka.png" alt="">
+                            <p><?php echo $dataUser['menyukai']?> Menyukai</p>
+                            <?php else : ?>
                             <img src="../../assets/profil/icon-bintang.png" alt="">
-                            <p>3.6 Ratings</p>
+                            <?php if (!isset($dataUser['rating']) || $dataUser['rating'] === NULL) : ?>
+                                <p style="color: gray;">-</p>
+                            <?php else : ?>
+                                <p><?php echo $dataUser['rating']?> Rating</p>
+                            <?php endif; ?>
+                            <?php endif; ?>
+                            </div>
                         </div>
-                    </div>
-                    <div class="edit-profil text-center mt-4">
-                        <a href="">Edit Profile</a>
-                    </div>
-                    <div class="bungkus-bio-kiri mt-4">
-                        <div class="isi">
+                        <div class="edit-profil text-center mt-4">
+                            <?php if ($user === true) : ?>
+                            <a href="edit-profil.php">Edit Profil</a>
+                            <?php endif; ?>
+                        </div>
+                        <div class="bungkus-bio-kiri mt-4">
+                            <div class="isi">
                             <h5>Umur</h5>
-                            <p>20 tahun</p>
-                        </div>
-                        <div class="isi">
+                            <?php if (!isset($dataUser['umur']) || $dataUser['umur'] === NULL) : ?>
+                                <p style="color: gray;">-</p>
+                            <?php else : ?>
+                                <p><?php echo $dataUser['umur']?> tahun</p>
+                            <?php endif; ?>
+                            </div>
+                            <div class="isi">
                             <img src="../../assets/profil/icon-age.png" alt="">
+                            </div>
                         </div>
-                    </div>
-                    <div class="bungkus-bio-kiri">
-                        <div class="isi">
+                        <div class="bungkus-bio-kiri">
+                            <div class="isi">
                             <h5>Email</h5>
-                            <p>Yustinamalia22@gmail.com</p>
-                        </div>
-                        <div class="isi">
+                            <p><?php echo $dataUser['email']?></p>
+                            </div>
+                            <div class="isi">
                             <img src="../../assets/profil/icon-email.png" alt="">
+                            </div>
                         </div>
-                    </div>
-                    <div class="bungkus-bio-kiri">
-                        <div class="isi">
+                        <div class="bungkus-bio-kiri">
+                            <div class="isi">
                             <h5>Jenis kelamin</h5>
-                            <p>Laki laki</p>
-                        </div>
-                        <div class="isi">
+                            <?php if (!isset($dataUser['jenis_kelamin']) || $dataUser['jenis_kelamin'] === NULL) : ?>
+                                <p style="color: gray;">-</p>
+                            <?php else : ?>
+                                <p><?php echo $dataUser['jenis_kelamin']?></p>
+                            <?php endif; ?>
+                            </div>
+                            <div class="isi">
                             <img src="../../assets/profil/icon-jk.png" alt="">
+                            </div>
+                        </div>
+                        <div class="mt-4 edit-profil text-center">
+                                <?php if ($user === true) : ?>
+                                <a style="background-color:red;" href="../lainnya/keluar.php">Keluar</a>
+                                <?php endif; ?>
                         </div>
                     </div>
-                </div>
             </div>
             <div class="col-lg-8">
                 <div class="bungkus-kanan">
                     <div class="navbar-kanan">
-                        <a href="" class="aktif">Biodata</a>
-                        <a href="">Pengalaman</a>
-                        <a href="">wisata yang dipandu</a>
+                        <h5><b>Edit Biodata</b></h5>
                     </div>
                     <div class="isi-dalam">
-                        <a href=""><img src="../../assets/profil/left.png" style="margin-top: -1rem;" width="30"
-                                alt=""></a>
-                        <h5 class="mb-3 mt-4">Deskripsi</h5>
-                        <textarea name="" id="" cols="80" rows="10"
-                            style="border-radius:10px; padding: 0.5rem 1rem; box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;"></textarea>
+                        <?php if(isset( $notifikasiBerhasil) &&  $notifikasiBerhasil === 'berhasil'):?>
+                            <div class="alert alert-success" role="alert">
+                                Biodata berhasil diperbarui
+                            </div>
+                        <?php endif;?>
+                        <form action="" method="post">
+                            <a href="wisata-biodata.php?id=<?php echo $_SESSION['id']?>"><img src="../../assets/profil/left.png" style="margin-top: -1rem;" width="30"
+                                    alt=""></a>
+                            <h5 class="mb-3 mt-4">Deskripsi</h5>
+                            <textarea required name="biodata" id="" cols="80" rows="10"
+                                style="border-radius:10px; padding: 0.5rem 1rem; box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;"><?php echo $dataUser['biodata'] ?></textarea>
+    
+                            <div class="tombol mt-4" style="text-align: right;">
+    
+                                <button type="submit" name="edit"
+                                    style="padding: 0.5rem 2.5rem;font: weight bold; background-color:#006FD6;color:white;border:none;border-radius:30px;"><b>Kirim</button>
+                            </div>
 
-                        <div class="tombol mt-4" style="text-align: right;">
-
-                            <button
-                                style="padding: 0.5rem 2.5rem;font: weight bold; background-color:#006FD6;color:white;border:none;border-radius:30px;"><b>Kirim</button>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>

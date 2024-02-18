@@ -219,7 +219,7 @@ a.lihat-wisata:hover {
 }
 /* style pemandu ambil di wisata */
 .card-wisata {
-  width: 200px !important;
+  width: 300px;
   margin-bottom: 25px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 15px;
@@ -309,6 +309,27 @@ textarea {
   display: none;
 }
 
+/* provinsi */
+.card-provinsi {
+  width: 170px !important;
+  height: 230px !important;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.container-provinsi {
+  display: flex;
+  justify-content: start;
+}
+
+.isi-provinsi {
+  margin: auto;
+}
+
 /* Optional: Adding styles for the file upload icon */
 .custom-file-upload i {
   margin-right: 5px;
@@ -316,6 +337,11 @@ textarea {
 .input-jk {
   gap: 3rem;
   font-weight: 600;
+}
+
+.gambar-edit {
+  background-position: center;
+  background-size: cover;
 }
 
 @media screen and (max-width: 1000px) {

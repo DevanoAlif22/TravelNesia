@@ -89,10 +89,10 @@ if(!isset($_SESSION['login'])) {
           <div class="profil"
             
             style="background-image: 
-            <?php if (!isset($dataUser['alamat_gambar']) || $dataUser['alamat_gambar'] === NULL) : ?>
+            <?php if (!isset($dataUser['gambar']) || $dataUser['gambar'] === NULL) : ?>
               url('../../assets/profil/noprofil.jfif'); 
             <?php else : ?>
-              url('<?php echo $dataUser['alamat_gambar']?>'); 
+              url('<?php echo $dataUser['gambar']?>'); 
             <?php endif; ?>
             
             max-width: 100px; height: 100px; ">
@@ -114,13 +114,13 @@ if(!isset($_SESSION['login'])) {
               <p><?php echo $dataUser['melihat']?> Melihat</p>
             </div>
             <div class="icon">
-            <?php if ($dataUser['nama_peran'] === 'wisatawan') : ?>
+            <?php if ($dataUser['nama_peran'] === 'Wisatawan') : ?>
               <img style="width: 43px;" src="../../assets/wisata/suka.png" alt="">
               <p><?php echo $dataUser['menyukai']?> Menyukai</p>
             <?php else : ?>
               <img src="../../assets/profil/icon-bintang.png" alt="">
               <?php if (!isset($dataUser['rating']) || $dataUser['rating'] === NULL) : ?>
-                <p style="color: gray;">-</p>
+                <p>0 Rating</p>
               <?php else : ?>
                 <p><?php echo $dataUser['rating']?> Rating</p>
               <?php endif; ?>
@@ -128,7 +128,7 @@ if(!isset($_SESSION['login'])) {
             </div>
           </div>
           <div class="edit-profil text-center mt-4">
-            <?php if ($user === true) : ?>
+              <?php if ($user === true) : ?>
               <a href="edit-profil.php">Edit Profil</a>
               <?php endif; ?>
           </div>
@@ -157,35 +157,47 @@ if(!isset($_SESSION['login'])) {
           <div class="bungkus-bio-kiri">
             <div class="isi">
               <h5>Jenis kelamin</h5>
-              <?php if (!isset($dataUser['biodata']) || $dataUser['biodata'] === NULL) : ?>
+              <?php if (!isset($dataUser['jenis_kelamin']) || $dataUser['jenis_kelamin'] === NULL) : ?>
                 <p style="color: gray;">-</p>
               <?php else : ?>
-                  <p><?php echo $dataUser['biodata']?></p>
+                  <p><?php echo $dataUser['jenis_kelamin']?></p>
               <?php endif; ?>
             </div>
             <div class="isi">
               <img src="../../assets/profil/icon-jk.png" alt="">
             </div>
           </div>
+          <div class="mt-4 edit-profil text-center">
+                  <?php if ($user === true) : ?>
+                  <a style="background-color:red;" href="../lainnya/keluar.php">Keluar</a>
+                  <?php endif; ?>
+          </div>
         </div>
       </div>
       <div class="col-lg-8">
         <div class="bungkus-kanan">
           <div class="navbar-kanan">
-            <a href="" class="aktif">Biodata</a>
-            <a href="wisata-postingan.php?id=<?php echo $_SESSION['id']?>">Postingan Wisata</a>
-            <?php if($dataUser['nama_peran'] === 'wisatawan') :?>
+            <a href="wisata-biodata.php?id=<?php echo $_GET['id']?>" class="aktif">Biodata</a>
+            <a href="wisata-postingan.php?id=<?php echo $_GET['id']?>">Postingan Wisata</a>
+            <?php if($dataUser['nama_peran'] === 'Wisatawan') :?>
               <a href="">Rekomendasikan Wisata</a>
-            <?php else : ?>>
-              <a href="">wisata yang dipandu</a>
+            <?php else : ?>
+              <a href="pemandu-wisata-dipandu.php?id=<?php echo $_SESSION['id']?>">wisata yang dipandu</a>
             <?php endif; ?>
           </div>
           <div class="isi-dalam">
-            <h5>Deskripsi</h5>
-              <?php if (!isset($dataUser['nama']) || $dataUser['nama'] === NULL) : ?>
+              <div class="d-flex justify-content-between">
+                <h5>Deskripsi</h5>
+                <div class="edit-profil text-center">
+                    <?php if ($user === true) : ?>
+                    <a href="wisata-biodata-upload.php">Edit Biodata</a>
+                    <?php endif; ?>
+                </div>
+              </div>
+              <?php if (!isset($dataUser['biodata']) || $dataUser['biodata'] === NULL) : ?>
                 <p style="color: gray;">-</p>
               <?php else : ?>
-                  <p><?php echo $dataUser['jenis_kelamin']?></p>
+                  <p><?php echo $dataUser['biodata']?></p>
               <?php endif; ?>
           </div>
         </div>

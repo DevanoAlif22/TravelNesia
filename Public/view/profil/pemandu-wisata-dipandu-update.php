@@ -1,39 +1,61 @@
 <?php 
 session_start();
 require_once '../../../Controller/ProfilController.php';
-require_once '../../../Controller/PostinganController.php';
+require_once '../../../Controller/ProvinsiController.php';
+require_once '../../../Controller/WisataController.php';
 
-if(isset($_POST['hapus'])) {
-    $hapusPostingan = hapusPostingan($_POST);
-    if($hapusPostingan === 'berhasil') {
-        $_SESSION['notifikasiBerhasil'] = 'true'; 
-    } else {
-        $_SESSION['notifikasiBerhasil'] = 'false'; 
+// Baca isi file JSON
+$json_data = file_get_contents('../../../Json/semua-provinsi/semua-provinsi.json');
+$data = json_decode($json_data, true);
+
+if(!isset($_SESSION['login'])) {
+  header("Location: ../login/login.php");
+  exit;
+} else {
+  $user = false;
+  if($_SESSION['id']){
+    $user = true;
+  } else {
+    header("Location: ../beranda/beranda.php");
+    exit;   
+  }
+  $dataUser = ambilBiodata($_SESSION['id']);
+  if($dataUser === false) {
+    header("Location: ../beranda/beranda.php");
+    exit;
+  }
+}
+
+
+if($_GET['update'] && $_GET['id']) {
+    $id = $_GET['update'];
+
+    $data = ambilDetailWisata($id);
+
+    if($data === false) {
+        header("Location: ../beranda/beranda.php");
+        exit; 
     }
-    header("Location: wisata-postingan.php?id=" . $_SESSION['id']);
+} else {
+    header("Location: ../beranda/beranda.php");
+    exit; 
+}
+
+if(isset($_POST['edit'])) {
+    $uploadPostingan = editPemanduWisata($_POST);
+    if($uploadPostingan === 'berhasil') {
+        $_SESSION['notifikasiBerhasil'] = 'berhasil'; 
+    } else if($uploadPostingan === 'tipe') {
+        $_SESSION['notifikasiBerhasil'] = 'harga'; 
+    } 
+    
+    header("Location: pemandu-wisata-dipandu-update.php?update=" . $data['id_wisata'] . '&id=' . $_SESSION['id']);
     exit;
 }
 
-if(!isset($_SESSION['login'])) {
-    header("Location: ../login/login.php");
-    exit;
-  } else {
-    $user = false;
-    if(intval($_GET['id']) === $_SESSION['id']){
-      $user = true;
-    } else {
-      $user = false;    
-    }
-    $dataUser = ambilBiodata($_GET['id']);
-    if($dataUser === false) {
-      header("Location: ../beranda/beranda.php");
-      exit;
-    }
-    $dataPostingan = ambilPostingan($_GET['id']);
-  }
+$notifikasiBerhasil = isset($_SESSION['notifikasiBerhasil']) ? $_SESSION['notifikasiBerhasil'] : null;
+unset($_SESSION['notifikasiBerhasil']);
 
-  $notifikasiBerhasil = isset($_SESSION['notifikasiBerhasil']) ? $_SESSION['notifikasiBerhasil'] : null;
-  unset($_SESSION['notifikasiBerhasil']);
 ?>
 <!doctype html>
 <html lang="en">
@@ -50,12 +72,13 @@ if(!isset($_SESSION['login'])) {
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-    <title>Profil Postingan - Travelnesia</title>
+    <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+    <title>Upload postingan - Travelnesia</title>
 </head>
 
 <body>
     <div class="container">
+
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img class="gambar-logo" src="../../assets/logo-hitam.png" alt=""></a>
@@ -65,7 +88,7 @@ if(!isset($_SESSION['login'])) {
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
-                        <li class="nav-item">
+                    <li class="nav-item">
                             <a class="nav-link" href="../beranda/beranda.php">Beranda</a>
                             </li>
                             <li class="nav-item">
@@ -91,13 +114,10 @@ if(!isset($_SESSION['login'])) {
     <div class="bg-image">
 
     </div>
-
-
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
-
-            <div class="bungkus-kiri">
+                        <div class="bungkus-kiri">
                 <div class="profil"
                     
                     style="background-image: 
@@ -180,88 +200,63 @@ if(!isset($_SESSION['login'])) {
                     </div>
                 </div>
                 <div class="mt-4 edit-profil text-center">
-                  <?php if ($user === true) : ?>
-                  <a style="background-color:red;" href="../lainnya/keluar.php">Keluar</a>
-                  <?php endif; ?>
+                        <?php if ($user === true) : ?>
+                        <a style="background-color:red;" href="../lainnya/keluar.php">Keluar</a>
+                        <?php endif; ?>
                 </div>
                 </div>
+                
             </div>
-            <div class="col-lg-8 scrol-isi">
+            <div class="col-lg-8">
+
+            <form action="" method="post" enctype="multipart/form-data">
                 <div class="bungkus-kanan">
                     <div class="navbar-kanan">
-                        <a href="wisata-biodata.php?id=<?php echo  $_GET['id'] ?>" >Biodata</a>
-                        <a class="aktif" href="wisata-postingan.php?id=<?php echo $_GET['id']?>">Postingan Wisata</a>
-                        <?php if($dataUser['nama_peran'] === 'Wisatawan') :?>
-                        <a href="">Rekomendasikan Wisata</a>
-                        <?php else : ?>
-                        <a href="pemandu-wisata-dipandu.php?id=<?php echo $_GET['id']?>">wisata yang dipandu</a>
-                        <?php endif; ?>
+                        <h5>Edit postingan pemandu wisata <b> <?php echo $data['nama_wisata'] ?></b></h5>
                     </div>
                     <div class="isi-dalam">
-                        <?php if(isset( $notifikasiBerhasil) &&  $notifikasiBerhasil === 'false') : ?>
-                            <div class="alert alert-danger" role="alert">
-                                Postingan gagal di hapus!
-                            </div>
-                        <?php elseif(isset( $notifikasiBerhasil) &&  $notifikasiBerhasil === 'true'):?>
-                            <div class="alert alert-success" role="alert">
-                                Postingan berhasil di hapus!
-                            </div>
-                        <?php endif;?>
-
-                        <div class="row">
-                            
-                            <div class="edit-profil text-end mb-3">
-                                <?php if ($user === true) : ?>
-                                <a class="" href="wisata-postingan-provinsi.php">Tambah Postingan</a>
-                                <?php endif; ?>
-                            </div>
-
-                            <?php if($dataPostingan !== false) : ?>
-                                <?php foreach ($dataPostingan as $data) : ?>
-                                    <div class="col-lg-6 card-postingan d-flex">
-                                        <div class="postingan-kiri" style="background-image: url('<?php echo $data['gambar']?>');"></div>
-                                        <div class="postingan-kanan">
-                                            <h6 class="mt-3" style="padding:0px; font-weight:bold;"><?php echo $data['judul']?>...</h6>
-                                            <p style="font-size: 0.9rem; padding:0px;margin:0px;"><?php echo substr($data['nama_wisata'], 0, 100);?></p>
-                                            <p style="text-align:justify;  font-size:0.6rem;"><?php echo substr($data['konten'], 0, 100);?>....</p>
-                                            <div class="d-flex">
-                                                <div class="d-flex me-3">
-                                                    <img style="width:25px;height:25px;" src="../../assets/beranda/suka2.png"
-                                                        alt="">
-                                                    <h6 style="font-size: 13px;" class="mt-1 ms-1"><?php echo $data['menyukai']?></h6>
-                                                </div>
-                                                <div class="d-flex">
-                                                    <img style="width: 25px;height:25px;" src="../../assets/beranda/melihat.png"
-                                                        alt="">
-                                                    <h6 style="font-size: 13px;" class="mt-1 ms-1"><?php echo $data['melihat']?></h6>
-                                                </div>
-                                            </div>
-                                            <div class="garis"
-                                                style="width:60%; margin-top:5px; background-color:black; height:2px; margin-bottom : 10px">
-                                            </div>
-                                            <a href="../detail/postingan.php?id=<?php echo $data['id_ini']?>" style="margin-left:0px;" class="lihat-wisata">Lihat Postingan</a>
-                                            <?php if($user === true) :?>
-                                            <div class="d-flex">
-                                                <form action="" method="post" class="me-2">
-                                                    <input type="hidden" value="<?php echo $data['id_ini']?>" name="id_postingan">
-                                                    <p style="padding-top:4px;"><button name="hapus" type="submit" style="margin-top:30px; padding: 5px 20px; background-color:red; margin:0px; border:none; font-weight:bold; font-size: 0.7rem;" href="?hapus=<?php echo $data['id_ini']?>&id=<?php echo $_SESSION['id']?>" style="margin-left:0px;" class="lihat-wisata">Hapus</button></p>
-                                                </form>
-                                                <p class="mt-4" ><a style="background-color:green; margin:0px; border:none; font-weight:bold;" href="wisata-postingan-update.php?update=<?php echo $data['id_ini']?>&id=<?php echo $_SESSION['id']?>" style="margin-left:0px;" class="lihat-wisata">Update</a></p>
-                                            </div>
-                                            <?php endif;?>
+                        <a href="pemandu-wisata-dipandu.php?id=<?php echo $_SESSION['id']?>"><img src="../../assets/profil/left.png" style="margin-top: -1rem;" width="30"
+                                alt=""></a>
+                                <?php if(isset( $notifikasiBerhasil) &&  $notifikasiBerhasil === 'tipe') : ?>
+                                        <div class="alert alert-danger" role="alert">
+                                            Postingan gagal di edit, pastikan tipe gambar adalah jpg, jpeg atau png!
                                         </div>
-                                    </div>
-                                <?php endforeach ?>
-                            <?php else : ?>
-                                <p class="pt-3">Bagi pengalaman menarik dari wisata di website kami dan posting ke semua orang!</p>
-                            <?php endif; ?>
-
+                                    <?php elseif(isset( $notifikasiBerhasil) &&  $notifikasiBerhasil === 'ukuran'):?>
+                                        <div class="alert alert-danger" role="alert">
+                                            Postingan gagal di edit, pastikan ukuran gambar maksimal 5MB!
+                                        </div>
+                                    <?php elseif(isset( $notifikasiBerhasil) &&  $notifikasiBerhasil === 'berhasil'):?>
+                                        <div class="alert alert-success" role="alert">
+                                            Postingan berhasil di edit
+                                        </div>
+                                    <?php endif;?>
+                        <div class="row">
+                            <div class="col-lg-12">
+                            <form action="" method="post">
+                                <input type="hidden" name="id_wisata" value="<?php echo $data['id_wisata'] ?>">
+                                <h5 class="mb-3 mt-4" style="font-weight: 600;">Harga</h5>
+                                <div class="input-kanan" style="width: 60%;">
+                                    <input type="number" min="0" name="harga" value="<?php echo $data['harga']?>">
+                                </div>
+                                <h5 class="mb-3 mt-4">Deskripsi</h5>
+                                <textarea name="deskripsi" id="" rows="10"
+                                    style="border-radius:10px; padding: 0.5rem 1rem; box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;width: 100%;"><?php echo $data['deskripsi']?></textarea>
+    
+                                <div class="tombol mt-4" style="text-align: right;">
+    
+                                    <button type="submit" name="edit"
+                                        style="padding: 0.5rem 2.5rem;font: weight bold; background-color:#006FD6;color:white;border:none;border-radius:30px;"><b>Kirim</button>
+                                </div>
+                            </form>
+                            </div>
                         </div>
-
                     </div>
                 </div>
+                
+            </form>
             </div>
         </div>
+    </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

@@ -1,66 +1,26 @@
 <?php 
 session_start();
 require_once '../../../Controller/ProfilController.php';
-require_once '../../../Controller/ProvinsiController.php';
-require_once '../../../Controller/PostinganController.php';
 
-// Baca isi file JSON
 $json_data = file_get_contents('../../../Json/semua-provinsi/semua-provinsi.json');
-$data = json_decode($json_data, true);
+$dataProvinsi = json_decode($json_data, true);
 
 if(!isset($_SESSION['login'])) {
-  header("Location: ../login/login.php");
-  exit;
-} else {
-  $user = false;
-  if($_SESSION['id']){
-    $user = true;
-  } else {
-    header("Location: ../beranda/beranda.php");
-    exit;   
-  }
-  $dataUser = ambilBiodata($_SESSION['id']);
-  if($dataUser === false) {
-    header("Location: ../beranda/beranda.php");
+    header("Location: ../login/login.php");
     exit;
+  } else {
+    $user = false;
+    if($_SESSION['id']){
+      $user = true;
+    } else {
+      $user = false;    
+    }
+    $dataUser = ambilBiodata($_SESSION['id']);
+    if($dataUser === false) {
+      header("Location: ../beranda/beranda.php");
+      exit;
+    }
   }
-}
-
-
-if($_GET['id'] & $_GET['place_id']) {
-    $id = $_GET['id'];
-    $place_id = $_GET['place_id'];
-
-    $data = GetId($id, $data);
-    if($data == null) {
-        header("Location: pencarian-provinsi-wisata.php");
-    }
-    $json_wisata = file_get_contents('../../../Json/' . $data[1]);
-    $wisata = json_decode($json_wisata, true);
-    $data = PencarianDetailWisata( $place_id, $wisata);
-
-    if($data == null) {
-        header("Location: ../pencarian/pencarian-provinsi-wisata.php");
-        exit; 
-    }
-} else {
-    header("Location: ../pencarian/pencarian-provinsi-wisata.php");
-    exit; 
-}
-
-if(isset($_POST['tambah'])) {
-    $uploadPostingan = uploadPostingan($_SESSION['id'], $_POST);
-    if($uploadPostingan === 'berhasil') {
-        $_SESSION['notifikasiBerhasil'] = 'berhasil'; 
-    } else if($uploadPostingan === 'tipe') {
-        $_SESSION['notifikasiBerhasil'] = 'tipe'; 
-    } else if($uploadPostingan === 'ukuran') {
-        $_SESSION['notifikasiBerhasil'] = 'ukuran'; 
-    }
-}
-
-$notifikasiBerhasil = isset($_SESSION['notifikasiBerhasil']) ? $_SESSION['notifikasiBerhasil'] : null;
-unset($_SESSION['notifikasiBerhasil']);
 
 ?>
 <!doctype html>
@@ -78,13 +38,12 @@ unset($_SESSION['notifikasiBerhasil']);
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
-    <title>Upload postingan - Travelnesia</title>
+
+    <title>Profil Postingan - Travelnesia</title>
 </head>
 
 <body>
     <div class="container">
-
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img class="gambar-logo" src="../../assets/logo-hitam.png" alt=""></a>
@@ -117,10 +76,13 @@ unset($_SESSION['notifikasiBerhasil']);
     <div class="bg-image">
 
     </div>
+
+
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
-                        <div class="bungkus-kiri">
+
+            <div class="bungkus-kiri">
                 <div class="profil"
                     
                     style="background-image: 
@@ -202,79 +164,40 @@ unset($_SESSION['notifikasiBerhasil']);
                     <img src="../../assets/profil/icon-jk.png" alt="">
                     </div>
                 </div>
-                <div class="mt-4 edit-profil text-center">
-                        <?php if ($user === true) : ?>
-                        <a style="background-color:red;" href="../lainnya/keluar.php">Keluar</a>
-                        <?php endif; ?>
+                    <div class="mt-4 edit-profil text-center">
+                    <?php if ($user === true) : ?>
+                    <a style="background-color:red;" href="../lainnya/keluar.php">Keluar</a>
+                    <?php endif; ?>
+                    </div>
                 </div>
-                </div>
-                
             </div>
-            <div class="col-lg-8">
-
-            <form action="" method="post" enctype="multipart/form-data">
+            <div class="col-lg-8 scrol-isi">
                 <div class="bungkus-kanan">
                     <div class="navbar-kanan">
-                        <h5>Upload postingan wisata <b> <?php echo $data['name'] ?></b></h5>
+                        <h5><b>Pilih Provinsi Postingan Wisata</b></h5>
                     </div>
-                    <div class="isi-dalam">
-                        <a href="wisata-postingan.php?id=<?php echo $_SESSION['id']?>"><img src="../../assets/profil/left.png" style="margin-top: -1rem;" width="30"
-                                alt=""></a>
-                                <?php if(isset( $notifikasiBerhasil) &&  $notifikasiBerhasil === 'tipe') : ?>
-                                        <div class="alert alert-danger" role="alert">
-                                            Postingan gagal di upload, pastikan tipe gambar adalah jpg, jpeg atau png!
-                                        </div>
-                                    <?php elseif(isset( $notifikasiBerhasil) &&  $notifikasiBerhasil === 'ukuran'):?>
-                                        <div class="alert alert-danger" role="alert">
-                                            Postingan gagal di upload, pastikan ukuran gambar maksimal 5MB!
-                                        </div>
-                                    <?php elseif(isset( $notifikasiBerhasil) &&  $notifikasiBerhasil === 'berhasil'):?>
-                                        <div class="alert alert-success" role="alert">
-                                            Postingan berhasil di upload
-                                        </div>
-                                    <?php endif;?>
+                    <div class="isi-dalam d-flex">
                         <div class="row">
-                            <div class="col-lg-5 mb-3">
-                                <div class="bungkus-kiri-up">
-                                    <div class="gambar-up">
-                                        <img src="../../assets/profil/icon-up.png" alt="">
-                                        <input required type="file" name="gambar" />
-
+                            <?php foreach ($dataProvinsi as $result) : ?>
+                                <div class="col-lg-3 card-provinsi">
+                                <div class="isi-provinsi">
+                                    <div style="width:100%; display:flex; justify-content:center;">
+                                    <img style="width:70px; " src="../../assets/provinsi/<?php echo $result['gambar'] ?>" alt="">
                                     </div>
+                                    <h6 class="pt-3 pb-3 text-center"><b><?php echo $result['nama'] ?></b></h6>
+                                    <a href="wisata-postingan-wisata.php?id=<?php echo $result['id'] ?>" class="lihat-wisata text-center">Pilih Provinsi</a>
                                 </div>
-                            </div>
-                            <div class="col-lg-7">
-                                <input type="hidden" name="place_id" value="<?php echo $_GET['place_id'] ?>">
-                                <input type="hidden" name="id_provinsi" value="<?php echo $_GET['id'] ?>">
-                                <input type="hidden" name="nama_wisata" value="<?php echo $data['name'] ?>">
-                                <p class="mb-3" style="font-weight: 600;">Judul</p>
-                                <div class="input-kanan">
-                                    <input type="text" name="judul" maxlength="80">
                                 </div>
-                                <h5 class="mb-3 mt-4" style="font-weight: 600;">Deskripsi</h5>
-                                <div class="input-kanan-bawah">
-                                    <textarea name="konten" id="" rows="8" style="width:100%;"></textarea>
-                                </div>
-                                <div class="tombol mt-4" style="text-align: right;">
-
-                                    <button type="submit" name="tambah" 
-                                        style="padding: 0.5rem 2.5rem;font: weight bold; background-color:#006FD6;color:white;border:none;border-radius:30px;"><b>Kirim</button>
-                                </div>
-                            </div>
+                            <?php endforeach ?> 
                         </div>
                     </div>
                 </div>
-                
-            </form>
             </div>
         </div>
-    </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
-
-
 </body>
 
 </html>

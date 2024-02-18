@@ -27,29 +27,27 @@ if(!isset($_SESSION['login'])) {
 }
 
 
-if($_GET['id'] & $_GET['place_id']) {
-    $id = $_GET['id'];
-    $place_id = $_GET['place_id'];
+if($_GET['update'] && $_GET['id']) {
+    $id = $_GET['update'];
 
-    $data = GetId($id, $data);
-    if($data == null) {
-        header("Location: pencarian-provinsi-wisata.php");
-    }
-    $json_wisata = file_get_contents('../../../Json/' . $data[1]);
-    $wisata = json_decode($json_wisata, true);
-    $data = PencarianDetailWisata( $place_id, $wisata);
+    $data = ambilDetailPostingan($id);
 
-    if($data == null) {
-        header("Location: ../pencarian/pencarian-provinsi-wisata.php");
+    if($data === false) {
+        header("Location: ../beranda/beranda.php");
         exit; 
     }
 } else {
-    header("Location: ../pencarian/pencarian-provinsi-wisata.php");
+    header("Location: ../beranda/beranda.php");
     exit; 
 }
 
-if(isset($_POST['tambah'])) {
-    $uploadPostingan = uploadPostingan($_SESSION['id'], $_POST);
+if(isset($_POST['edit'])) {
+    if ($_FILES['gambar']['name'] === '') {
+        $gambar = 'tidak ada';
+    } else {
+        $gambar = 'ada';
+    }
+    $uploadPostingan = editPostingan($_POST, $gambar);
     if($uploadPostingan === 'berhasil') {
         $_SESSION['notifikasiBerhasil'] = 'berhasil'; 
     } else if($uploadPostingan === 'tipe') {
@@ -57,6 +55,10 @@ if(isset($_POST['tambah'])) {
     } else if($uploadPostingan === 'ukuran') {
         $_SESSION['notifikasiBerhasil'] = 'ukuran'; 
     }
+    
+    
+    header("Location: wisata-postingan-update.php?update=" . $data['id_postingan'] . '&id=' . $_SESSION['id']);
+    exit;
 }
 
 $notifikasiBerhasil = isset($_SESSION['notifikasiBerhasil']) ? $_SESSION['notifikasiBerhasil'] : null;
@@ -215,49 +217,47 @@ unset($_SESSION['notifikasiBerhasil']);
             <form action="" method="post" enctype="multipart/form-data">
                 <div class="bungkus-kanan">
                     <div class="navbar-kanan">
-                        <h5>Upload postingan wisata <b> <?php echo $data['name'] ?></b></h5>
+                        <h5>Edit postingan wisata <b> <?php echo $data['nama_wisata'] ?></b></h5>
                     </div>
                     <div class="isi-dalam">
                         <a href="wisata-postingan.php?id=<?php echo $_SESSION['id']?>"><img src="../../assets/profil/left.png" style="margin-top: -1rem;" width="30"
                                 alt=""></a>
                                 <?php if(isset( $notifikasiBerhasil) &&  $notifikasiBerhasil === 'tipe') : ?>
                                         <div class="alert alert-danger" role="alert">
-                                            Postingan gagal di upload, pastikan tipe gambar adalah jpg, jpeg atau png!
+                                            Postingan gagal di edit, pastikan tipe gambar adalah jpg, jpeg atau png!
                                         </div>
                                     <?php elseif(isset( $notifikasiBerhasil) &&  $notifikasiBerhasil === 'ukuran'):?>
                                         <div class="alert alert-danger" role="alert">
-                                            Postingan gagal di upload, pastikan ukuran gambar maksimal 5MB!
+                                            Postingan gagal di edit, pastikan ukuran gambar maksimal 5MB!
                                         </div>
                                     <?php elseif(isset( $notifikasiBerhasil) &&  $notifikasiBerhasil === 'berhasil'):?>
                                         <div class="alert alert-success" role="alert">
-                                            Postingan berhasil di upload
+                                            Postingan berhasil di edit
                                         </div>
                                     <?php endif;?>
                         <div class="row">
                             <div class="col-lg-5 mb-3">
                                 <div class="bungkus-kiri-up">
                                     <div class="gambar-up">
-                                        <img src="../../assets/profil/icon-up.png" alt="">
-                                        <input required type="file" name="gambar" />
+                                        <div class="gambar-edit m-auto mt-3 mb-3" style="background-image: url('<?php echo $data['gambar'] ?>'); width: 150px; height: 80px;"></div>
+                                        <input type="file" name="gambar" />
 
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-7">
-                                <input type="hidden" name="place_id" value="<?php echo $_GET['place_id'] ?>">
-                                <input type="hidden" name="id_provinsi" value="<?php echo $_GET['id'] ?>">
-                                <input type="hidden" name="nama_wisata" value="<?php echo $data['name'] ?>">
+                                <input type="hidden" name="id_postingan" value="<?php echo $data['id_postingan'] ?>">
                                 <p class="mb-3" style="font-weight: 600;">Judul</p>
                                 <div class="input-kanan">
-                                    <input type="text" name="judul" maxlength="80">
+                                    <input type="text" value="<?php echo $data['judul'] ?>" name="judul" maxlength="80">
                                 </div>
                                 <h5 class="mb-3 mt-4" style="font-weight: 600;">Deskripsi</h5>
                                 <div class="input-kanan-bawah">
-                                    <textarea name="konten" id="" rows="8" style="width:100%;"></textarea>
+                                    <textarea name="konten" id="" rows="8" style="width:100%;"><?php echo $data['konten'] ?></textarea>
                                 </div>
                                 <div class="tombol mt-4" style="text-align: right;">
 
-                                    <button type="submit" name="tambah" 
+                                    <button type="submit" name="edit" 
                                         style="padding: 0.5rem 2.5rem;font: weight bold; background-color:#006FD6;color:white;border:none;border-radius:30px;"><b>Kirim</button>
                                 </div>
                             </div>
